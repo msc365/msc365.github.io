@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-> **Note**: Sorry, this website is under contruction.
+> **Note**: Sorry, this website is under construction.
 
 <!--
 

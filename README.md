@@ -1,5 +1,3 @@
-## MSc365.eu
-
 <img src="https://user-images.githubusercontent.com/22813143/198872867-3341ca9a-7b17-439c-a536-cb9432d87d46.png" width="128">
 
 ### Hi there 👋

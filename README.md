@@ -8,10 +8,13 @@ Welcome to the **MSc365**[^1] website.
 
 <br>
 
-Kind regards,  
-Martin Swinkels
+<img src="https://user-images.githubusercontent.com/22813143/198885640-38307b33-455d-4ff3-8bf9-7b1186dcde23.png" width="16"> Cloud  
+<img src="https://user-images.githubusercontent.com/22813143/198885647-d7f09e5a-49a5-40aa-8f9b-9a18de95802b.png" width="16"> Collaboration  
+<img src="https://user-images.githubusercontent.com/22813143/198885649-4aa6bceb-7c2d-4e56-b08c-db767da9a208.png" width="16"> Consultancy
 
 <br>
+
+Kind regards,  
 
 **M.C.C.M. Swinkels**  
 Cloud Developer, DevOps Engineer  

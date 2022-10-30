@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+Welcome to the **MSc365** website.
+
 > **Note**: Sorry, this website is under construction.
 
 <!--

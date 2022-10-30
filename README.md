@@ -26,7 +26,7 @@ Luz - Lagos, Portugal
 
 See [my profile](https://github.com/mccmswinkels) on GitHub.
 
-[^1]: Remote (hybrid) cloud development and team collaborationon consultancy on Microsoft 365, Azure, Power Platform, Teams, Azure DevOps, and GitHub.
+[^1]: Remote (hybrid) Cloud Development, App Development, and Consultancy on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
 
 <!--
 **Here are some ideas to get you started:**

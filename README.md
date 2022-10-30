@@ -24,7 +24,11 @@ Luz - Lagos, Portugal
 
 <br>
 
-See [my profile](https://github.com/mccmswinkels) on GitHub.
+### Social links
+
+[LinkedIn](https://www.linkedin.com/in/mccmswinkels/) | 
+[Twitter](https://twitter.com/mccmswinkels) | 
+[GitHub](https://github.com/mccmswinkels)
 
 [^1]: Remote (hybrid) Cloud Development, App Development, and Consultancy on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
 

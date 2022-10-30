@@ -1,13 +1,18 @@
-## Hi there 👋
+## MSc365.eu
+
+<img src="https://user-images.githubusercontent.com/22813143/198872867-3341ca9a-7b17-439c-a536-cb9432d87d46.png" width="128">
+
+### Hi there 👋
 
 Welcome to the **MSc365** website.
 
-Cloud Development and Team Collaboration on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
+<!-- 
+Cloud Development and Team Collaboration on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.  
+-->
 
 > **Note**: Sorry, this website is under construction.
 
 <!--
-
 **Here are some ideas to get you started:**
 
 🙋‍♀️ A short introduction - what is your organization all about?

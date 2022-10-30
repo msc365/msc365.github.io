@@ -11,7 +11,7 @@ Welcome to the **MSc365**[^1] website.
 ### Primary area of expertise
 
 <img src="https://user-images.githubusercontent.com/22813143/198885640-38307b33-455d-4ff3-8bf9-7b1186dcde23.png" width="16"> **MSCloud365**, Cloud Development  
-<img src="https://user-images.githubusercontent.com/22813143/198885647-d7f09e5a-49a5-40aa-8f9b-9a18de95802b.png" width="16"> **MSCollab365**, Collaboration  
+<img src="https://user-images.githubusercontent.com/22813143/198885647-d7f09e5a-49a5-40aa-8f9b-9a18de95802b.png" width="16"> **MSCollab365**, Power Platform Development  
 <img src="https://user-images.githubusercontent.com/22813143/198885649-4aa6bceb-7c2d-4e56-b08c-db767da9a208.png" width="16"> **MSConsult365**, Consultancy
 
 <br>

@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 
-Welcome to the **MSc365**[^1] website.
+Welcome to the **MSc365** website by Martin Swinkels [^1]
 
 > **Note**: Sorry, this website is under construction, thanks for visiting.
 
@@ -30,7 +30,7 @@ Luz - Lagos, Portugal
 [Twitter](https://twitter.com/mccmswinkels) | 
 [GitHub](https://github.com/mccmswinkels)
 
-[^1]: Remote (hybrid) Cloud Development, App Development, and Consultancy on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
+[^1]: Remote (hybrid) self-employed Cloud Developer, App Developer, and Consultant on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
 
 <!--
 **Here are some ideas to get you started:**

@@ -2,13 +2,26 @@
 
 ### Hi there 👋
 
-Welcome to the **MSc365** website.
+Welcome to the **MSc365**[^1] website.
 
-<!-- 
-Cloud Development and Team Collaboration on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.  
--->
+<br>
 
-> **Note**: Sorry, this website is under construction.
+> **Note**: Sorry, this website is under construction, thanks for visiting.
+
+<br>
+
+Kind regards,  
+Martin Swinkels
+
+<br>
+
+**M.C.C.M. Swinkels**  
+Cloud developer, DevOps Engineer  
+Luz - Lagos, Portugal
+
+<br>
+
+[^1]: Remote (hybrid) cloud development and team collaborationon consultancy on Microsoft 365, Azure, Power Platform, Teams, Azure DevOps, and GitHub.
 
 <!--
 **Here are some ideas to get you started:**

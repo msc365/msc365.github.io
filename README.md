@@ -4,8 +4,6 @@
 
 Welcome to the **MSc365**[^1] website.
 
-<br>
-
 > **Note**: Sorry, this website is under construction, thanks for visiting.
 
 <br>
@@ -16,7 +14,7 @@ Martin Swinkels
 <br>
 
 **M.C.C.M. Swinkels**  
-Cloud developer, DevOps Engineer  
+Cloud Developer, DevOps Engineer  
 Luz - Lagos, Portugal
 
 <br>

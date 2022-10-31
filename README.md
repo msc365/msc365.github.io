@@ -24,11 +24,17 @@ Luz - Lagos, Portugal
 
 <br>
 
+### Languages
+
+<img src="https://user-images.githubusercontent.com/22813143/198946115-c4bdfb71-6b5c-41ea-9be3-f55cd15b5052.png" width="24" height="16"> <img src="https://user-images.githubusercontent.com/22813143/198946142-b274326e-13d5-462a-9e3e-e26c137a9d97.png" width="24" height="16"> <img src="https://user-images.githubusercontent.com/22813143/198946156-3d49a6e8-ba18-44f2-96d9-2f687b82b39f.png" width="24" height="16">
+
 ### Social links
 
 [LinkedIn](https://www.linkedin.com/in/mccmswinkels/) | 
 [Twitter](https://twitter.com/mccmswinkels) | 
 [GitHub](https://github.com/mccmswinkels)
+
+<br>
 
 [^1]: Remote (hybrid) self-employed Cloud Developer, App Developer, and DevOps Consultant on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.
 

@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 
-Welcome to **msc365** by Martin Swinkels [^1]
+Welcome to **msc365**!
 
 <br>
 
@@ -14,25 +14,24 @@ Welcome to **msc365** by Martin Swinkels [^1]
 
 <img src="https://user-images.githubusercontent.com/22813143/198885640-38307b33-455d-4ff3-8bf9-7b1186dcde23.png" width="16"> **msCloud365** | Cloud Development  
 <img src="https://user-images.githubusercontent.com/22813143/198885647-d7f09e5a-49a5-40aa-8f9b-9a18de95802b.png" width="16"> **msCollab365** | Power Platform Development  
-<img src="https://user-images.githubusercontent.com/22813143/198885649-4aa6bceb-7c2d-4e56-b08c-db767da9a208.png" width="16"> **msConsult365** | DevOps Consultant
+<img src="https://user-images.githubusercontent.com/22813143/198885649-4aa6bceb-7c2d-4e56-b08c-db767da9a208.png" width="16"> **msConsult365** | DevOps Consultant   
 
 <br>
 
 ### Contact info  
 
-#### Martin Swinkels  
-Cloud Developer, DevOps Engineer  
+**Martin Swinkels**  
+Cloud Developer, DevOps Engineer [^1]  
 Lagos, Portugal
 
-#### Social links
-
+**Social links**  
 [LinkedIn](https://www.linkedin.com/in/mccmswinkels/) | 
 [Twitter](https://twitter.com/mccmswinkels) | 
 [GitHub](https://github.com/mccmswinkels)
 
-#### Languages
-
+**Languages**  
 <img src="https://user-images.githubusercontent.com/22813143/198946115-c4bdfb71-6b5c-41ea-9be3-f55cd15b5052.png" width="24" height="16"> <img src="https://user-images.githubusercontent.com/22813143/198946142-b274326e-13d5-462a-9e3e-e26c137a9d97.png" width="24" height="16"> <img src="https://user-images.githubusercontent.com/22813143/198946156-3d49a6e8-ba18-44f2-96d9-2f687b82b39f.png" width="24" height="16">
+
 <br>
 
 [^1]: Remote (hybrid) self-employed Cloud Developer, App Developer, and DevOps Consultant on Microsoft 365, Azure, Power Platform, Azure DevOps, and GitHub.

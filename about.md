@@ -12,7 +12,7 @@ In my spare time I like to travel and discover new places with my wife on our e-
 
 ### Recent certifications
 
-<img src="https://user-images.githubusercontent.com/22813143/200531479-bfc22c79-5b8f-48f0-9263-e3900efce4b6.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200531533-b9f80aaf-eeb7-4b20-8a42-1558359625cb.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200531385-03fdc8e8-1ce1-4b06-baaa-a659cd9ad2bc.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200536048-a4a25067-87b2-4ea2-a873-15e859cc475e.png" width="64"> 
+<img src="https://msc365.eu/images/picrosoft-power-platform-consultant.png" width="64"> <img src="https://msc365.eu/images/microsoft-power-platform-developer.png" width="64"> <img src="https://msc365.eu/images/microsoft365-developer.png" width="64"> <img src="https://msc365.eu/images/microsoft365-teams-administrator.png" width="64"> 
 
 ### Summary of skills, tools and technologies
 

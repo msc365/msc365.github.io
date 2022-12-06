@@ -3,14 +3,13 @@
 ### Hi there 👋
 
 Welcome to **MSc365.eu**!  
-aka Martin Swinkels, consultancy 365 [^1]
+Martin Swinkels, consult 365
 
 <br>
 
 > **Note**: Sorry, this website is under construction, thanks for visiting.
 
-<br>
-
+<!--
 ### Contact Info  
 
 **Martin Swinkels**  
@@ -42,7 +41,7 @@ Azure DevOps and Self-service Automation development
 
 [^1]: Remote (hybrid) self-employed Cloud Developer, App Developer, and DevOps Consultant on Microsoft 365, Azure, Power Platform, Teams, Azure DevOps, and GitHub.
 
-<!--
+
 ### Recent Certifications
 
 <img src="https://user-images.githubusercontent.com/22813143/200531479-bfc22c79-5b8f-48f0-9263-e3900efce4b6.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200531533-b9f80aaf-eeb7-4b20-8a42-1558359625cb.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200531385-03fdc8e8-1ce1-4b06-baaa-a659cd9ad2bc.png" width="64"> <img src="https://user-images.githubusercontent.com/22813143/200536048-a4a25067-87b2-4ea2-a873-15e859cc475e.png" width="64"> 

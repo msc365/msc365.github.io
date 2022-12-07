@@ -3,7 +3,7 @@
 ### Hi there 👋
 
 Welcome to **MSc365.eu**!  
-Martin Swinkels, consult 365
+Martin Swinkels, consultancy 365
 
 <br>
 

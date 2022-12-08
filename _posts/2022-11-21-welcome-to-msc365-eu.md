@@ -3,7 +3,7 @@ layout: post
 title: Welcome to MSc365.eu!
 author: Martin Swinkels
 categories: Miscellaneous
-tags: info
+tags: info about
 ---
 
 Hi there, my name is Martin Swinkels and I am a cloud developer, app developer, and DevOps consultant, with experience on Azure, Microsoft 365, and Power Platform.

@@ -24,6 +24,12 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+      <span style="font-size: 0.8em;">[
+        {% for tag in page.tags %}
+          {% capture tagname %}{{ tag }}{% endcapture %}
+          <a href="/tags/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code>&nbsp;</a>
+        {% endfor %}
+      ]</span>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

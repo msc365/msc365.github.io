@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Welcome to MSc365.eu!
-author:
-  name: Martin Swinkels
-  email: "martin.swinkels@msc365.eu"
+author: Martin Swinkels
 categories: Miscellaneous
 tags: info
 ---

@@ -1,36 +1,32 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-.site-header {
-    line-height: 0; 
-}
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
+// .clearfix:before,
+// .clearfix:after {
+//     content: " ";
+//     display: table;
+// }
 
-.clearfix:after {
-    clear: both;
-}
+// .clearfix:after {
+//     clear: both;
+// }
 
 // .masthead
 
-.wrapper-masthead {
-    margin-bottom: 16px;
-  }
+// .wrapper-masthead {
+//     margin-bottom: 16px;
+//   }
 
-.masthead {
-    padding: 8px 0;
+// .masthead {
+//     padding: 8px 0;
 
-    @include mobile {
-        text-align: center;
-    }
-}
+//     @include mobile {
+//         text-align: center;
+//     }
+// }
 
 .site-logo {
     float: left;

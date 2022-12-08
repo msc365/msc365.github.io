@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="https://msc365.eu/assets/img/msc365-profile.jpg" width="192">
+<img style="border-radius: 160px; border-color: gray; border-style: solid; border-width: 3px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="160px">
 
 My name is Martin Swinkels, born in the Netherlands, lived in Switzerland for a couple of years, currently living in Portugal.
 

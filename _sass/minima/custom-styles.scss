@@ -31,7 +31,7 @@
     @include mobile {
         float: none;
         display: block;
-        margin: 0 auto;
+        margin: 15px 0 0 0;
     }
 
     img {
@@ -60,14 +60,10 @@ h1.site-name {
 
 .site-underline {
     margin-top: -15px;
-
-    @include mobile {
-        margin: 3px 0;
-    }
 }
 
 .site-nav {
     @media screen and (min-width: $on-medium) {
         margin-top: 15px;
     }
-  }
+}

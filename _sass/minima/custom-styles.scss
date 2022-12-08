@@ -54,11 +54,15 @@
     cursor: pointer;
 }
 
+h1.site-name{
+    margin-block-start: 0.36em;
+    margin-block-end: 0.36em;
+}
+
 .site-underline {
+    margin: 0;
+
      @include mobile {
         margin: 3px 0;
     }
-}
-p.site-underline {
-    padding: 8px 0;
 }

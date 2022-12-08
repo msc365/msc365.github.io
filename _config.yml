@@ -4,6 +4,7 @@ author:
   email: support@msc365.eu
 description: > # this means to ignore newlines until "show_excerpts:"
   Martin Swinkels Consultancy 365: Remote and hybrid cloud development, app development, and DevOps consultancy on Azure, Microsoft 365, and Microsoft Power Platform.
+logo: https://msc365.eu/assets/img/msc365-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage
 

@@ -1,2 +1,19 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+}

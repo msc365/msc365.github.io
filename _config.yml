@@ -1,9 +1,9 @@
 title: MSc365.eu
 author:
-  name: Martin Swinkels, consultancy 365
-  email: info@msc365.eu
+  name: Martin Swinkels Consultancy 365, aka MSc365.eu
+  email: support@msc365.eu
 description: > # this means to ignore newlines until "show_excerpts:"
-  Cloud development, app development, and DevOps consultancy on Azure, Microsoft 365, and Microsoft Power Platform.
+  Remote and hybrid cloud development, app development, and DevOps consultancy on Azure, Microsoft 365, and Microsoft Power Platform.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

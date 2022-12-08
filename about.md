@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img style="border-radius: 10px; border-color: gray; border-style: solid; border-width: 3px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
+<img style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
 <br>
 

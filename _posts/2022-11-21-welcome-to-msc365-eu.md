@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Welcome to MSc365.eu!
+title: Welcome to MSc365!
 author: Martin Swinkels
-categories: Miscellaneous
+categories: Misc
 tags: info about
 ---
 

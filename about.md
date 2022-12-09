@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
+<img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
 **My name is Martin Swinkels, I was born in the Netherlands and lived in Switzerland for a couple of years, currently moving to Portugal.**
 
@@ -16,7 +16,7 @@ In my spare time I like to travel and discover new places with my wife on our mo
 
 ### Most recent certifications
 
-<img src="https://msc365.eu/assets/img/microsoft-power-platform-consultant.png" width="96"> <img src="https://msc365.eu/assets/img/microsoft-power-platform-developer.png" width="96"> <img src="https://msc365.eu/assets/img/microsoft365-developer.png" width="96"> 
+<img alt="Power Platform Consultant" src="https://msc365.eu/assets/img/microsoft-power-platform-consultant.png" width="96"> <img alt="Power Platform Developer" src="https://msc365.eu/assets/img/microsoft-power-platform-developer.png" width="96"> <img alt="Microsoft365 Developer" src="https://msc365.eu/assets/img/microsoft365-developer.png" width="96"> 
 
 <!--
 Expired certifications

@@ -8,7 +8,7 @@ layout: default
         {% for post in site.tags[page.tag] %}
         <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <a href="{{ post.url }}">{{ post.title }}</a> (<time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>)<br>
+            <a href="{{ post.url }}">{{ post.title }}</a> [<time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: date_format }}</time>]<br>
             {{ post.description }}
         </li>
         {% endfor %}

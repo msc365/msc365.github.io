@@ -11,7 +11,7 @@ tags: portfolio azure devops development
 For a customer project I enhanced a community developed tool, to publish an Azure DevOps Wiki outside Azure DevOps for team members such as Stakeholders, who do not have access to code repositories.
 
 > **Note**: Stakeholder access is available to support free access to a limited set of features by an unlimited set of stakeholders. In general, Stakeholder access users gain limited access to Azure Boards, Azure Pipelines, and collaboration tools. They have no access to code repositories.  
-> <small>[Microsoft](https://docs.microsoft.com/en-us/azure/devops/organizations/security/stakeholder-access?view=azure-devops)</small>
+> <small>Source: [Microsoft](https://docs.microsoft.com/en-us/azure/devops/organizations/security/stakeholder-access?view=azure-devops)</small>
 
 <img alt="Utility preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png"/>
 

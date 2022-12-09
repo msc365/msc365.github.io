@@ -8,11 +8,11 @@ tags: portfolio azure devops github
 
 **Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.**
 
-For a customer project I implemented an Azure DevOps environment containing documentation and samples to demonstrate different usage patterns for Azure DevOps projects. The adoption team promoted contributions to the project and onboarded many members. Soon members started to feel comfortable using DevOps and started to see the benefits.
+For a customer project I implemented an Azure DevOps environment containing documentation and samples to demonstrate different usage patterns for Azure DevOps projects. Together with the adoption team, I promoted a lot of contributions to the project and onboarded over 60 new users. Members soon started to feel comfortable using DevOps and started to see all the benefits.
 
 ### Why do you need a DevOps transformation?
 
-Just watch this video with your team and get inspired, it will save you a lot of time to explain and convince everyone separately.
+Watch this video with your team and get inspired, it will save you a lot of time to explain and convince everyone.
 
 - [Microsoft's Enterprise DevOps Transformation](https://www.youtube.com/watch?v=WhRRGUmwoq4)  
   Abel Wang, Microsoft DevOps Lead  
@@ -35,8 +35,11 @@ Maybe you could take a look at these topics?
 - [Infrastructure as Code](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
 - [Continuous Delivery](https://docs.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery)
 
-> Okay, I understand that you have some questions left.
+Okay, I understand that you have some questions left.
 
-You can always contact me for that, I’m here to hear your ideas so I can help you to implement or improve your DevOps experience.
+Please contact me, I’m here to hear your ideas so I can help you to implement or improve your DevOps experience.
 
-> Azure DevOps (GitHub) is an open platform, it connects almost with everything!
+<br>
+
+> "_Azure DevOps is an open platform, it connects almost with everything!_"  
+> <small>Microsoft</small>

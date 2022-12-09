@@ -42,4 +42,4 @@ Please contact me, I’m here to hear your ideas so I can help you to implement 
 <br>
 
 > **Quote**: "Azure DevOps is an open platform, it connects almost with everything!"  
-> <small>Microsoft</small>
+> <small>Source: [Microsoft](https://azure.microsoft.com/en-us/products/devops/#overview)</small>

@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: portfolio"
+title: "Portfolio"
 tag: portfolio
 ---

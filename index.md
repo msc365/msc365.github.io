@@ -8,6 +8,6 @@
 layout: home
 ---
 
-> 📢 As of February 2023 I will start as a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe.
+> **Note**: As of February 2023 I will start as a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe.
 
 <br>

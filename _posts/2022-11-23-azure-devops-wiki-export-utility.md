@@ -13,11 +13,11 @@ For a customer project I enhanced a community developed tool, to publish an Azur
 > **Note**: Stakeholder access is available to support free access to a limited set of features by an unlimited set of stakeholders. In general, Stakeholder access users gain limited access to Azure Boards, Azure Pipelines, and collaboration tools. They have no access to code repositories.  
 > <small>[Microsoft](https://docs.microsoft.com/en-us/azure/devops/organizations/security/stakeholder-access?view=azure-devops)</small>
 
-<img src="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png" width="640px"/>
+<img alt="Utility preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png"/>
 
 The tool can be used on a Windows x64 machine as executable or as downloadable artifact in an Azure DevOps pipeline, which allows us to implement an CI/CD process for publishing our documentation.
 
-<img src="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png" width="640px"/>
+<img alt="Utility pipeline preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png"/>
 
 ### Features
 

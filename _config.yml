@@ -47,7 +47,7 @@ header_pages:
 theme: minima
 
 disqus:
-    shortname: msc365blog
+    shortname: msc365-blog
   
 plugins:
  - jekyll-feed

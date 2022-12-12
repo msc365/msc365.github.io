@@ -4,6 +4,7 @@ title: Azure DevOps Wiki Export Utility
 author: Martin Swinkels
 categories: Projects
 tags: portfolio azure devops development
+comments: false
 ---
 
 **This wiki export utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online, and makes it available through Microsoft Teams.**

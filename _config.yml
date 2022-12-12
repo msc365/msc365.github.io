@@ -5,6 +5,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Remote (hybrid) cloud development, app development, and DevOps consultancy on Azure, Microsoft 365, and Microsoft Power Platform.
 
+url: https://msc365.eu/
+
 name: MSc365
 underline: Martin Swinkels Consultancy 365
 logo: https://msc365.eu/assets/img/msc365-256.png
@@ -44,6 +46,9 @@ header_pages:
 # Build settings
 theme: minima
 
+disqus:
+    shortname: msc365blog
+  
 plugins:
  - jekyll-feed
  - jekyll-seo-tag

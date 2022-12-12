@@ -4,6 +4,7 @@ title: Azure Devops Adoption
 author: Martin Swinkels
 categories: Projects
 tags: portfolio azure devops github
+comments: false
 ---
 
 **Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.**

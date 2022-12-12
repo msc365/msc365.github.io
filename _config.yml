@@ -42,6 +42,7 @@ minima:
 header_pages:
 - tags/portfolio.md
 - about.md
+- comment-policy.md
 
 # Build settings
 theme: minima

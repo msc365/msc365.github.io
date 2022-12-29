@@ -8,6 +8,8 @@
 layout: home
 ---
 
-> **Note**: As of February 2023 I will start as a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly Netherlands, Portugal and Switzerland. In the meantime I am building this blog, first to showcase my portfolio and then to write about common use cases I come across.
+# Connecting the dots on Microsoft Azure, Microsoft 365, Microsoft Power Platform, Azure DevOps and GitHub.
+
+> **Note**: As of February 2023 I will start as a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Portugal and Switzerland. In the meantime I am building this blog, first to showcase my portfolio and then to write about common use cases I come across.
 
 <br>

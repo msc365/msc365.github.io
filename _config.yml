@@ -45,6 +45,7 @@ social_links:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - tags/portfolio.md
+- archive.md
 - policy.md
 - about.md
 

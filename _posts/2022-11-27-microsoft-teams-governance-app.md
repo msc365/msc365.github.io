@@ -2,8 +2,8 @@
 layout: post
 title: Teams Governance App
 author: Martin Swinkels
-categories: Projects
-tags: portfolio azure powerplatform powerapps powerautomate development microsoftteams
+categories: [Portfolio, Development]
+tags: azure powerplatform powerapps powerautomate microsoftteams
 comments: false
 ---
 

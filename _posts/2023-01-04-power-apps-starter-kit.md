@@ -2,8 +2,8 @@
 layout: post
 title: Power App Starter Kit
 author: Martin Swinkels
-categories: Development
-tags: portfolio powerplatform powerapps components development
+categories: [Portfolio, Development]
+tags: powerplatform powerapps components
 comments: true
 ---
 

@@ -7,6 +7,6 @@
 {% assign sortedtempcategories = tempcategories | split:' ' | sort | reverse %}
 {% for tempcategory in sortedtempcategories %}
   {% assign categoryitem = tempcategory | split: '#' %}
-  {% capture categoryname %}{{ categoryitem[1] | downcase }}{% endcapture %}
-  <a class="tag-link" href="/categories/{{ categoryname }}"><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
+  {% capture categoryname %}{{ categoryitem[1] }}{% endcapture %}
+  <a class="tag-link" href="/categories/{{ categoryname | downcase }}"><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
 {% endfor %}

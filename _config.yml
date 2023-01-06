@@ -22,9 +22,8 @@ paginate_path: "/:num/"
 minima:
   date_format: "%b %-d, %Y"
   skin: auto
-
-# generate social links in footer
-social_links:
+  # generate social links in footer
+  social_links:
   # - { platform: devto,          user_url: "https://dev.to/jekyll" }
   # - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   # - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
@@ -59,4 +58,4 @@ google_analytics: G-V8HPDSD10T
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
-- jekyll-paginate
+- jekyll-paginateS

@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /posts/dev/
 title: Category: Development
+permalink: /posts/development/
 ---
 
 <div class="posts">

@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /posts/misc/
 title: Category: Miscellaneous
+permalink: /posts/misc/
 ---
 
 <div class="posts">

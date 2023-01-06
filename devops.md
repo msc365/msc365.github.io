@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /posts/devops/
 title: Category: DevOps
+permalink: /posts/devops/
 ---
 
 <div class="posts">

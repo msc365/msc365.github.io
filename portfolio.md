@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /posts/portfolio/
 title: Category: Portfolio
+permalink: /posts/portfolio/
 ---
 
 <div class="posts">

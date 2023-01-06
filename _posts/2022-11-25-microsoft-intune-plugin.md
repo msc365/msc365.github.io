@@ -2,7 +2,7 @@
 layout: post
 title: Microsoft Intune Plugin
 author: Martin Swinkels
-categories: [Portfolio, Development, "Power Platform"]
+categories: [Portfolio, DevelopmentS]
 tags: azure powerapps powerautomate
 comments: false
 ---

@@ -2,12 +2,12 @@
 layout: post
 title: Azure DevOps Wiki Export Utility
 author: Martin Swinkels
-categories: Projects
-tags: portfolio azure devops development
+categories: [Portfolio, Development, DevOps]
+tags: azure dotnet sharepoint
 comments: false
 ---
 
-**This wiki export utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online, and makes it available through Microsoft Teams.**
+This wiki export utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online, and makes it available through Microsoft Teams.
 
 For a customer project I enhanced a community developed tool, to publish an Azure DevOps Wiki outside Azure DevOps for team members such as Stakeholders, who do not have access to code repositories.
 

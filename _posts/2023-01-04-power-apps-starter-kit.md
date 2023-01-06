@@ -2,12 +2,12 @@
 layout: post
 title: Power App Starter Kit
 author: Martin Swinkels
-categories: Development
-tags: portfolio powerplatform powerapps components development
+categories: [Portfolio, Development]
+tags: powerapps components low-code
 comments: true
 ---
 
-**Take a look at my starter kit for rapid canvas app development, with a customizable theme design, fly-out menu, pop-up dialog, panel, coachmark and much more.**
+Take a look at my starter kit for rapid canvas app development, with a customizable theme design, fly-out menu, pop-up dialog, panel, coachmark and much more.
 
 With this solution, you can quickly start developing your business value without worrying about the basics like; theme designs and custom components. Which you probably need in pretty much every tablet canvas app. And the best part, you can use it without an additional Power Apps license.
 

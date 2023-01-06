@@ -22,10 +22,12 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
+        <!-- Include site description -->
         <h2>Need some help?</h2>
         <p>{{ site.description | escape }}</p>
+      </div>
+
+      <div class="footer-col">
         <!-- Include categories and tags -->
         <p>{% include categorycloud.html %}</p>
         <p>{% include tagcloud.html %}</p>

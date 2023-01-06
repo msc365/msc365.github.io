@@ -1,0 +1,130 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+a {
+    text-decoration: underline;
+}
+
+.tag-link,
+.page-link,
+.post-link,
+.next-page,
+.previous-page,
+.site-name > a,
+.feed-subscribe > a {
+    text-decoration: none;
+}
+
+.tag-links {
+    font-size: 0.9em;
+}
+
+.post-list-header {
+    margin-bottom: 5px;
+}
+
+.post-list-header > h3 {
+    margin-bottom: 5px;  
+}
+
+div.note, 
+div.tip, 
+div.important, 
+div.warning {
+    margin: 15px 0;
+    padding: 6px 12px;
+}
+div.note > p, 
+div.tip > p, 
+div.important > p, 
+div.warning > p {
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.note {
+    background-color: #efd9fd;
+    border-left: 6px solid #9d00ff;
+}
+
+.tip {
+    background-color: #ebffeb;
+    border-left: 6px solid #04AA6D;
+}
+
+.important {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+.warning {
+    background-color: #ffffc8;
+    border-left: 6px solid #ffeb3b;
+}
+
+%clearfix:before,
+%clearfix:after {
+    content: " ";
+    display: table;
+}
+
+%clearfix:after {
+    clear: both;
+}
+
+.site-header {
+    border-top: 5px solid $border-color-01;
+    // border-bottom: 1px solid $border-color-01;
+    // min-height: $spacing-unit * 1.865;
+    line-height: $base-line-height * $base-font-size * 2;
+  
+    // Positioning context for the mobile navigation icon
+    // position: relative;
+}
+
+.site-logo {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 15px 0 0 0;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+}
+
+.site-info {
+    float: left;
+    margin-top: 15px;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.site-name {
+    cursor: pointer;
+}
+
+h1.site-name {
+    margin-bottom: 0;
+}
+
+.site-underline {
+    margin-top: -15px;
+}
+
+.site-nav {
+    @media screen and (min-width: $on-medium) {
+        margin-top: 15px;
+    }
+}

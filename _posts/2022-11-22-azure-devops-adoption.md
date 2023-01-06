@@ -7,7 +7,7 @@ tags: azure github
 comments: false
 ---
 
-**Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.**
+Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.
 
 For a customer project I implemented an Azure DevOps environment containing documentation and samples to demonstrate different usage patterns for Azure DevOps projects. Together with the adoption team, I promoted a lot of contributions to the project and onboarded over 60 new users. Members soon started to feel comfortable using DevOps and started to see the benefits. The transformation has started...
 

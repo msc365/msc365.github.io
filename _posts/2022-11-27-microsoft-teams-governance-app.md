@@ -7,7 +7,7 @@ tags: azure powerapps powerautomate low-code sharepoint microsoftteams
 comments: false
 ---
 
-**At many companies, Microsoft Teams is not being used to its full potential regarding team collaboration. Often organizations don't even allow self-serviced team creation, because they fear the consequences of everything that will be created, without compromising security, compliance, and retention policies.**
+At many companies, Microsoft Teams is not being used to its full potential regarding team collaboration. Often organizations don't even allow self-serviced team creation, because they fear the consequences of everything that will be created, without compromising security, compliance, and retention policies.
 
 For a customer project I opened up Microsoft's Teams potential to provide users a self-service provisioning tool to create ad-hoc teams when needed. This is done by respecting the customer's governance, security and compliance policies, which is not being respected when you allow all users to create teams through the Microsoft Teams setting.
 

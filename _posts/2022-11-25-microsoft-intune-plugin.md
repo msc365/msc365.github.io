@@ -7,7 +7,7 @@ tags: azure powerapps powerautomate
 comments: false
 ---
 
-**The main purpose for the Endpoint Application Management (EAM) plugin is to fill the gap between deploying applications from Microsoft Intune and keeping them up to date.**
+The main purpose for the Endpoint Application Management (EAM) plugin is to fill the gap between deploying applications from Microsoft Intune and keeping them up to date.
 
 For this project I worked together in a team to redesign the way EAM was build and operating. My primary role was to create new ideas on how to develop a more robust, resilient and self-serviced solution.
 

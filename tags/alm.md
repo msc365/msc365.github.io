@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: alm, application lifecycle management"
+title: "tag: application lifecycle management"
 tag: alm
 ---

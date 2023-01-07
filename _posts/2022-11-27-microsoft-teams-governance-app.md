@@ -12,7 +12,7 @@ At many companies, Microsoft Teams is not being used to its full potential regar
 For a customer project I opened up Microsoft's Teams potential to provide users a self-service provisioning tool to create ad-hoc teams when needed. This is done by respecting the customer's governance, security and compliance policies, which is not being respected when you allow all users to create teams through the Microsoft Teams setting.
 
 <div class="note">
-    <p><strong>Note</strong>: The 'Teams Governance App' is a Power App for Microsoft Teams that optimizes new team creation for business users. Just give me a sign, and I would be happy to put you in touch with the company that owns this great solution.</p>
+    <p><strong>Note</strong>: The 'Teams Governance App' is a Power App for Microsoft Teams that optimizes new team creation for business users. Just contact me and I will be happy to put you in touch with the company for which I developed this beautiful solution.</p>
 </div>
 
 <br>

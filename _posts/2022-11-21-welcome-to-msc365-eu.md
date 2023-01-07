@@ -2,8 +2,8 @@
 layout: post
 title: Welcome to MSCollab365
 author: Martin Swinkels
-categories: Misc
-comments: false
+category: Miscellaneous
+comments: true
 ---
 
 Hi there, my name is Martin Swinkels and I remotely collaborate with teams on cloud development, app development, and Azure DevOps Automation, experienced on Microsoft Azure, Microsoft 365, and Microsoft Power Platform.

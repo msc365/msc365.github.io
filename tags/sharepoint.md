@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: sharepoint"
+title: "SharePoint"
 tag: sharepoint
 ---

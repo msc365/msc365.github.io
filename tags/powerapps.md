@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: powerapps"
+title: "Power Apps"
 tag: powerapps
 ---

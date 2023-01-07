@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: microsoft365"
+title: "Microsoft 365"
 tag: microsoft365
 ---

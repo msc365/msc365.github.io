@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: low-code"
+title: "Low-code"
 tag: low-code
 ---

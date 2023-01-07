@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: microsoftteams"
+title: "Microsoft Teams"
 tag: microsoftteams
 ---

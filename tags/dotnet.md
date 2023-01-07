@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: dotnet"
+title: ".NET"
 tag: dotnet
 ---

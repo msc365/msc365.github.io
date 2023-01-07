@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: powershell"
+title: "PowerShell"
 tag: powershell
 ---

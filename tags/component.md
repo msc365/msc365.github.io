@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: component"
+title: "Component"
 tag: component
 ---

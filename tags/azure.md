@@ -1,5 +1,5 @@
 ---
 layout: tag
-title: "tag: azure"
+title: "Azure"
 tag: azure
 ---

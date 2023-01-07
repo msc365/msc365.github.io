@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "category: DevOps"
+title: "DevOps"
 category: DevOps
 ---

@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "category: Misc"
+title: "Miscellaneous"
 category: Misc
 ---

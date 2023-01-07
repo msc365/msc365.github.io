@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "category: Azure"
+title: "Azure"
 category: Azure
 ---

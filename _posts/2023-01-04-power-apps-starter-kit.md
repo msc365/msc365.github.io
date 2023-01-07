@@ -2,7 +2,7 @@
 layout: post
 title: Power App Starter Kit
 author: Martin Swinkels
-category: "Power-Platform"
+categories: [Power-Platform, Portfolio]
 tags: powerapps component library low-code alm
 comments: true
 ---

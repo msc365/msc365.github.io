@@ -2,8 +2,8 @@
 layout: post
 title: Azure DevOps Adoption
 author: Martin Swinkels
-category: Portfolio
-tags: azure devops github
+categories: [DevOps, Portfolio]
+tags: azure-devops github microsoftteams
 comments: false
 ---
 

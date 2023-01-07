@@ -9,7 +9,7 @@ comments: false
 
 Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.
 
-For a customer project I implemented an Azure DevOps environment containing documentation and samples to demonstrate different usage patterns for Azure DevOps projects. Together with the adoption team, I promoted a lot of contributions to the project and onboarded over 60 new users. Members soon started to feel comfortable using DevOps and started to see the benefits. The transformation has started...
+For a customer project I've implemented an Azure DevOps way of working, containing practical samples to demonstrate different usage patterns for Azure DevOps projects. Together with an adoption team, we did a lot of promotion, and bottom-up implementations. I contributed to this project by delivering first class documentation regarding governance and guidelines, knowledge spread, and I onboarded over 60 new users. Over time, users became more comfortable using Azure DevOps and began to see benefits in the transformation to a DevOps way of working.
 
 ### Why do you need a DevOps transformation?
 

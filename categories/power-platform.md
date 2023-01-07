@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "category: Power Platform"
+title: "Power Platform"
 category: "Power-Platform"
 ---

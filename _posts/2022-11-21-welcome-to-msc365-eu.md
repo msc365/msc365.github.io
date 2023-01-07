@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to MSCollab365
 author: Martin Swinkels
-categories: Misc
+category: Misc
 comments: false
 ---
 

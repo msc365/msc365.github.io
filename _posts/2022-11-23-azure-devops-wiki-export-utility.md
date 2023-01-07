@@ -2,8 +2,8 @@
 layout: post
 title: Azure DevOps Wiki Export Utility
 author: Martin Swinkels
-categories: [Portfolio, Development, DevOps]
-tags: azure dotnet sharepoint
+category: Portfolio
+tags: azure devops dotnet sharepoint
 comments: false
 ---
 

@@ -18,9 +18,11 @@ $category-background-color: $lm-category-background-color;
         $my-category-background-color: #{$dm-category-background-color};
     }
 
+    $category-background-color: var($my-category-background-color);
+
 } @else if $color-scheme-dark {
 
-    $category-background-color: var($my-category-background-color);
+    $category-background-color: $dm-category-background-color;
 
 }@else {
     // Nothing to do here

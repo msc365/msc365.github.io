@@ -6,6 +6,7 @@ a {
 }
 
 .tag-link,
+.category-link,
 .page-link,
 .post-link,
 .next-page,
@@ -15,8 +16,18 @@ a {
     text-decoration: none;
 }
 
-.tag-links {
+.tag-links,
+.category-links {
     font-size: 0.9em;
+}
+.category-link {
+    .highlight {
+        background: none;
+      
+        .highlighter-rouge & {
+            background: none;
+        }
+    }
 }
 
 .post-list-header {

@@ -33,10 +33,10 @@ layout: default
               </a>
             </h3>
             <!-- Include categories -->
-            <span class="tag-links">Category: 
+            <span class="category-links"> 
               {% for category in post.categories %}
                 {% capture categoryname %}{{ category }}{% endcapture %}
-                <a class="tag-link" href="/categories/{{ categoryname | downcase }}"><code class="highligther-rouge"><nobr>{{ categoryname | replace: "-", " " }}</nobr></code></a>
+                <a class="category-link" href="/categories/{{ categoryname | downcase }}"><code class="highligther-rouge"><nobr>{{ categoryname | replace: "-", " " }}</nobr></code></a>
               {% endfor %}
             </span>
           </div>

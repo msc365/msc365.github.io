@@ -36,7 +36,7 @@ layout: default
             <span class="tag-links">Category: 
               {% for category in post.categories %}
                 {% capture categoryname %}{{ category }}{% endcapture %}
-                <a class="tag-link" href="/categories/{{ categoryname | downcase }}"><code class="highligher-rouge"><nobr>{{ categoryname | replace: "-", " " }}</nobr></code></a>
+                <a class="tag-link" href="/categories/{{ categoryname | downcase }}"><code class="highligther-rouge"><nobr>{{ categoryname | replace: "-", " " }}</nobr></code></a>
               {% endfor %}
             </span>
           </div>

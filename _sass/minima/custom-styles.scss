@@ -11,14 +11,19 @@ $dm-category-background-color: #26536a;
 $category-background-color: $lm-category-background-color;
 
 @if $color-scheme-auto {
-
-    $my-category-background-color: #{$lm-category-background-color};
-
-    @media (prefers-color-scheme: dark) {
-        $my-category-background-color: #{$dm-category-background-color};
+    // Define css variable
+    :root {
+        --category-background-color: #{$lm-category-background-color};
     }
 
-    $category-background-color: var($my-category-background-color);
+    @media (prefers-color-scheme: dark) {
+        // Override css variable
+        :root {
+            --category-background-color: #{$dm-category-background-color};
+        }
+    }
+
+    $category-background-color: var(--category-background-color);
 
 } @else if $color-scheme-dark {
 

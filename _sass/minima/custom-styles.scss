@@ -3,31 +3,88 @@
 
 // Light mode
 $lm-category-background-color: #e2f5ff;
+$lm-note-background-color: #efd9fd; // #b19ebd
+$lm-note-border-color: #9d00ff; // #7b02c7
+$lm-tip-background-color: #ebffeb; // #b3ccb3
+$lm-tip-border-color: #04AA6D; // #038d5a
+$lm-important-background-color: #e7f3fe; // #b9c6d1
+$lm-important-border-color: #2196F3; // #1b7dce
+$lm-warning-background-color: #ffffc8; // #d8d8aa
+$lm-warning-border-color: #ffeb3b; // #dfcd33
+
 // dark mode
 $dm-category-background-color: #26536a;
+$dm-note-background-color: #b19ebd;
+$dm-note-border-color: #7b02c7;
+$dm-tip-background-color: #b3ccb3;
+$dm-tip-border-color: #038d5a;
+$dm-important-background-color: #b9c6d1;
+$dm-important-border-color: #1b7dce;
+$dm-warning-background-color: #d8d8aa;
+$dm-warning-border-color: #dfcd33;
 
 // Mode selection
 // Classic skin (always light mode)
 $category-background-color: $lm-category-background-color;
+$note-background-color: $lm-note-background-color;
+$note-border-color: $lm-note-border-color;
+$tip-background-color: $lm-tip-background-color;
+$tip-border-color: $lm-tip-border-color;
+$important-background-color: $lm-important-background-color;
+$important-border-color: $lm-important-border-color;
+$warning-background-color: $lm-warning-background-color;
+$warning-border-color: $lm-warning-border-color;
 
 @if $color-scheme-auto {
     // Define css variable
     :root {
         --category-background-color: #{$lm-category-background-color};
+        --note-background-color: #{$lm-note-background-color};
+        --note-border-color: #{$lm-note-border-color};
+        --tip-background-color: #{$lm-tip-background-color};
+        --tip-border-color: #{$lm-tip-border-color};
+        --important-background-color: #{$lm-important-background-color};
+        --important-border-color: #{$lm-important-border-color};
+        --warning-background-color: #{$lm-warning-background-color};
+        --warning-border-color: #{$lm-warning-border-color};
     }
 
     @media (prefers-color-scheme: dark) {
         // Override css variable
         :root {
             --category-background-color: #{$dm-category-background-color};
+            --note-background-color: #{$dm-note-background-color};
+            --note-border-color: #{$dm-note-border-color};
+            --tip-background-color: #{$dm-tip-background-color};
+            --tip-border-color: #{$dm-tip-border-color};
+            --important-background-color: #{$dm-important-background-color};
+            --important-border-color: #{$dm-important-border-color};
+            --warning-background-color: #{$dm-warning-background-color};
+            --warning-border-color: #{$lm-warning-border-color};            
         }
     }
 
     $category-background-color: var(--category-background-color);
+    $note-background-color: var(--note-background-color);
+    $note-border-color: var(--note-border-color);
+    $tip-background-color: var(--tip-background-color);
+    $tip-border-color: var(--tip-border-color);
+    $important-background-color: var(--important-background-color);
+    $important-border-color: var(--important-border-color);
+    $warning-background-color: var(--warning-background-color);
+    $warning-border-color: var(--warning-border-color);
 
 } @else if $color-scheme-dark {
 
     $category-background-color: $dm-category-background-color;
+    $note-background-color: $dm-note-background-color;
+    $note-border-color: $dm-note-border-color;
+    $tip-background-color: $dm-tip-background-color;
+    $tip-border-color: $dm-tip-border-color;
+    $important-background-color: $dm-important-background-color;
+    $important-border-color: $dm-important-border-color;
+    $warning-background-color: $dm-warning-background-color;
+    $warning-border-color: $dm-warning-border-color;
 
 }@else {
     // Nothing to do here
@@ -95,23 +152,23 @@ div.warning > p {
 }
 
 .note {
-    background-color: #efd9fd;
-    border-left: 6px solid #9d00ff;
+    background-color: $note-background-color;
+    border-left: 6px solid $note-border-color;
 }
 
 .tip {
-    background-color: #ebffeb;
-    border-left: 6px solid #04AA6D;
+    background-color: $tip-background-color;
+    border-left: 6px solid $tip-border-color;
 }
 
 .important {
-    background-color: #e7f3fe;
-    border-left: 6px solid #2196F3;
+    background-color: $important-background-color;
+    border-left: 6px solid $important-border-color;
 }
 
 .warning {
-    background-color: #ffffc8;
-    border-left: 6px solid #ffeb3b;
+    background-color: $warning-background-color;
+    border-left: 6px solid $warning-border-color;
 }
 
 %clearfix:before,

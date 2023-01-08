@@ -23,7 +23,17 @@ a {
 
 .category-link {
     color: #fdfdfd;
+    
+    &:visited {
+        color: #fdfdfd;
+    }
+    
+    &:hover {
+        color: #fdfdfd;
+        text-decoration: none;
+    }
 }
+
 .category-link > code.highligther-rouge {
     background: #1b79b0;
 }
@@ -43,6 +53,7 @@ div.warning {
     margin: 15px 0;
     padding: 6px 12px;
 }
+
 div.note > p, 
 div.tip > p, 
 div.important > p, 

@@ -6,7 +6,7 @@ permalink: /about/
 
 <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
-My name is Martin Swinkels, I was born in the Netherlands and lived in Switzerland for a couple of years, and just moved to Portugal.
+My name is Martin Swinkels, I was born in the Netherlands, lived in Switzerland for a couple of years, and just moved to Portugal.
 
 I am a cloud developer with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. I am a team player specialized in designing and building solutions on Azure, Azure DevOps, Microsoft 365, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. I am eager to learn, share and collaborate on new technologies to continuously improve.
 

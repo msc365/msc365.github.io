@@ -24,10 +24,18 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+      <!-- Include categories -->
+      <span class="category-links"> 
+        {% for category in page.categories %}
+          {% capture categoryname %}{{ category }}{% endcapture %}
+          <a class="category-link" href="/categories/{{ categoryname | downcase }}"><code class="highligther-rouge"><nobr>{{ categoryname | replace: "-", " " }}</nobr></code></a>
+        {% endfor %}
+      </span>      
+      <!-- Include tags -->
       <span class="tag-links">
         {% for tag in page.tags %}
           {% capture tagname %}{{ tag }}{% endcapture %}
-          <a class="tag-link" href="/tags/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+          <a class="tag-link" href="/tags/{{ tagname }}"><code class="highligther-rouge"><nobr>{{ tagname }}</nobr></code></a>
         {% endfor %}
       </span>
   </header>

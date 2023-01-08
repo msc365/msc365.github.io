@@ -1,11 +1,44 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+// Light mode
+$lm-category-background-color: #e2f5ff;
+// dark mode
+$dm-category-background-color: #26536a;
+
+// Mode selection
+// Classic skin (always light mode)
+$category-background-color: $lm-category-background-color;
+
+@if $color-scheme-auto {
+    // Define css variable
+    :root {
+        --category-background-color: #{$lm-category-background-color};
+    }
+
+    @media (prefers-color-scheme: dark) {
+        // Override css variable
+        :root {
+            --category-background-color: #{$dm-category-background-color};
+        }
+    }
+
+    $category-background-color: var(--category-background-color);
+
+} @else if $color-scheme-dark {
+
+    $category-background-color: $dm-category-background-color;
+
+}@else {
+    // Nothing to do here
+}
+
 a {
     text-decoration: underline;
 }
 
 .tag-link,
+.category-link,
 .page-link,
 .post-link,
 .next-page,
@@ -15,8 +48,26 @@ a {
     text-decoration: none;
 }
 
-.tag-links {
+.tag-links,
+.category-links {
     font-size: 0.9em;
+}
+
+// .category-link {
+//     color: #fdfdfd;
+    
+//     &:visited {
+//         color: #fdfdfd;
+//     }
+    
+//     &:hover {
+//         color: #fdfdfd;
+//         text-decoration: none;
+//     }
+// }
+
+.category-link > code.highligther-rouge {
+    background: $category-background-color;
 }
 
 .post-list-header {
@@ -34,6 +85,7 @@ div.warning {
     margin: 15px 0;
     padding: 6px 12px;
 }
+
 div.note > p, 
 div.tip > p, 
 div.important > p, 

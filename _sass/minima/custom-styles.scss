@@ -20,8 +20,12 @@ a {
 .category-links {
     font-size: 0.9em;
 }
+
+.category-link {
+    color: #fdfdfd;
+}
 .category-link > code.highligther-rouge {
-    background: none;
+    background: #1b79b0;
 }
 
 .post-list-header {

@@ -21,12 +21,9 @@ a {
     font-size: 0.9em;
 }
 .category-link {
-    .highlight {
-        background: none;
       
-        .highlighter-rouge & {
-            background: none;
-        }
+    .highlighter-rouge & {
+        background: none;
     }
 }
 

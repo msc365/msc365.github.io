@@ -16,6 +16,11 @@ Welcome to my **MSC365** website.
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
+## Third-party resources
+
+- [Jekyll Tags on Github Pages](https://longqian.me/2017/02/09/github-jekyll-tag/) by Long Qian  
+  An awesome and clear article about implementing tags to your yekyll site on GitHub Pages. I used the same methodology to add categories to my site and did some cool adjustments with category style to distinguish them from tags. And they even work with **light** and **dark** skin modes.
+
 ## Theme
 
 - [jekyll/minima](https://github.com/jekyll/minima/blob/v2.5.0/README.md)

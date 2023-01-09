@@ -48,7 +48,7 @@ This solution package is inspired on [community samples](https://github.com/pnp/
 
 The color palette is based on Microsoft's [Fluent UI Theme Designer](https://www.aka.ms/themedesigner) and is fully customizable by acting on the variable called `appTheme.palette` which is initialized in the OnStart event of the App.
 
-All mentioned controls in the `theme.json` file are based on the `appTheme.palette` variable defined in the app.
+All mentioned controls in the [`theme.json`](https://github.com/msc365/powerapps-starterkit/blob/main/starterkit/core/SolutionPackage/CanvasApps/msc365_PowerCanvasTemplate_src/Src/Themes.json) file are based on the `appTheme.palette` variable defined in the app `OnStart`, which is linked to the default `Blue standard` theme.
 
 ```
 Set(

@@ -18,7 +18,7 @@
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}" onclick="this.href=this.href.replace('_','.')">Send email</a></li>
+            <li><a class="u-email" href="mailto:{{ site.author.email }}" onclick="this.href=this.href.replace('@@','.')">Send email</a></li>
           {%- endif %}
         </ul>
       {%- endif %}

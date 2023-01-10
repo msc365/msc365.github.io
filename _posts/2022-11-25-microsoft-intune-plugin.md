@@ -4,6 +4,7 @@ title: Microsoft Intune Plugin
 author: Martin Swinkels
 categories: [Azure, Portfolio]
 tags: azure powershell powerapps powerautomate
+image: https://msc365.eu/assets/img/posts-intune-plugin-ado-release-pipeline.png
 comments: false
 ---
 
@@ -50,7 +51,7 @@ The team deliverd the following improvements:
 - PowerShell Modules​  
   I developed a new PowerShell Module template with embedded Pester tests and coding guidelines. All scrips were reviewed, optimized and migrated into reusable and distributable PowerShell modules​, ready to publish as Azure Artifacts.
 
-  <a href="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" target="_blanc"><img alt="Build status badges" src="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png"/></a>
+  <a href="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" target="_blanc"><img alt="Build status badges" src="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" width="1024"/></a>
 
   <small>Build status badges on Azure DevOps</small>
 

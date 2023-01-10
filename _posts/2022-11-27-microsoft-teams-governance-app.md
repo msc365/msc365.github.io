@@ -4,6 +4,7 @@ title: Teams Governance App
 author: Martin Swinkels
 categories: [Microsoft-365, Portfolio]
 tags: azure powerapps powerautomate low-code alm powershell sharepoint microsoftteams
+image: https://msc365.eu/assets/img/posts-teams-app-my.png
 comments: false
 ---
 

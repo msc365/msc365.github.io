@@ -4,6 +4,7 @@ title: Azure DevOps Wiki Export Utility
 author: Martin Swinkels
 categories: [DevOps, Portfolio]
 tags: azure azure-devops yaml dotnet sharepoint
+image: https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png
 comments: false
 ---
 

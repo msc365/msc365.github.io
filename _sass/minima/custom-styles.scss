@@ -104,6 +104,10 @@ a {
 .site-name > a,
 .feed-subscribe > a {
     text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .tag-links,

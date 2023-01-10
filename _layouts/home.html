@@ -41,9 +41,11 @@ layout: default
             </span>
           </div>
             {%- if site.show_excerpts -%}
-              <div class="post-excerpt-image">
-                <img alt="featured image" src="{{ post.image }}" width="1024"/>
-              </div>
+              {% if post.image %}
+                <div class="post-excerpt-image">
+                  <img alt="featured image" src="{{ post.image }}" width="1024"/>
+                </div>
+              {% endif %}
               {{ post.excerpt }}
             {%- endif -%}
         </li>

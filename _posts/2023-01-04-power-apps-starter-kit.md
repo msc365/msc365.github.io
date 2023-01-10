@@ -16,7 +16,7 @@ With this solution, you can quickly start developing your business value without
 </div>
 
 <div class="tip">
-    <p><strong>Tip</strong>: You're free to use <a href="https://github.com/msc365/powerapps-starterkit" target="_blanc">this starter kit</a> for your own projects. If you need any support, just get in touch with me and I'm happy to share and help.</p>
+    <p><strong>Tip</strong>: You're free to use <a href="https://github.com/msc365/powerapps-starterkit" target="_blanc">this starter kit</a> for your own projects. If you have any questions, please contact me and I will be happy to assist you.</p>
 </div>
 
 ### Features
@@ -48,7 +48,7 @@ This solution package is inspired on [community samples](https://github.com/pnp/
 
 The color palette is based on Microsoft's [Fluent UI Theme Designer](https://www.aka.ms/themedesigner) and is fully customizable by acting on the variable called `appTheme.palette` which is initialized in the OnStart event of the App.
 
-All mentioned controls in the `theme.json` file are based on the `appTheme.palette` variable defined in the app.
+All mentioned controls in the [`theme.json`](https://github.com/msc365/powerapps-starterkit/blob/main/starterkit/core/SolutionPackage/CanvasApps/msc365_PowerCanvasTemplate_src/Src/Themes.json) file are based on the `appTheme.palette` variable defined in the app `OnStart`, which is linked to the default `Blue standard` theme.
 
 ```
 Set(

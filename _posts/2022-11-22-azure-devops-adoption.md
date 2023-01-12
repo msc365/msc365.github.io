@@ -19,7 +19,7 @@ Watch these videos with your team and get inspired, it will save you a lot of ti
   John Savill's Technical Training, an awesome playlist on YouTube
 
 - [Microsoft's Enterprise DevOps Transformation](https://www.youtube.com/watch?v=WhRRGUmwoq4)  
-  Abel Wang, Microsoft DevOps Lead
+  In this video, Abel Wang explains Microsoft's transformation
 
 ### This didn't convince you?
 
@@ -36,6 +36,8 @@ It’s easy to set up, you’ll be up and running in minutes, then you’ll impr
 
 Maybe you could take a look at these topics?
 
+- [What is Infrastructure as Code?](https://www.youtube.com/watch?v=uETq8KKVUFY)  
+  In this video, Abel Wang† explains the concepts of IaC
 - [Infrastructure as Code](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
 - [Continuous Delivery](https://docs.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery)
 

@@ -37,7 +37,7 @@ It’s easy to set up, you’ll be up and running in minutes, then you’ll impr
 Maybe you could take a look at these topics?
 
 - [What is Infrastructure as Code?](https://www.youtube.com/watch?v=uETq8KKVUFY)  
-  In this video, Abel Wang† explains the concepts of IaC
+  In this video, Abel Wang explains the concepts of IaC
 - [Infrastructure as Code](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
 - [Continuous Delivery](https://docs.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery)
 

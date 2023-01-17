@@ -65,10 +65,6 @@ Just set the `-TeamSettings` parameter of the script with the JSON-formated stri
 
 That's it 👊, happy automating!
 
-<div class="tip">
-    <p><strong>Tip</strong>: This PowerShell script can be used locally and in an Azure pipeline as part of an automated process.<p> 
-</div>  
-
 ### Source code
 
 - [MSC365 on GitHub](https://github.com/msc365/az-devops/blob/main/update-adoteam-settings)

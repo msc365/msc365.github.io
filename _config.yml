@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
 url: https://msc365.eu/
 
 name: MSCollab365
-subtitle: Collaborate with Martin Swinkels
+subtitle: Cloud dev, collab and automation with Martin Swinkels
 logo: https://msc365.eu/assets/img/msc365-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage

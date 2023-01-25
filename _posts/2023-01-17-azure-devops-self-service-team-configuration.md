@@ -67,7 +67,9 @@ That's it 👊, happy automating!
 
 ### Source code
 
-- [MSC365 on GitHub](https://github.com/msc365/az-devops/blob/main/update-adoteam-settings)
+- [README](https://github.com/msc365/az-devops/tree/main/update-adoteam)
+- [Update-ADOTeam.ps1](https://github.com/msc365/az-devops/blob/main/update-adoteam/Update-ADOTeam.ps1)
+- [Azure YAML Pipeline](https://github.com/msc365/az-devops/blob/main/update-adoteam/update-adoteam.yml)
 
 ### Tools and technologies
 
@@ -75,4 +77,5 @@ That's it 👊, happy automating!
 - [az devops extension](https://learn.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest)
 - Microsoft PowerShell
 - Microsoft Graph API
-- Azure DevOps Boards
+- Azure Boards
+- Azure Pipelines

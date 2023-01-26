@@ -8,6 +8,22 @@
         <!-- Include site description -->
         <h2>Need some help?</h2>
         <p>{{ site.description | escape }}</p>
+        <a rel="author" href="{{ "/" | relative_url }}">
+          <img alt="msc365 logo" src="https://msc365.eu/assets/img/mscollab365-aad-banner-300.png" width="150"/>
+        </a>
+        {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.address -%}
+            <li class="p-name">{{ site.author.address | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}" onclick="this.href=this.href.replace('@@','.')">Contact me</a></li>
+          {%- endif %}
+        </ul>
+        {%- endif %}
         <!-- Include feed -->
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
@@ -16,27 +32,12 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
-        <p>
-          <a rel="author" href="{{ "/" | relative_url }}">
-            <img alt="msc365 logo" src="https://msc365.eu/assets/img/mscollab365-aad-banner-300.png" width="150"/>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}" onclick="this.href=this.href.replace('@@','.')">Send email</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
       </div>
 
       <div class="footer-col">
         <!-- Include categories and tags -->
-        <p>{% include categorycloud.html %}</p>
-        <p>{% include tagcloud.html %}</p>
+        {% include categorycloud.html %}
+        {% include tagcloud.html %}
       </div>
     </div>
 

@@ -5,11 +5,20 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <!-- Include site description -->
+        <h2>Need some help?</h2>
+        <p>{{ site.description | escape }}</p>
+        <!-- Include feed -->
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
             </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <p>
+          <a rel="author" href="{{ "/" | relative_url }}">
+            <img alt="msc365 logo" src="https://msc365.eu/assets/img/mscollab365-aad-banner-300.png" width="150"/>
           </a>
         </p>
       {%- if site.author %}
@@ -22,10 +31,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-        <!-- Include site description -->
-        <h2>Need some help?</h2>
-        <p>{{ site.description | escape }}</p>
-        <p><a rel="author" href="{{ "/" | relative_url }}"><img alt="msc365 logo" src="https://msc365.eu/assets/img/mscollab365-aad-banner-300.png" width="150"/></a></p>
       </div>
 
       <div class="footer-col">

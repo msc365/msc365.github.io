@@ -43,7 +43,9 @@ layout: default
             {%- if site.show_excerpts -%}
               {% if post.image %}
                 <div class="post-excerpt-image">
-                  <img alt="featured image" src="{{ post.image }}" width="1024"/>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    <img alt="featured image" src="{{ post.image }}" width="1024"/>
+                  </a>
                 </div>
               {% endif %}
               {{ post.excerpt }}

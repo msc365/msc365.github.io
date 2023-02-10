@@ -8,9 +8,10 @@
         <!-- Include site description -->
         <h2>Need some help?</h2>
         <p>{{ site.description | escape }}</p>
-        <a rel="author" href="{{ "/" | relative_url }}">
+        <!-- <a rel="author" href="{{ "/" | relative_url }}">
           <img alt="msc365 logo" src="https://msc365.eu/assets/img/mscollab365-aad-banner-300.png" width="150"/>
-        </a>
+        </a> -->
+        <h2><a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h2>
         {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to MSCloud365
+title: Welcome to MSCollab365
 author: Martin Swinkels
 category: Miscellaneous
 comments: true

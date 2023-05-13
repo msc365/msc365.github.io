@@ -6,15 +6,11 @@ permalink: /about/
 
 <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
-My name is Martin Swinkels, I was born in the Netherlands, lived in Switzerland for a couple of years, and I just moved to Portugal.
+Martin was born in the Netherlands, lived in Switzerland for a couple of years, and has just moved to Portugal.
 
-I am a cloud DevOps engineer with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. I am a team player specialized in designing and building solutions on Azure, Azure DevOps, Microsoft 365, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. I am eager to learn, share and collaborate on new technologies to continuously improve.
+Martin is an Azure cloud specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. He is a team player specialized in designing and building solutions on Azure, Microsoft 365, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. Martin is eager to learn, share knowledge, collaborate on new technologies to continuously improve, and is currently expanding his knowledge area on deploying infrastructure as code with Bicep, the Common Azure Resource Module Library, and CI on Azure DevOps.
 
-<div class="note">
-    <p><strong>Note</strong>: Currently, I am expanding my field of expertise on Azure IaC (infrastructure as code) and DSC (desired state configuration) for a multi-cloud environment. Im working with tools like Terraform, PowerShell DSC, and env0 to name a few.</p>
-</div>
-
-In my spare time I like to travel and discover new places with my wife on our motorcycle or e-bikes. Coffee keeps me sharp and I am always up for a nice dinner, especially when it is home cooked by my lovely wife. Furthermore, I like to stay fit by working out in the gym or by taking a firm walk.
+In his spare time he likes to travel and discover new places with his wife on their motorcycle or e-bikes. Coffee keeps him sharp and he likes to stay fit by working out in the gym or by taking a firm walk along the beautiful beaches of the Algarve.
 
 ### Most recent certifications
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure DevOps: Self-service Team Configuration"
+title: "Azure DevOps Self-service Team Configuration"
 author: Martin Swinkels
 categories: [DevOps, Automation]
 tags: azure-devops cli powershell self-service

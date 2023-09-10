@@ -1,4 +1,4 @@
-title: MS CLOUD 365
+title: Martin Swinkels
 author:
   name: Martin Swinkels
   email: #martin.swinkels+blog@msc365@@eu
@@ -8,8 +8,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 url: https://msc365.eu/
 
-name: MS CLOUD 365
-subtitle: Martin Swinkels, Collaborating on cloud solutions
+name: Martin Swinkels
+subtitle: Technical specialist on Azure, Power Platform, and Azure DevOps.
 logo: https://msc365.eu/assets/img/msc365-logo-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage

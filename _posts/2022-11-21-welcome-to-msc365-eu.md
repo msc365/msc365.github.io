@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome my blog
+title: Welcome to my blog
 author: Martin Swinkels
 category: Miscellaneous
 comments: true

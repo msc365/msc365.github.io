@@ -8,7 +8,7 @@ permalink: /about/
 
 Martin was born in the Netherlands, lived in Switzerland for a couple of years, and has just moved to Portugal.
 
-Martin is an Azure cloud specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. He is a team player specialized in designing and building solutions on Azure, Microsoft 365, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. Martin is eager to learn, share knowledge, collaborate on new technologies to continuously improve, and is currently expanding his knowledge area on deploying infrastructure as code with Bicep, the Common Azure Resource Module Library, and CI on Azure DevOps.
+Martin is a Microsoft specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. He is a team player specialized in designing and building solutions on Azure Cloud, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. Martin is eager to learn, share knowledge, collaborate on new technologies to continuously improve, and is currently expanding his knowledge area on deploying infrastructure as code with Bicep, the Common Azure Resource Module Library, and CI on Azure DevOps.
 
 In his spare time he likes to travel and discover new places with his wife on their motorcycle or e-bikes. Coffee keeps him sharp and he likes to stay fit by working out in the gym or by taking a firm walk along the beautiful beaches of the Algarve.
 

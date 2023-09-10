@@ -6,7 +6,7 @@ category: Miscellaneous
 comments: true
 ---
 
-Hi there, my name is Martin Swinkels and I remotely collaborate with teams on cloud development, app development, and Azure DevOps Automation. I am experienced on Microsoft Azure, Azure DevOps and Microsoft Power Platform and I love to automate business and development processes.
+Hi there, my name is Martin Swinkels and I remotely collaborate with teams on Azure Cloud, Azure DevOps, Microsoft Power Platform and I'm specialized in designing and building solutions on Azure Cloud, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity, for business and development teams.
 
 <div class="important">
     <p><strong>Note</strong>: As of February 2023 I started as a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Portugal and Switzerland.</p>

@@ -1,16 +1,16 @@
-title: MSCollab365
+title: MS CLOUD 365
 author:
   name: Martin Swinkels
   email: #martin.swinkels+blog@msc365@@eu
   address: Lagos, Algarve Portugal
 description: > # this means to ignore newlines until "show_excerpts:"
-  Connecting the dots on Azure, Microsoft 365, Power Platform, and Azure DevOps.
+  Connecting the dots on Azure, Power Platform, and Azure DevOps.
 
 url: https://msc365.eu/
 
-name: MSCollab365
+name: MS CLOUD 365
 subtitle: Martin Swinkels, Collaborating on cloud solutions
-logo: https://msc365.eu/assets/img/msc365-256.png
+logo: https://msc365.eu/assets/img/msc365-logo-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage
 show_drafts: false

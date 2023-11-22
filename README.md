@@ -24,6 +24,7 @@ Welcome to my **MSC365** website.
 ## Theme
 
 - [jekyll/minima](https://github.com/jekyll/minima/blob/v2.5.0/README.md)
+- Custom branding by Martin Swinkels
 
 ## Theme license
 

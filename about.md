@@ -12,6 +12,10 @@ I am a Microsoft specialist with over 20 years of experience in developing custo
 
 In my spare time I like to travel and explore new places together with my wife on our motorcycles and e-bikes. Coffee keeps me sharp and I like to stay fit by working out or by taking a hike along the beautiful beaches of the Algarve.  
 
+### More detailed information
+
+- [Welcome to my portfolio]({% link _posts/2023-02-01-welcome-to-msc365-eu.md %})
+
 <!--
 ### Most recent certifications
 

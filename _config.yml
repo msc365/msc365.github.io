@@ -4,12 +4,12 @@ author:
   email: #martin.swinkels+blog@msc365@@eu
   address: Lagos, Algarve Portugal
 description: > # this means to ignore newlines until "show_excerpts:"
-  Connecting the dots on Azure 3x, DevOps, Development, Engineering
+  Connecting the dots on Azure with DevOps, Development and Engineering
 
 url: https://msc365.eu/
 
 name: Martin Swinkels
-subtitle: Technical specialist on Azure 3x, DevOps, Development, Engineering.
+subtitle: Azure Technical specialist, DevOps, Development, Engineering.
 logo: https://msc365.eu/assets/img/msc365-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage

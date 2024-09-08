@@ -40,13 +40,13 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 
 ### Why work with me?
 
-<div class="important">
-    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>
-</div>
-
 I’m not just a DevOps Engineer; I’m a strategic partner dedicated to your business’s success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
 
 Let’s connect and explore how I can help your organization harness the full power of Azure. Reach out for a consultation and let’s transform your cloud infrastructure for the digital age!
+
+<div class="important">
+    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>
+</div>
 
 <!--
 For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.

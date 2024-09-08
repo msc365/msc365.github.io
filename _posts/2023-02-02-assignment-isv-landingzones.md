@@ -28,7 +28,7 @@ Looking forward to collaborating with the Microsoft Azure team for the next year
 
 ### Azure Landing zone architecture
 
-<a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/" target="_blanc"><img alt="lz preview" src="posts-az-landing-zone-architecture-diagram-hub-spoke.svg" width="1024"/></a>
+<a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/" target="_blanc"><img alt="lz preview" src="https://msc365.eu/assets/img/posts-az-landing-zone-architecture-diagram-hub-spoke.svg" width="1024"/></a>
 
 <small>Figure 1: Azure landing zone conceptual architecture</small>
 

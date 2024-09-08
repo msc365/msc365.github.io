@@ -17,14 +17,18 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 - **Infrastructure as Code (IaC)**  
   Specialized in deploying and managing Azure resources using IaC tools like ARM templates, Bicep, and PowerShell.
 
+<!-- 
 - **Automation and Orchestration**  
   Automating repetitive tasks and orchestrating complex workflows using Azure Automation, Logic Apps, and Azure Functions.
+-->
 
 - **Azure DevOps**  
   Implementing CI/CD pipelines, managing repositories, and facilitating seamless collaboration using Azure DevOps.
 
-- **Custom Development**  
+<!--
+ - **Custom Development**  
   Building and deploying custom applications and services on Azure, leveraging Azure App Services, Azure Functions, and API Management.
+-->
 
 - **Microsoft Power Platform**  
   Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity.

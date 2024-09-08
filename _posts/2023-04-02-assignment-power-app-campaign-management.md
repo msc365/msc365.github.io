@@ -39,9 +39,10 @@ I am excited to embark on this journey and look forward to delivering exceptiona
 
 - Power Apps
 - Power Automate
+- Power FX (Low-code)
 - Custom Connectors
-- Solution Architecture
-- Low-code Power FX
+- Component Library
+- Software Architecture
 
 ### Top Keywords
 

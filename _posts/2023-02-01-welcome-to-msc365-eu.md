@@ -7,11 +7,7 @@ tags: azure azure-devops bicep powershell yaml
 comments: false
 ---
 
-Hi there, I am an Azure DevOps Engineer with a passion for helping businesses leverage the full potential of Azure’s cloud capabilities. With a proven track record of successful implementations and a commitment to staying at the cutting edge of technology, I am here to elevate your cloud experience.
-
-<div class="important">
-    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Belgium and Portugal.</p>
-</div>
+I am an Azure DevOps Engineer with a passion for helping businesses leverage the full potential of Azure’s cloud capabilities. With a proven track record of successful implementations and a commitment to staying at the cutting edge of technology, I am here to elevate your cloud experience.
 
 ### What I do
 
@@ -43,6 +39,10 @@ Hi there, I am an Azure DevOps Engineer with a passion for helping businesses le
   Using Azure Monitor and Application Insights to provide actionable insights and optimize performance and cost.
 
 ### Why work with me?
+
+<div class="important">
+    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Belgium and Portugal.</p>
+</div>
 
 I’m not just a DevOps Engineer; I’m a strategic partner dedicated to your business’s success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
 

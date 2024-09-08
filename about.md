@@ -6,7 +6,7 @@ permalink: /about/
 
 <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
-Hi, my name is Martin and I was born in the Netherlands, lived in Switzerland for almost 10 years, and moved to Portugal in 2023.
+Hi there 👋, my name is Martin and I was born in the Netherlands, lived in Switzerland for almost 10 years, and moved to Portugal in 2023.
 
 I am a Microsoft specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. I am specialized in designing and building solutions on Azure, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams.
 

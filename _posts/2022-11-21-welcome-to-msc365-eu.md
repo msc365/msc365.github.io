@@ -1,11 +1,9 @@
 ---
-date: 2024-09-08 12:00:00
 layout: post
 title: Welcome to my portfolio
 author: Martin Swinkels
 category: Miscellaneous
 comments: false
-published: true
 ---
 
 Hi there, I am an Azure DevOps Engineer with a passion for helping businesses leverage the full potential of Azure’s cloud capabilities. With a proven track record of successful implementations and a commitment to staying at the cutting edge of technology, I am here to elevate your cloud experience.

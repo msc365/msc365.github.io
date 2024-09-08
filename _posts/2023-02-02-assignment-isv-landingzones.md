@@ -9,7 +9,7 @@ comments: false
 
 I am immensely proud to announce that a Microsoft ISV (Independent Software Vendor) in the Netherlands awarded me a hiring contract to deliver business value and share my knowledge with the internal Microsoft Azure team.
 
-I'm looking forward to collaborating with the Microsoft Azure team for the next year to create meaningful Azure Multi-tenant SaaS solutions and secure deployments with accelerators for; Azure ISV Landing Zones and SaaS workloads like; Certificate Authority, Security Operations Center and Microsoft 365 Automation (DSC). I will also support the team to transform into an infrastructure as code organization using Bicep, PowerShell, and Azure DevOps CI/CD Pipelines.
+Looking forward to collaborating with the Microsoft Azure team for the next year to create meaningful Azure Multi-tenant SaaS solutions and secure deployments with accelerators for; Azure ISV Landing Zones and SaaS workloads like; Certificate Authority, Security Operations Center and Microsoft 365 Automation (DSC). I will also support the team to transform into an infrastructure as code organization using Bicep, PowerShell, and Azure DevOps CI/CD Pipelines.
 
 ### Deliverables
 

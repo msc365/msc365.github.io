@@ -6,6 +6,7 @@ categories: [DevOps, Portfolio]
 tags: azure azure-devops yaml dotnet sharepoint
 image: https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png
 comments: false
+published: false
 ---
 
 This wiki export utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online, and makes it available through Microsoft Teams.

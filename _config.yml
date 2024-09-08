@@ -4,12 +4,12 @@ author:
   email: #martin.swinkels+blog@msc365@@eu
   address: Lagos, Algarve Portugal
 description: > # this means to ignore newlines until "show_excerpts:"
-  Connecting the dots on Azure, Power Platform, and Azure DevOps.
+  Connecting the dots on Azure 3x, DevOps, Development, Engineering
 
 url: https://msc365.eu/
 
 name: Martin Swinkels
-subtitle: Technical specialist on Azure, Power Platform, and Azure DevOps.
+subtitle: Technical specialist on Azure 3x, DevOps, Development, Engineering.
 logo: https://msc365.eu/assets/img/msc365-256.png
 
 show_excerpts: true # set to false to hide excerpts on the homepage
@@ -29,7 +29,7 @@ minima:
     # - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
     # - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
     # - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/mccmswinkels" }
+    # - { platform: github,         user_url: "https://github.com/mccmswinkels" }
     # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
     # - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
     # - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
@@ -38,7 +38,7 @@ minima:
     # - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
     # - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
     # - { platform: telegram,       user_url: "https://t.me/jekyll" }
-    - { platform: twitter,        user_url: "https://twitter.com/mccmswinkels" }
+    # - { platform: twitter,        user_url: "https://twitter.com/mccmswinkels" }
     # - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 # If you want to link only specific pages in your header, uncomment

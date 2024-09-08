@@ -6,11 +6,11 @@ permalink: /about/
 
 <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
 
-Martin was born in the Netherlands, lived in Switzerland for a couple of years, and has just moved to Portugal.
+Hi, my name is Martin and I was born in the Netherlands, lived in Switzerland for almost 10 years, and moved to Portugal in 2023.
 
-Martin is a Microsoft specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. He is a team player specialized in designing and building solutions on Azure Cloud, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams. Martin is eager to learn, share knowledge, collaborate on new technologies to continuously improve, and is currently expanding his knowledge area on deploying infrastructure as code with Bicep, the Common Azure Resource Module Library, and CI on Azure DevOps.
+I am a Microsoft specialist with over 20 years of experience in developing customer tailored solutions on Microsoft platforms. I am specialized in designing and building solutions on Azure, Azure DevOps, and Microsoft Power Platform, focused on process automation and productivity for business and development teams.
 
-In his spare time he likes to travel and discover new places with his wife on their motorcycle or e-bikes. Coffee keeps him sharp and he likes to stay fit by working out in the gym or by taking a firm walk along the beautiful beaches of the Algarve.  
+In my spare time I like to travel and explore new places together with my wife on our motorcycles and e-bikes. Coffee keeps me sharp and I like to stay fit by working out or by taking a hike along the beautiful beaches of the Algarve.  
 
 <!--
 ### Most recent certifications
@@ -27,4 +27,4 @@ Expired certifications
 
 ### Summary of skills, tools and technologies
 
-Business Process Analysis, Solutions Design, Project Management, Team Lead, Coaching, Training and User Support, Software Development, Deployment Framework and Lifecycle Management. Microsoft Azure, Arure RM, Azure Automation, Azure DevOps, CI/CD, GitHub, Jira, Agile, Scrum, Kanban, Microsoft 365, Office 365, SharePoint Online, Microsoft Teams, Power Apps, Power Automate, Power BI, Power Virtual Agents, Power Platform Admin Center, Visual Studio (Code), Build, Release, Pipelines, Artifacts, Actions, ASP.NET, .NET, Azure DevOps API and CLI, YAML, Terraform, SPFx, TypeScript, JavaScript, C#, Power Fx, PowerShell, PowerShell DCS, Microsoft Graph, SQL, Dataverse, XML, Json and much more.
+Business Process Analysis, Solutions Design, Project Management, Team Lead, Coaching, Training and User Support, Software Development, Deployment Framework and Lifecycle Management. Microsoft Azure, ARM Templates, Bicep, PowerShell, Azure Automation, Azure DevOps, CI/CD, GitHub, Jira, Agile, Scrum, Kanban, Microsoft 365, Office 365, SharePoint Online, Microsoft Teams, Power Apps, Power Automate, Power BI, Power Virtual Agents, Power Platform Admin Center, Visual Studio (Code), Build, Release, Pipelines, Artifacts, Actions, ASP.NET, .NET, Azure DevOps API and CLI, YAML, Terraform, SPFx, TypeScript, JavaScript, C#, Power Fx, Microsoft Graph, SQL, Dataverse, XML, Json and much more.

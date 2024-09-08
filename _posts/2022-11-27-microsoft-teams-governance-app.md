@@ -6,6 +6,7 @@ categories: [Microsoft-365, Portfolio]
 tags: azure powerapps powerautomate low-code alm powershell sharepoint microsoftteams
 image: https://msc365.eu/assets/img/posts-teams-app-my.png
 comments: false
+published: false
 ---
 
 At many companies, Microsoft Teams is not being used to its full potential regarding team collaboration. Often organizations don't even allow self-serviced team creation, because they fear the consequences of everything that will be created, without compromising security, compliance, and retention policies.

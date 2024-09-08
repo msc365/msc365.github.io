@@ -5,6 +5,7 @@ author: Martin Swinkels
 categories: [DevOps, Portfolio]
 tags: azure-devops github microsoftteams
 comments: false
+published: false
 ---
 
 Implementing a DevOps environment leaves a lot to juggle, so you should aim to provide a first class implementation and adoption through clear communication and expectations.

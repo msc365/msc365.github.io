@@ -4,7 +4,6 @@ title: Developing IaC for ISV Landing Zones
 author: Martin Swinkels
 categories: [Azure, DevOps, Portfolio]
 tags: azure azure-devops iac bicep powershell yaml
-image: https://msc365.eu/assets/img/posts-az-landingzones-conceptual-architecture.png
 comments: false
 ---
 
@@ -17,9 +16,9 @@ I am immensely proud to announce that a Microsoft ISV (Independent Software Vend
 - Team training and ongoing support to ensure success with DevOps practices;
 - Self-serviced Azure DevOps automation for setting up new SaaS projects.
 
-### Azure Landing zone conceptual architecture
+### Azure Landing zone architecture
 
-<a href="https://msc365.eu/assets/img/posts-az-landingzones-conceptual-design.png" target="_blanc"><img alt="Utility preview" src="https://msc365.eu/assets/img/posts-az-landingzones-conceptual-architecture.png" width="1024"/></a>
+<a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/" target="_blanc"><img alt="Utility preview" src="https://msc365.eu/assets/img/posts-az-landingzones-conceptual-architecture.png" width="1024"/></a>
 
 <small>Figure 1: Azure landing zone conceptual architecture</small>
 

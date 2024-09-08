@@ -2,11 +2,16 @@
 layout: post
 title: Welcome to my portfolio
 author: Martin Swinkels
-category: Miscellaneous
+category: [Portfolio, Miscellaneous]
+tags: azure azure-devops bicep powershell yaml
 comments: false
 ---
 
 Hi there, I am an Azure DevOps Engineer with a passion for helping businesses leverage the full potential of Azure’s cloud capabilities. With a proven track record of successful implementations and a commitment to staying at the cutting edge of technology, I am here to elevate your cloud experience.
+
+<div class="important">
+    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Belgium and Portugal.</p>
+</div>
 
 ### What I do
 
@@ -42,12 +47,6 @@ Hi there, I am an Azure DevOps Engineer with a passion for helping businesses le
 I’m not just a DevOps Engineer; I’m a strategic partner dedicated to your business’s success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
 
 Let’s connect and explore how I can help your organization harness the full power of Azure. Reach out for a consultation and let’s transform your cloud infrastructure for the digital age!
-
-<div class="important">
-    <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to, The Netherlands, Belgium and Portugal.</p>
-</div>
-
-You can reach out to me using the social buttons below or read more [about me]({{ site.baseurl }}/about).
 
 <!--
 For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.

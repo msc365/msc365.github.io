@@ -4,6 +4,7 @@ title: Welcome to my portfolio
 author: Martin Swinkels
 category: [Portfolio, Miscellaneous]
 tags: azure azure-devops bicep powershell yaml
+date: 2024-09-01
 comments: false
 ---
 
@@ -30,9 +31,6 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
   Building and deploying custom applications and services on Azure, leveraging Azure App Services, Azure Functions, and API Management.
 -->
 
-- **Microsoft Power Platform**  
-  Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity.
-
 - **Training and Support**  
   Providing comprehensive training for your teams and ongoing support to ensure your success with Development, IaC and DevOps practices.
 
@@ -41,6 +39,9 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 
 - **Monitoring and Optimization**  
   Using Azure Monitor and Application Insights to provide actionable insights and optimize performance and cost.
+
+- **Microsoft Power Platform**  
+  Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity as part of operational engagement.
 
 ### Why work with me?
 

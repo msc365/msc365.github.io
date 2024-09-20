@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi there 👋, I’m Martin. I was born in the Netherlands, spent nearly a decade living in Switzerland, and relocated to Portugal in 2023.
 
-I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing and (re)building solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation, enhancing productivity, and supporting business, development, and platform teams.
+I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation, enhancing productivity, and supporting business, development, and platform teams.
 
 I have a deep passion for writing code and take great joy in helping others who want to learn. Whether it’s mentoring new developers or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
 

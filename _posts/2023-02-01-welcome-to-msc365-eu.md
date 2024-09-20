@@ -12,19 +12,25 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 
 ### What I do
 
-- **Azure Platform Expertise**  
-  I bring in-depth knowledge of Azure Platform Landing Zones and Azure Automation to streamline and optimize your cloud environment.
+- **Azure DevOps**  
+  Implementing CI/CD pipelines, managing repositories, branch and release strategies, and facilitating seamless collaboration using Azure DevOps.
+
+- **Azure Platform**  
+  I bring in-depth knowledge of Azure Platform Landing Zone automation to streamline and optimize your cloud environment.
 
 - **Infrastructure as Code (IaC)**  
-  Specialized in deploying and managing Azure resources using IaC tools like ARM templates, Bicep, and PowerShell.
+  Specialized in deploying and managing Azure resources using IaC tools like ARM templates, Bicep, PowerShell, and PSRule for Azure.
+
+- **Security and Compliance**  
+  Ensuring your Azure environment adheres to best practices for security and compliance, implementing policies and controls.
+
+- **Monitoring and Optimization**  
+  Using Azure Monitor and Application Insights to provide actionable insights and optimize performance and cost.
 
 <!-- 
 - **Automation and Orchestration**  
   Automating repetitive tasks and orchestrating complex workflows using Azure Automation, Logic Apps, and Azure Functions.
 -->
-
-- **Azure DevOps**  
-  Implementing CI/CD pipelines, managing repositories, and facilitating seamless collaboration using Azure DevOps.
 
 <!--
  - **Custom Development**  
@@ -34,20 +40,31 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 - **Training and Support**  
   Providing comprehensive training for your teams and ongoing support to ensure your success with Development, IaC and DevOps practices.
 
-- **Security and Compliance**  
-  Ensuring your Azure environment adheres to best practices for security and compliance, implementing policies and controls.
-
-- **Monitoring and Optimization**  
-  Using Azure Monitor and Application Insights to provide actionable insights and optimize performance and cost.
-
 - **Microsoft Power Platform**  
   Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity as part of operational engagement.
 
 ### Why work with me?
 
-I’m not just a DevOps Engineer; I’m a strategic partner dedicated to your business’s success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
+I’m not just a DevOps Engineer; I’m a strategic partner dedicated to your business success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
 
 Let’s connect and explore how I can help your organization harness the full power of Azure. Reach out for a consultation and let’s transform your cloud infrastructure for the digital age!
+
+<!--
+### Most recent certifications
+
+<img alt="power platform consultant" src="https://msc365.eu/assets/img/microsoft-power-platform-consultant.png" width="96"> <img alt="power platform developer" src="https://msc365.eu/assets/img/microsoft-power-platform-developer.png" width="96"> <img alt="microsoft365 developer" src="https://msc365.eu/assets/img/microsoft365-developer.png" width="96">  
+
+<img alt="security compliance identity" src="https://msc365.eu/assets/img/microsoft-security-compliance-and-identity.png" width="96">
+
+Expired certifications
+<img src="https://msc365.eu/assets/img/microsoft365-teams-administrator.png" width="96">
+
+<small>Verify on [Credly](https://credly.com/users/mccmswinkels)</small>  
+-->
+
+### Summary of skills, tools and technologies
+
+Business Process Analysis, Solutions Design, Team Lead, Coaching, Training and User Support, Software Development, Deployment Framework and Lifecycle Management. Microsoft Azure, ARM Templates, Bicep, PowerShell, PSRule, Azure Automation, Azure DevOps, CI/CD, GitHub, Jira, Agile, Scrum, Kanban, Microsoft 365, Office 365, SharePoint Online, Microsoft Teams, Power Apps, Power Automate, Power Virtual Agents, Power Platform Admin Center, Visual Studio (Code), Build, Release, Pipelines, Artifacts, Actions, ASP.NET, .NET, Azure DevOps API and CLI, YAML, Terraform, SPFx, TypeScript, JavaScript, C#, Power Fx, Microsoft Graph API, T-SQL, XML, Json and much more.
 
 <div class="important">
     <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>

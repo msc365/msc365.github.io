@@ -66,9 +66,9 @@ Expired certifications
 
 Business Process Analysis, Solutions Design, Team Lead, Coaching, Training and User Support, Software Development, Deployment Framework and Lifecycle Management. Microsoft Azure, ARM Templates, Bicep, PowerShell, PSRule, Azure Automation, Azure DevOps, CI/CD, GitHub, Jira, Agile, Scrum, Kanban, Microsoft 365, Office 365, SharePoint Online, Microsoft Teams, Power Apps, Power Automate, Power Virtual Agents, Power Platform Admin Center, Visual Studio (Code), Build, Release, Pipelines, Artifacts, Actions, ASP.NET, .NET, Azure DevOps API and CLI, YAML, Terraform, SPFx, TypeScript, JavaScript, C#, Power Fx, Microsoft Graph API, T-SQL, XML, Json and much more.
 
-<div class="important">
+<!-- <div class="important">
     <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>
-</div>
+</div> -->
 
 <!--
 For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.

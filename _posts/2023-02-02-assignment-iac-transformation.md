@@ -29,7 +29,7 @@ I'm excited to announce that I have secured _my first assignment_ as a freelance
 - **Declarative Approach**  
   Adopt a declarative approach with Bicep, making it easier to understand and manage the desired state of the infrastructure without needing to write imperative scripts.
 
-### Adoption deliverables
+### Team Adoption
 
 - **Training Sessions**  
   Conduct training sessions to familiarize engineers with Bicep syntax and best practices.
@@ -56,7 +56,7 @@ I'm excited to announce that I have secured _my first assignment_ as a freelance
 - PowerShell (Modules)
 - IaC (Infrastructure as code)
 - Application Lifecycle Management
-- **Knowledge sharing**
+- Knowledge sharing
 
 ### Top Keywords
 

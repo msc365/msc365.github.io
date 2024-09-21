@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redesign Power App and Power Automate solution 
+title: Improve and redesign Business App solution 
 author: Martin Swinkels
 categories: [Power-Platform, DevOps, Portfolio]
 tags: powerapps powerautomate component library low-code alm

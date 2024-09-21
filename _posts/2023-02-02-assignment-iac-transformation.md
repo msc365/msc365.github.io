@@ -7,7 +7,7 @@ tags: azure azure-devops iac bicep powershell yaml
 comments: false
 ---
 
-I'm excited to announce that I have secured my first assignment as a freelancer! Together with the Architecture & Development team, we will be transforming the organization's way of working by implementing Infrastructure as Code (IaC) using Bicep. This collaborative effort will replace their current PowerShell-based method for deploying resources to Azure, fostering teamwork and shared success.
+I'm excited to announce that I have secured _my first assignment_ as a freelancer! Together with the Architecture & Development team, we will be transforming the organization's way of working by implementing Infrastructure as Code (IaC) using Bicep. This collaborative effort will replace their current PowerShell-based method for deploying resources to Azure, fostering teamwork and shared success.
 
 ### Deliverables
 

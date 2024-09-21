@@ -29,9 +29,7 @@ I'm excited to announce that I have secured my first assignment as a freelancer!
 - **Declarative Approach**  
   Adopt a declarative approach with Bicep, making it easier to understand and manage the desired state of the infrastructure without needing to write imperative scripts.
 
-<details>
-
-### <summary>Some more deliverables</summary>
+### Adoption deliverables
 
 - **Training Sessions**  
   Conduct training sessions to familiarize engineers with Bicep syntax and best practices.
@@ -50,9 +48,6 @@ I'm excited to announce that I have secured my first assignment as a freelancer!
 
 - **Incentives**  
   Offer incentives or recognition for engineers who successfully adopt and utilize Bicep in their projects.
-
-</details>
-<p>
 
 ### Top Skills
 

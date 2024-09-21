@@ -6,7 +6,9 @@ permalink: /about/
 
 <!-- <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px"> -->
 
-Hi there 👋, I’m Martin. I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation, enhancing productivity, and supporting business, development, and platform teams.
+Hi there 👋, I’m Martin.  
+
+I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation, enhancing productivity, and supporting business, development, and platform teams.
 
 I have a deep passion for writing code and take great joy in helping others who want to learn. Whether it’s mentoring new developers or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
 

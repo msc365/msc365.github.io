@@ -18,4 +18,5 @@ In my free time, I love traveling and discovering new destinations with our camp
 
 ### More detailed information
 
-- [Welcome to my portfolio]({% link _posts/2023-02-01-welcome-to-msc365-eu.md %})
+- [Welcome post]({% link _posts/2023-02-01-welcome-to-msc365-eu.md %})
+- [LinkedIn profile](https://www.linkedin.com/in/mccmswinkels)

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px">
+<!-- <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px"> -->
 
 Hi there 👋, I’m Martin. I was born in the Netherlands, spent nearly a decade living in Switzerland, and relocated to Portugal in 2023.
 

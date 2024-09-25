@@ -45,8 +45,8 @@ This file contains workspace-specific settings for VSCode, such as formatting ru
 
 ### What's next
 
-- [Part 1 - The Azure IaC directory structure template]({% link _posts/azure-iac-directory-template-part-1.md %})
-- [Part 2 - The Visual Studio Code configuration folder]({% link _posts/azure-iac-directory-template-part-2.md %})
+- [Part 1 - The Azure IaC directory structure template]({% link _posts/2024-09-24-azure-iac-directory-template-part-1.md %})
+- [Part 2 - The Visual Studio Code configuration folder]({% link _posts/2024-09-25-azure-iac-directory-template-part-2.md %})
 - Part 3 - The Azure DevOps configuration folder
 - Part 4 - The workload deployments folder
 - Part 5 - The Custom Verified Modules folder

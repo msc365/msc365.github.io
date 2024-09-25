@@ -70,7 +70,7 @@ Here's a breakdown of each file within the `.vscode` directory:
       "PowerShell Function Baseline": {
           "scope": "powershell",
           "prefix": "function-baseline",
-          "description": "A sample function that's aligned to company baseline coding guidelines.",
+          "description": "A sample function that's aligned to base coding guidelines.",
           "body": [
               "function ${1:Verb-Noun} {",
               "    <#",
@@ -109,7 +109,7 @@ Here's a breakdown of each file within the `.vscode` directory:
       "PowerShell Parameter Baseline": {
           "scope": "powershell",
           "prefix": "parameter-baseline",
-          "description": "A sample parameter that's aligned to company baseline coding guidelines.",
+          "description": "A sample parameter that's aligned to base coding guidelines.",
           "body": [
               "[Parameter(Mandatory = \\$false)]",
               "[string] \\$ParamName = ''"
@@ -143,11 +143,12 @@ Here's a breakdown of each file within the `.vscode` directory:
 
   Example:
 
+  > Use IntelliSense to learn about possible attributes.  
+    Hover to view descriptions of existing attributes.  
+    For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
   ```json
   {
-      // Use IntelliSense to learn about possible attributes.
-      // Hover to view descriptions of existing attributes.
-      // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
       "version": "0.2.0",
       "configurations": [
           {

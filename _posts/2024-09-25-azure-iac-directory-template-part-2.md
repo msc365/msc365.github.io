@@ -7,11 +7,9 @@ tags: azure iac bicep powershell
 comments: true
 ---
 
+The `.vscode` folder helps in maintaining a consistent development environment across the team, making it easier to work on the project collaboratively.
+
 This is part **2** of **7** about the `Azure IaC directory structure template`.
-
-### The Visual Studio Code configuration folder
-
-This structure helps in maintaining a consistent development environment across the team, making it easier to work on the project collaboratively.
 
 ```pre
 root
@@ -23,7 +21,7 @@ root
 │  └─ settings.json
 ```
 
-Here's a breakdown of each file within the `.vscode` directory:
+Here's a breakdown of the `.vscode` directory and each file within:
 
 - **.vscode**  
   This directory contains configuration files specific to VSCode, which help in setting up the development environment for the project.

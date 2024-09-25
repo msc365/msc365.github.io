@@ -17,16 +17,18 @@ To tackle this issue, I recommend implementing a standardized _minimal_ director
 
 This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and _Custom Verified Modules_ (see tips). Additionally, it covers a source code folder with shared PowerShell modules and solution imports, and finally I will highlight some basic root files.
 
+<br>
+
 <div class="tip">
-    <p><strong>Note</strong>: Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a <i>Custom Verified Module (CVM)</i> tailored to your specific needs, still using the guidelines and directory structure from AVM.</p>
+    <p><strong>Tip</strong>: Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a <i>Custom Verified Module (CVM)</i> tailored to your specific needs, still using the guidelines and directory structure from AVM.</p>
 </div>
 
 <div class="tip">
-    <p><strong>Note</strong>: This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules.</p>
+    <p><strong>Tip</strong>: This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules.</p>
 </div>
 
 <div class="important">
-    <p><strong>Remarks</strong>: Please don't try to reinvent the wheel.</p>
+    <p><strong>Remarks</strong>: Please don't try to reinvent the wheel. Use what is already available with respect to copyrights.</p>
 </div>
 
 <br>

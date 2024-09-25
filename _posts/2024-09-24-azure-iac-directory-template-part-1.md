@@ -13,9 +13,23 @@ The teams I work with come from diverse backgrounds, including engineers and dev
 
 To tackle this issue, I recommend implementing a standardized _minimal_ directory structure that can be tailored to meet the needs of most teams. In upcoming series I will highlight each subdirectory of the directory structure template.
 
-This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and Custom Verified Modules¹. Additionally, it covers a source code folder with shared PowerShell modules and solution imports, and finally I will highlight some basic root files.
-
 #### Example: Directory structure template
+
+This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and _Custom Verified Modules_. Additionally, it covers a source code folder with shared PowerShell modules and solution imports, and finally I will highlight some basic root files.
+
+<div class="tip">
+    <p><strong>Tip</strong>: Sometimes, you may need a resource template without the overhead of an _Azure Verified Module_ (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a _Custom Verified Module_ (CVM) tailored to your specific needs, still using the guidelines and directory structure from AVM.</p>
+</div>
+
+<div class="tip">
+    <p><strong>Tip</strong>: This approach allows you to streamline the deployment process and reduce complexity.</p>
+</div>
+
+<div class="tip">
+    <p><strong>Tip</strong>: The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules. Don't try to reinvent the wheel.</p>
+</div>
+
+<br>
 
 ```pre
 root
@@ -123,9 +137,3 @@ root
 - <a href="https://azure.github.io/PSRule.Rules.Azure" target="_blanc">PSRule for Azure</a>
 - <a href="https://azure.github.io/Azure-Verified-Modules/" target="_blanc">Azure Verified Modules</a>
 - <a href="https://github.com/Azure/ALZ-Bicep" target="_blanc">Azure Landing Zones - Bicep</a>
-
-<div class="note">
-    <p><strong>Footnote</strong>: ¹ Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a Custom Verified Module (CVM) tailored to your specific needs.</p>
-    <p>This approach allows you to streamline the deployment process and reduce complexity.</p>
-    <p>The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules. Don't try to reinvent the wheel.</p>
-</div>

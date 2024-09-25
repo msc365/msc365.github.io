@@ -7,7 +7,7 @@ tags: azure iac bicep powershell
 comments: true
 ---
 
-With the rise in popularity of Bicep for Azure Infrastructure as Code (IaC), I’ve noticed that teams struggle finding a consistent way to organize their code within repositories. While there are no a strict rules, establishing some standards and governance for your team can be highly beneficial.
+With the rise in popularity of Bicep for Azure Infrastructure as Code (IaC), I’ve noticed that teams struggle finding a consistent way to organize their code within repositories. While there are no strict rules, establishing standards and some governance for your team can be highly beneficial.
 
 The teams I work with come from diverse backgrounds, including engineers and developers, having different maturity-levels and using a variety of tools and project configurations. This diversity often results in inconsistencies in code structure and management.
 
@@ -16,7 +16,8 @@ To tackle this issue, I recommend implementing a standardized _minimal_ director
 This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and Custom Verified Modules¹. Additionally, it covers a source code folder with shared PowerShell modules and solution imports, and finally I will highlight some basic root files.
 
 <div class="note">
-    <p><strong>Note</strong>: ¹ Sometimes, you may need a resource template without the overhead of an <a href="https://azure.github.io/Azure-Verified-Modules/" target="_blanc">Azure Verified Module (AVM)</a>. For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a Custom Verified Module (CVM) tailored to your specific needs. This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules. Don't try to reinvent the wheel.</p>
+    <p><strong>Note</strong>: ¹ Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a Custom Verified Module (CVM) tailored to your specific needs. This approach allows you to streamline the deployment process and reduce complexity.</p>
+    <p>The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules. Don't try to reinvent the wheel.</p>
 </div>
 
 #### Example: Directory structure template
@@ -86,7 +87,6 @@ root
 │     └─ ...
 ├─ source
 │  ├─ shared
-│  │  ├─ .vscode
 │  │  ├─ modules
 │  │  │  ├─ Bicep.Utilities
 │  │  │  │  ├─ 1.0.0

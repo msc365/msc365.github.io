@@ -18,7 +18,6 @@ root
 ├─ ...
 ├─ source
 │  ├─ shared
-│  │  ├─ .vscode
 │  │  ├─ modules
 │  │  │  ├─ Bicep.Utilities
 │  │  │  │  ├─ 1.0.0

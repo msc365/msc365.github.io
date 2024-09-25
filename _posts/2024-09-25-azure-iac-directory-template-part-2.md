@@ -2,7 +2,7 @@
 layout: post
 title: Part 2 - The Visual Studio Code configuration folder
 author: Martin Swinkels
-categories: [Architecture, Examples]
+categories: [Examples, Snippets]
 tags: azure iac bicep powershell
 comments: true
 ---

@@ -1,5 +1,5 @@
 ---
 layout: category
 title: "Snippets"
-category: snippets
+category: Snippets
 ---

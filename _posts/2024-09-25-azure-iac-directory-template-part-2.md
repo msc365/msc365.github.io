@@ -29,19 +29,200 @@ Here's a breakdown of each file within the `.vscode` directory:
   This directory contains configuration files specific to VSCode, which help in setting up the development environment for the project.
 
 - **bicep.code-snippets**  
-This file contains code snippets for Bicep, which can be used to quickly insert commonly used Bicep code patterns.
+  This file contains code snippets for Bicep, which can be used to quickly insert commonly used Bicep code patterns.
+
+  Example:
+
+  ```json
+  {
+      "bicep-baseline-module": {
+          "scope": "bicep",
+          "prefix": "bicep-baseline-module",
+          "description": "",
+          "body": [
+              "metadata name = ''",
+              "metadata description = ''",
+              "metadata owner = 'platform-engineers'",
+              "",
+              "targetScope = 'resourceGroup'",
+              "",
+              "// TYPES",
+              "",
+              "// PARAMETERS",
+              "",
+              "// VARIABLES",
+              "",
+              "// DEPLOYMENT",
+              "",
+              "// OUTPUTS",
+          ]
+      }
+  }
+  ```
 
 - **powershell.code-snippets**  
-This file contains code snippets for PowerShell, which can be used to quickly insert commonly used PowerShell code patterns.
+  This file contains code snippets for PowerShell, which can be used to quickly insert commonly used PowerShell code patterns.
+
+  Example:
+
+  ```json
+  {
+      "PowerShell Function Baseline": {
+          "scope": "powershell",
+          "prefix": "function-baseline",
+          "description": "A sample function that's aligned to company baseline coding guidelines.",
+          "body": [
+              "function ${1:Verb-Noun} {",
+              "    <#",
+              "    .SYNOPSIS",
+              "    .DESCRIPTION",
+              "    .PARAMETER ParamName",
+              "        A brief description of the parameter.",
+              "    .NOTES",
+              "    .LINK",
+              "    .EXAMPLE",
+              "    #>",
+              "    [CmdletBinding()]",
+              "    param (",
+              "        [Parameter(Mandatory = \\$false)]",
+              "        [string] ${2:\\$ParamName} = ''",
+              "    )",
+              "",
+              "    begin {",
+              "        Write-Debug ('{0} entered' -f \\$MyInvocation.MyCommand)",
+              "    }",
+              "",
+              "    process {",
+              "        try {",
+              "",
+              "        } catch {",
+              "            throw ('Error: {0}' -f \\$_)",
+              "        }",
+              "    }",
+              "",
+              "    end {",
+              "        Write-Debug ('{0} exited' -f \\$MyInvocation.MyCommand)",
+              "    }",
+              "}"
+          ]
+      },
+      "PowerShell Parameter Baseline": {
+          "scope": "powershell",
+          "prefix": "parameter-baseline",
+          "description": "A sample parameter that's aligned to company baseline coding guidelines.",
+          "body": [
+              "[Parameter(Mandatory = \\$false)]",
+              "[string] \\$ParamName = ''"
+          ]
+      }
+  }
+  ```
 
 - **extensions.json**  
-This file lists recommended extensions for VSCode, ensuring that all team members use the same set of tools and extensions.
+  This file lists recommended extensions for VSCode, ensuring that all team members use the same set of tools and extensions.
+
+  Example:
+
+  ```json
+  {
+      "recommendations": [
+          "ms-azuretools.vscode-bicep",
+          "yzhang.markdown-all-in-one",
+          "DavidAnson.vscode-markdownlint",
+          "pspester.pester-test",
+          "ms-vscode.powershell",
+          "bewhite.psrule-vscode",
+          "streetsidesoftware.code-spell-checker",
+          "redhat.vscode-yaml"
+      ]
+  }
+  ```
 
 - **launch.json**  
-This file contains configurations for debugging the project, allowing developers to set breakpoints and debug their code within VSCode.
+  This file contains configurations for debugging the project, allowing developers to set breakpoints and debug their code within VSCode.
+
+  Example:
+
+  ```json
+  {
+      // Use IntelliSense to learn about possible attributes.
+      // Hover to view descriptions of existing attributes.
+      // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+      "version": "0.2.0",
+      "configurations": [
+          {
+              "name": "PowerShell: Launch Current File",
+              "type": "PowerShell",
+              "request": "launch",
+              "script": "${file}",
+              "args": []
+          }
+      ]
+  }
+  ```
 
 - **settings.json**  
-This file contains workspace-specific settings for VSCode, such as formatting rules, linting configurations, and other preferences.
+  This file contains workspace-specific settings for VSCode, such as formatting rules, linting configurations, and other preferences.
+
+  Example:
+
+  ```json
+  {
+      "[bicep]": {
+          "editor.insertSpaces": true,
+          "editor.tabSize": 2
+      },
+      "[json]": {
+          "editor.insertSpaces": true,
+          "editor.tabSize": 4,
+          "editor.detectIndentation": false
+      },
+      "[markdown]": {
+          "files.encoding": "utf8"
+      },
+      "[powershell]": {
+          "editor.insertSpaces": true,
+          "editor.tabSize": 4,
+          "files.encoding": "utf8bom",
+          "editor.formatOnSave": true
+      },
+      "[yaml]": {
+          "editor.insertSpaces": true,
+          "editor.tabSize": 2
+      },
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.insertSpaces": true,
+      "files.insertFinalNewline": true,
+      "files.trimTrailingWhitespace": true,
+      "markdown.extension.orderedList.marker": "one",
+      "markdown.extension.tableFormatter.enabled": false,
+      "markdownlint.config": {
+          "MD007": {
+              "indent": 4
+          },
+          "MD013": false,
+          "MD025": {
+              "front_matter_title": ""
+          },
+          "MD028": false,
+          "MD033": false,
+          "MD034": true,
+          "MD041": false
+      },
+      "powershell.codeFormatting.autoCorrectAliases": true,
+      "powershell.codeFormatting.newLineAfterCloseBrace": false,
+      "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+      "powershell.codeFormatting.preset": "OTBS",
+      "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+      "powershell.codeFormatting.useConstantStrings": true,
+      "powershell.codeFormatting.useCorrectCasing": true,
+      "powershell.codeFormatting.whitespaceBetweenParameters": true,
+      "javascript.preferences.quoteStyle": "single",
+      "typescript.preferences.quoteStyle": "single",
+      "yaml.format.singleQuote": true
+  }
+  ```
 
 ### What's next
 

@@ -7,7 +7,7 @@ tags: azure iac bicep powershell
 comments: true
 ---
 
-With the rise in popularity of Bicep for Azure Infrastructure as Code (IaC), I’ve noticed that teams struggle finding a consistent way to organize their code within repositories. While there are no strict rules, establishing standards and some governance for your team can be highly beneficial.
+While Infrastructure as Code (IaC) is gaining popularity and Bicep is becoming increasingly mature, I also notice that teams struggle to find a consistent way to organize their code within repositories. Although there are no strict rules, establishing standards and some governance for your team can be highly beneficial.
 
 The teams I work with come from diverse backgrounds, including engineers and developers, having different maturity-levels and using a variety of tools and project configurations. This diversity often results in inconsistencies in code structure and management.
 

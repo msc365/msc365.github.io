@@ -33,90 +33,23 @@ This template includes basic setup for Visual Studio Code and Azure DevOps folde
 
 <br>
 
+#### High-level summary
+
 ```pre
 root
 ├─ .vscode
-│  ├─ bicep.code-snippets
-│  ├─ powershell.code-snippets
-│  ├─ extensions.json
-│  ├─ launch.json
-│  └─ settings.json
 ├─ azdevops
-│  ├─ config
-│  │  └─ variables.yml
-│  ├─ pipelines
-│  │  ├─ templates
-│  │  │  ├─ build.yml
-│  │  │  ├─ deployment.yml
-│  │  │  ├─ linter.yml
-│  │  │  └─ validate.yml
-│  │  ├─ pipeline-001.yml
-│  │  ├─ pipeline-002.yml
-│  │  └─ ...
-│  └─ scripts
-│     ├─ helper
-│     ├─ Deploy-ResourceGroup.ps1
-│     └─ ...
 ├─ deployments
-│  ├─ lz
-│  │  ├─ sub
-│  │  │  ├─ rg-workload-001
-│  │  │  ├─ rg-workload-002
-│  │  │  └─ ...
-│  │  └─ ...
-│  └─ ...  
+│  ├─ rg-workload-001
+│  ├─ rg-workload-002
+│  └─ ...
 ├─ cvm
 │  ├─ ptn
-│  │  ├─ lz
-│  │  │  ├─ management-group
-│  │  │  │  ├─ modules
-│  │  │  │  │  ├─ nested_groups.bicep
-│  │  │  │  │  └─ ...
-│  │  │  │  ├─ tests
-│  │  │  │  │  └─ e2e
-│  │  │  │  │     ├─ defaults
-│  │  │  │  │     │  └─ main.test.bicep
-│  │  │  │  │     └─ min
-│  │  │  │  │        └─ main.test.bicep
-│  │  │  │  ├─ README.md
-│  │  │  │  └─ main.bicep
-│  │  │  └─ ...
-│  │  └─ ...
 │  └─ res
-│     ├─ resource-group
-│     │  ├─ modules
-│     │  │  ├─ nested_lock.bicep
-│     │  │  └─ nested_roleAssignments.bicep
-│     │  ├─ tests
-│     │  │  └─ e2e
-│     │  │     ├─ defaults
-│     │  │     │  └─ main.test.bicep
-│     │  │     └─ min
-│     │  │        └─ main.test.bicep
-│     │  ├─ README.md
-│     │  └─ main.bicep
-│     └─ ...
 ├─ source
 │  ├─ shared
-│  │  ├─ modules
-│  │  │  ├─ Bicep.Utilities
-│  │  │  │  ├─ 1.0.0
-│  │  │  │  │  ├─ Bicep.Utilities.psd1
-│  │  │  │  │  └─ Bicep.Utilities.psm1
-│  │  │  │  ├─ README.md
-│  │  │  │  └─ RELEASE.md
-│  │  │  └─ ..
-│  │  ├─ scripts
-│  │  └─ README.md
-│  ├─ authenticationMethods
-│  │  ├─ azdevops
-│  │  ├─ config
-│  │  ├─ helper
-│  │  ├─ v1.0.0
-│  │  └─ README.md
-│  ├─ conditionAccess
-│  ├─ privilegedIdentityManagement
-│  ├─ README.md
+│  ├─ solution-001
+│  ├─ solution-002
 │  └─ ...
 ├─ .gitignore
 ├─ bicepconfig.json

@@ -2,7 +2,7 @@
 layout: post
 title: Part 1 - The Azure IaC directory template
 author: Martin Swinkels
-categories: [Azure, DevOps, Examples]
+categories: [DevOps, Guidelines]
 tags: azure iac bicep powershell
 comments: true
 ---

@@ -37,9 +37,7 @@ root
 │  ├─ authorization
 │  ├─ management
 │  ├─ network
-│  ├─ ...
-│  ├─ workload-001
-│  ├─ workload-002
+│  ├─ workloads
 │  └─ ...
 ├─ cvm
 │  ├─ ptn

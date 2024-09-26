@@ -9,7 +9,7 @@ comments: true
 
 The `.vscode` folder helps in maintaining a consistent development environment across the team, making it easier to work on the project collaboratively.
 
-This is part **2** of **7** about the `Azure IaC directory structure template`.
+This is part **2** of **7** about `The Azure IaC directory structure template`.
 
 ```pre
 root
@@ -21,7 +21,7 @@ root
 │  └─ settings.json
 ```
 
-Here's a breakdown of the `.vscode` directory and each file within:
+Here's a breakdown of the subdirectory and file within the `.vscode` directory:
 
 - **.vscode**  
   This directory contains configuration files specific to VSCode, which help in setting up the development environment for the project.
@@ -227,7 +227,7 @@ Here's a breakdown of the `.vscode` directory and each file within:
 
 - [Part 1 - The Azure IaC directory structure template]({% link _posts/2024-09-24-azure-iac-directory-template-part-1.md %})
 - [Part 2 - The Visual Studio Code configuration folder]({% link _posts/2024-09-25-azure-iac-directory-template-part-2.md %})
-- Part 3 - The Azure DevOps configuration folder
+- [Part 3 - The Azure DevOps configuration folder]({% link _posts/2024-09-26-azure-iac-directory-template-part-3.md %})
 - Part 4 - The workload deployments folder
 - Part 5 - The Custom Verified Modules folder
 - Part 6 - The source configuration folder

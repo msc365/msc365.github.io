@@ -2,16 +2,14 @@
 layout: post
 title: Part 3 - The Azure DevOps configuration folder
 author: Martin Swinkels
-categories: [Architecture, Examples]
+categories: [DevOps, Guidelines]
 tags: azure iac bicep powershell
 comments: true
 ---
 
-This is part **3** of **7** about the `Azure IaC directory structure template`.
-
-### The Azure DevOps configuration folder
-
 This structure helps in organizing Azure DevOps configurations and scripts, making it easier to manage and maintain CI/CD pipelines for the project.
+
+This is part **3** of **7** about `The Azure IaC directory structure template`.
 
 ```pre
 root
@@ -84,9 +82,9 @@ Here's a breakdown of each subdirectory and file within the `azdevops` directory
 
 ### What's next
 
-- [Part 1 - The Azure IaC directory structure template]({% link _posts/azure-iac-directory-template-part-1.md %})
-- [Part 2 - The Visual Studio Code configuration folder]({% link _posts/azure-iac-directory-template-part-2.md %})
-- [Part 3 - The Azure DevOps configuration folder]({% link _posts/azure-iac-directory-template-part-3.md %})
+- [Part 1 - The Azure IaC directory structure template]({% link _posts/2024-09-24-azure-iac-directory-template-part-1.md %})
+- [Part 2 - The Visual Studio Code configuration folder]({% link _posts/2024-09-25-azure-iac-directory-template-part-2.md %})
+- [Part 3 - The Azure DevOps configuration folder]({% link _posts/2024-09-26-azure-iac-directory-template-part-3.md %})
 - Part 4 - The workload deployments folder
 - Part 5 - The Custom Verified Modules folder
 - Part 6 - The source configuration folder

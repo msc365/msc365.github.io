@@ -34,8 +34,12 @@ root
 ├─ .vscode
 ├─ azdevops
 ├─ deployments
-│  ├─ rg-workload-001
-│  ├─ rg-workload-002
+│  ├─ authorization
+│  ├─ management
+│  ├─ network
+│  ├─ ...
+│  ├─ workload-001
+│  ├─ workload-002
 │  └─ ...
 ├─ cvm
 │  ├─ ptn

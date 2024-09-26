@@ -15,7 +15,7 @@ To tackle this issue, I recommend implementing a standardized _minimal_ director
 
 #### Example: Directory structure template
 
-This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and _Custom Verified Modules_ (see tips). Additionally, it covers a source code folder with shared PowerShell modules and solution imports, and finally I will highlight some basic root files.
+This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and _Custom Verified Modules_ (see tips). Additionally, it covers a source code folder with shared PowerShell modules and solutions, and finally I will highlight some basic root files.
 
 <br>
 
@@ -44,8 +44,8 @@ root
 │  └─ res
 ├─ source
 │  ├─ shared
-│  ├─ solution-001
-│  ├─ solution-002
+│  ├─ app-001
+│  ├─ app-002
 │  └─ ...
 ├─ .gitignore
 ├─ bicepconfig.json

@@ -27,12 +27,6 @@ This template includes basic setup for Visual Studio Code and Azure DevOps folde
     <p><strong>Tip</strong>: This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules.</p>
 </div>
 
-<div class="important">
-    <p><strong>Remarks</strong>: Please don't try to reinvent the wheel. Use what is already available with respect to copyrights.</p>
-</div>
-
-<br>
-
 #### High-level summary
 
 ```pre
@@ -55,6 +49,12 @@ root
 ├─ bicepconfig.json
 └─ README.md
 ```
+
+<br>
+
+<div class="note">
+    <p><strong>Note</strong>: Please don't try to reinvent the wheel. Use what is already available with respect to copyrights.</p>
+</div>
 
 ### What's next
 

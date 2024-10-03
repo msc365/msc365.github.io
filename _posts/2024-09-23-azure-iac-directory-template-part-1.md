@@ -11,7 +11,7 @@ While Infrastructure as Code (IaC) is gaining popularity and Bicep is becoming i
 
 The teams I work with come from diverse backgrounds, including engineers and developers, having different maturity-levels and using a variety of tools and project configurations. This diversity often results in inconsistencies in code structure and management.
 
-To tackle this issue, you could implementing a standardized _minimal_ directory structure that can be tailored to meet the needs of most teams. In upcoming series I will highlight some (sub)directory of the repo template.
+To tackle this issue, you could implementing a standardized _minimal_ directory structure that can be tailored to meet the needs of most teams. In the upcoming series, I will further highlight the directory structure in more detail.
 
 #### Example: Directory structure template
 

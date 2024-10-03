@@ -1,31 +1,23 @@
 ---
 layout: post
-title: Part 1 - The Azure IaC directory template
+title: The Azure IaC directory template
 author: Martin Swinkels
 categories: [DevOps, Guidelines]
 tags: azure iac bicep powershell
 comments: true
 ---
 
-While Infrastructure as Code (IaC) is gaining popularity and Bicep is becoming increasingly mature, I also notice that teams struggle to find a consistent way to organize their code within repositories. Although there are no strict rules, establishing standards and some governance for your team can be highly beneficial.
+While Infrastructure as Code (IaC) is gaining popularity and Bicep is becoming increasingly mature, I noticed that teams struggle to find a consistent way to organize their code within repositories. Although there are no strict rules, establishing standards and some governance for your team can be highly beneficial.
 
 The teams I work with come from diverse backgrounds, including engineers and developers, having different maturity-levels and using a variety of tools and project configurations. This diversity often results in inconsistencies in code structure and management.
 
-To tackle this issue, I recommend implementing a standardized _minimal_ directory structure that can be tailored to meet the needs of most teams. In upcoming series I will highlight each subdirectory of the directory structure template.
+To tackle this issue, you could implementing a standardized _minimal_ directory structure that can be tailored to meet the needs of most teams. In upcoming series I will highlight some (sub)directory of the repo template.
 
 #### Example: Directory structure template
 
-This template includes basic setup for Visual Studio Code and Azure DevOps folders, workload deployments and _Custom Verified Modules_ (see tips). Additionally, it covers a source code folder with shared PowerShell modules and solutions, and finally I will highlight some basic root files.
+Over the past year, I have gained significant insights by examining community solutions and their code structures. I was impressed by the high level of maturity and organization in the _Common Azure Resource Module Library_ (CARML) repository on GitHub, now referred to as _Azure Verified Modules_ (AVM).
 
-<br>
-
-<div class="tip">
-    <p><strong>Tip</strong>: Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a <i>Custom Verified Module (CVM)</i> tailored to your specific needs, still using the guidelines and directory structure from AVM.</p>
-</div>
-
-<div class="tip">
-    <p><strong>Tip</strong>: This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules.</p>
-</div>
+This template is primarily inspired by the AVM community and offers a foundational setup for Visual Studio Code and Azure DevOps directories, workload deployments, and _Custom Verified Modules_ (see tips). It also features a source code directory containing shared PowerShell modules and solutions, and finally some key root files.
 
 #### High-level summary
 
@@ -54,8 +46,16 @@ root
 
 <br>
 
+<div class="tip">
+    <p><strong>Tip</strong>: Sometimes, you may need a resource template without the overhead of an Azure Verified Module (AVM). For instance, if you are deploying a simple Azure Storage Account and do not require the additional features and configurations provided by an AVM, you can create a <i>Custom Verified Module (CVM)</i> tailored to your specific needs, still using the guidelines and directory structure from AVM.</p>
+</div>
+
+<div class="tip">
+    <p><strong>Tip</strong>: This approach allows you to streamline the deployment process and reduce complexity. The advantage of adopting the directory structure from AVM is the ease of transition if you are already familiar with AVM. Additionally, you can benefit from their documentation and utilities for your own modules.</p>
+</div>
+
 <div class="note">
-    <p><strong>Note</strong>: Please don't try to reinvent the wheel. Use what is already available with respect to copyrights.</p>
+    <p><strong>Note</strong>: Don't try to reinvent the wheel. Get inspired what is already available online but respect authors copyright.</p>
 </div>
 
 ### What's next

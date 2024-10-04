@@ -9,7 +9,7 @@ comments: true
 
 This structure helps in organizing Azure DevOps configurations and scripts, making it easier to manage and maintain CI/CD pipelines for the project.
 
-This is part **3** of **7** about **The Azure IaC directory structure template**.
+This is part **3** of **7** about [The Azure IaC directory structure template]({% link _posts/2024-09-23-azure-iac-directory-template-part-1.md %}).
 
 ```pre
 root

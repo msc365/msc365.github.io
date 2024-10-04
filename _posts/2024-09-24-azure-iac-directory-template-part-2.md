@@ -9,7 +9,7 @@ comments: true
 
 The `.vscode` folder helps in maintaining a consistent development environment across the team, making it easier to work on the project collaboratively.
 
-This is part **2** of **7** about **The Azure IaC directory structure template**.
+This is part **2** of **7** about [The Azure IaC directory structure template]({% link _posts/2024-09-23-azure-iac-directory-template-part-1.md %}).
 
 ```pre
 root

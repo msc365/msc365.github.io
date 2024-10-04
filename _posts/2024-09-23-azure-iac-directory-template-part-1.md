@@ -15,7 +15,7 @@ To tackle this issue, you could implementing a standardized _minimal_ directory 
 
 #### Example: Directory structure template
 
-Over the past year, I have gained significant insights by examining community solutions and their code structures. I was impressed by the high level of maturity and organization in the _Common Azure Resource Module Library_ (CARML) repository on GitHub, now referred to as _Azure Verified Modules_ (AVM).
+Over the past year, I have gained insights by examining community solutions and their code structures. I was impressed by the high level of maturity and organization in the _Common Azure Resource Module Library_ (CARML) repository on GitHub, now referred to as _Azure Verified Modules_ (AVM).
 
 This template is primarily inspired by the AVM community and offers a foundational setup for Visual Studio Code and Azure DevOps directories, workload deployments, and _Custom Verified Modules_ (see tips). It also features a source code directory containing shared PowerShell modules and solutions, and finally some key root files.
 

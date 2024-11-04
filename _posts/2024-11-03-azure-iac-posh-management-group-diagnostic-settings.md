@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get Management Group Diagnostic Settings with REST API
+title: How to validate management group diagnostic settings?
 author: Martin Swinkels
 categories: [Azure, DevOps, Snippets]
 tags: azure iac powershell

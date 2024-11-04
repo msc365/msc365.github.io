@@ -7,7 +7,7 @@ tags: azure iac powershell
 comments: true
 ---
 
-There is currently not a direct way to validate if `Diagnostic Settings` is enabled to a `Management Group` in the _Azure Portal_, _Azure CLI_ or _PowerShell_. For anyone who needs to check or smoke test a deployment, I wrote the following PowerShell function that will make this REST API call using PowerShell.
+Currently there is not a direct way to validate if `Diagnostic Settings` is enabled to a `Management Group` in the _Azure Portal_, _Azure CLI_ or _PowerShell_. For anyone who needs to check or smoke test a deployment, I wrote the following PowerShell function that will make a REST API call using PowerShell.
 
 > **Note**: Use `Account-AzConnect` to login to Azure before running this script.
 

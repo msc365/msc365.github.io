@@ -32,7 +32,7 @@ To validate if `Diagnostic Settings` was correctly enabled for any specific mana
 
 .EXAMPLE
     .\Get-ManagementGroupDiagnosticSettings.ps1 `
-        -ManagementGroupId 'mg-csp-landingzones-soc-dev' `
+        -ManagementGroupId 'mg-msc-intermediate-sbx' `
         -DiagnosticSettingName 'tolaws'
 #>
 [CmdletBinding()]

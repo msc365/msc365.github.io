@@ -4,7 +4,7 @@ title: How to validate management group diagnostic settings?
 author: Martin Swinkels
 categories: [Azure, DevOps, Snippets]
 tags: azure iac powershell
-comments: false
+comments: true
 ---
 
 There is currently not a direct way to validate if `Diagnostic Settings` is enabled to a `Management Group` in the _Azure Portal_, _Azure CLI_ or _PowerShell_. For anyone who needs to check or smoke test a deployment, I wrote the following PowerShell function that will make this REST API call using PowerShell.

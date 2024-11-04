@@ -93,4 +93,6 @@ end {
 <!-- omit from toc -->
 ### Resources
 
-- <a href="https://learn.microsoft.com/rest/api/monitor/management-group-diagnostic-settings/get" target="_blanc">Management Group Diagnostic Settings - Get</a>
+- <a href="https://learn.microsoft.com/en-us/powershell/module/az.accounts/get-azaccesstoken" target="_blanc">Az.Accounts - Get-AzAccessToken</a>
+- <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod" target="_blanc">Microsoft.PowerShell.Utility - Invoke-RestMethod</a>
+- <a href="https://learn.microsoft.com/rest/api/monitor/management-group-diagnostic-settings/get" target="_blanc">API - Monitor - Management Group Diagnostic Settings - GET</a>

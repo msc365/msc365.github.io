@@ -8,9 +8,11 @@
         <!-- Include site description -->
         <h2>Need some help?</h2>
         <p>{{ site.description | escape }}</p>
-        <a rel="author" href="{{ "/" | relative_url }}">
-          <img alt="msc365 logo" src="https://msc365.eu/assets/img/msc365-profile-128.png" width="64"/>
-        </a>
+        <p>
+          <a rel="author" href="{{ "/" | relative_url }}">
+            <img alt="msc365 logo" src="https://msc365.eu/assets/img/msc365-profile-128.png" width="64"/>
+          </a>
+        </p>
         {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}

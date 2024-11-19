@@ -10,9 +10,7 @@ Hi there 👋, I’m Martin.
 
 I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on Azure, Azure DevOps and Microsoft Power Platform. I focus on process automation and enhancing productivity while supporting business, development and platform teams.
 
-I have a deep passion for writing code in PowerShell and YAML, and I take great joy in creating low-code business apps using the Power Platform. The Power Platform's ability to transform ideas relatively fast into impactful solutions excites me. I like helping others who want to learn and grow. Whether it’s mentoring or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
-
-<!-- I have a deep passion for writing code in PowerShell and YAML and take great joy creating low-code business apps and helping others who want to learn. Whether it’s mentoring or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning. -->
+I have a deep passion for writing code in PowerShell and YAML, and I take great joy in creating low-code business apps using the Power Platform. I like helping others who want to learn and grow. Whether it’s mentoring or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
 
 I was born in the Netherlands, spent nearly a decade living in Switzerland, and relocated to Portugal in 2023 where I started as a remote freelancer.
 

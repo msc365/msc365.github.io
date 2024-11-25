@@ -79,7 +79,7 @@ process {
             Write-Error ($_.Exception.Message)
             return
         } else {
-            throw ('Error: {0}' -f $_)
+            throw $_
         }
     }
 }

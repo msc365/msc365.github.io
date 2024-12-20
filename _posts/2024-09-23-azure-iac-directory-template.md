@@ -112,17 +112,17 @@ Here's a breakdown of the files within the `root` directory:
     - **resource-name**  
     Contains modules and tests for resource configurations.
 
-    - **modules**  
-      Contains Bicep files for nested resources within the resource group.
+      - **modules**  
+        Contains Bicep files for nested resources within the resource group.
 
-    - **tests**  
-      Contains end-to-end tests for the resource group configurations.
+      - **tests**  
+        Contains end-to-end tests for the resource group configurations.
 
-    - **README.md**  
-      Documentation for the resource group module.
+      - **README.md**  
+        Documentation for the resource group module.
 
-    - **main.bicep**  
-      Main Bicep file for the resource group module.
+      - **main.bicep**  
+        Main Bicep file for the resource group module.
 
 - **source**  
   This code folder structure is as follows:

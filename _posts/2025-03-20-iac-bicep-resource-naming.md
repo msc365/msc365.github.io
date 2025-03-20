@@ -7,7 +7,7 @@ tags: automation azure bicep iac
 comments: true
 ---
 
-The <i>user-defined functions</i> discussed in this article map abbreviations to both resource and resource provider namespaces. These functions adhere to the [Abbreviation recommendations for Azure resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations). By following these guidelines, you can ensure consistency and clarity in your Azure resource naming conventions, which is crucial for maintaining organized and easily manageable cloud environments.
+The custom <i>user-defined functions</i> discussed in this article map abbreviations to both resource and resource provider namespaces. These functions adhere to the [Abbreviation recommendations for Azure resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations). By following these guidelines, you can ensure consistency and clarity in your Azure resource naming conventions, which is crucial for maintaining organized and easily manageable cloud environments.
 
 ### Introduction
 
@@ -17,7 +17,7 @@ User-defined functions in Bicep allow you to encapsulate logic that can be reuse
 
 ### Resource Abbreviation functions
 
-The resource abbreviation functions are designed to map _abbreviations_ (e.g.: `rg`, `vm`, `vmss`) to _resource_ and resource _provider namespaces_. This is particularly useful for maintaining clarity and consistency in your resource naming conventions.
+The custom _resource abbreviation_ functions in this article are designed to map _abbreviations_ (e.g.: `rg`, `vm`, `vmss`) to _resource_ and resource _provider namespaces_. This is particularly useful for maintaining clarity and consistency in your resource naming conventions.
 
 ### Examples
 Let's take a look at an example of user-defined functions that you could include in your Bicep modules:
@@ -27,10 +27,12 @@ The user-defined function itself. (For clarity, only the `getManagementAndGovern
 ```bicep
 // Management and Governance
 @export()
-@description('Returns the abbreviation recommendation for Azure management and governance resources.')
+@description('Returns the abbreviation recommendation for Azure management and 
+              governance resources.')
 @metadata({
   example: 'getManagementAndGovernanceAbbr("Resources/resourceGroups")'
-  input: 'The provider name space without the `Microsoft` part due to template size limitations e.g.: Resources/resourceGroups'
+  input: 'The provider name space without the `Microsoft` part due to template size 
+          limitations e.g.: Resources/resourceGroups'
 })
 func getManagementAndGovernanceAbbr(providerNameSpace string) string =>
   {
@@ -96,8 +98,10 @@ output ResourceGroupsAbbrOutput string = ResourceGroupsAbbr
 
 Usage example in a `.bicepparam` file.
 
+<br>
+
 <div class="tip">
-    <p><strong>Tip</strong>: A user-defined function in a <b>bicepparam</b> file is evaluated during design-time. This offers an advantage over using it in a <b>bicep</b> file, where the function becomes part of the actual ARM build file. This could pose a potential problem when your template is used as a nested module within a <i>foreach</i> loop, as it will add the function to the ARM build file for each iteration of the loop.
+    <p><strong>Tip</strong>: A user-defined function in a <b>bicepparam</b> file is evaluated during design-time. This offers an advantage over using it in a <b>bicep</b> file, where the function becomes part of the actual ARM build file. This could pose a potential problem when your template is used as a nested module within a <i>foreach</i> loop, as it will add the function to the ARM build file for each iteration of the loop.</p>
 </div>
 
 ```bicep
@@ -117,6 +121,8 @@ param ResourceGroupsAbbr = getManagementAndGovernanceAbbr('Resources/resourceGro
 ```
 
 Usage example in a `.JSON` parameter file.
+
+<br>
 
 <div class="tip">
     <p><strong>Tip</strong>: If you want to test this function without going through the deployment process, you can use <b>Build parameter file</b> by right-clicking on the <i>.bicepparam</i> file. This will output the results in a parameter <i>JSON</i> file like the following example:</p>

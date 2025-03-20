@@ -61,7 +61,6 @@ Usage example in a `.bicep` file.
 metadata name = 'Import all user-defined functions'
 metadata description = '''
 This example imports all available user-defined functions of the given module.
-
 Note: In your module you would import only the functions you need.
 '''
 metadata owner = 'platform-engineers'
@@ -105,13 +104,15 @@ Usage example in a `.bicepparam` file.
 </div>
 
 ```bicep
-// using './main.tests.bicep'
+metadata description = '''
+This example imports only the functions you need.
+Note: In your module you would import only the functions you need.
+'''
+
 using none
 
 import {
-  ...
   getManagementAndGovernanceAbbr
-  ...
 } from '../../../main.bicep'
 
 param ResourceName string = '${ResourceGroupsAbbr}-example-dev-weu'

@@ -96,9 +96,9 @@ param ResourceGroupsAbbr string = getManagementAndGovernanceAbbr('Resources/reso
 output ResourceGroupsAbbrOutput string = ResourceGroupsAbbr
 ```
 
-Usage example in a `.bicepparam` file.
-
 <br>
+
+Usage example in a `.bicepparam` file.
 
 <div class="tip">
     <p><strong>Tip</strong>: A user-defined function in a <b>bicepparam</b> file is evaluated during design-time. This offers an advantage over using it in a <b>bicep</b> file, where the function becomes part of the actual ARM build file. This could pose a potential problem when your template is used as a nested module within a <i>foreach</i> loop, as it will add the function to the ARM build file for each iteration of the loop.</p>
@@ -120,9 +120,9 @@ param ResourceName string = '${ResourceGroupsAbbr}-example-dev-weu'
 param ResourceGroupsAbbr = getManagementAndGovernanceAbbr('Resources/resourceGroups')
 ```
 
-Usage example in a `.JSON` parameter file.
-
 <br>
+
+Usage example in a `.JSON` parameter file.
 
 <div class="tip">
     <p><strong>Tip</strong>: If you want to test this function without going through the deployment process, you can use <b>Build parameter file</b> by right-clicking on the <i>.bicepparam</i> file. This will output the results in a parameter <i>JSON</i> file like the following example:</p>
@@ -130,7 +130,8 @@ Usage example in a `.JSON` parameter file.
 
 ```json
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "$schema": "https://schema.management.azure.com/schemas/
+              2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "ResourceName": {

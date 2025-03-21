@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi there 👋, I’m Martin.  
 
-I am a Microsoft specialist with over 24 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on Azure, Azure DevOps and Microsoft Power Platform. I focus on process automation and enhancing productivity while supporting business, development and platform teams.
+I am a Microsoft specialist with over 25 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on SharePoint and Microsoft 365. Since 2020, I have expanded my skill set to include developing solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation and enhancing productivity while supporting business, development, and platform teams.
 
 I have a deep passion for writing code in PowerShell and YAML, and I take great joy in creating low-code business apps using the Power Platform. I like helping others who want to learn and grow. Whether it’s mentoring or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
 

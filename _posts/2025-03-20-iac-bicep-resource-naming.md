@@ -7,7 +7,7 @@ tags: automation azure bicep iac
 comments: true
 ---
 
-The custom <i>user-defined functions</i> discussed in this article map _abbreviations_ to both _resource_ and resource _provider namespaces_. These functions adhere to the [Abbreviation recommendations for Azure resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations). By following these guidelines, you can ensure consistency and clarity in your Azure resource naming conventions, which is crucial for maintaining organized and easily manageable environments.
+The custom <i>user-defined functions</i> discussed in this article map _abbreviations_ to both _resource_ and resource _provider namespaces_. These functions adhere to the _abbreviation recommendations for Azure resources_. By following these guidelines, you can ensure consistency and clarity in your Azure resource naming conventions, which is crucial for maintaining organized and easily manageable environments.
 
 ### Introduction
 

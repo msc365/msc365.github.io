@@ -14,7 +14,7 @@ Recently, I had the pleasure of delivering a new _Power Apps solution_ to anothe
 
 <small>Mobile UX</small>
 
-### Meeting customer requirements
+<!-- ### Meeting customer requirements
 
 The primary requirements for this project were clear:
 
@@ -31,7 +31,7 @@ The primary requirements for this project were clear:
     The app had to be usable across various display sizes including mobile phones.
 
 5.	**No IT department involvement**  
-    The solution had to be designed so that business users could manage and maintain it without needing IT department support. 
+    The solution had to be designed so that business users could manage and maintain it without needing IT department support.  -->
     
 ### Introducing the Campaign Forecasts App
 
@@ -51,6 +51,8 @@ The result was the _Campaign Forecasts App v1.0.0_, designed specifically to mee
     - Simple drag-and-drop interfaces
     - Easy-to-understand logic 
     - Governance and coding guidelines
+
+<br>
 
 4.	**Responsive design**  
     Understanding that modern professionals need to access tools on the go, we ensured the app is fully responsive and works seamlessly across different display sizes, including mobile phones.

@@ -18,11 +18,11 @@ Recently, I had the pleasure of delivering a new _Power Apps solution_ to anothe
 
 The primary requirements for this project were clear:
 
-1.	No extra license costs  
-2.	Data interaction without extra costs  
-3.	Low-code app logic  
-4.	Multi-device usability  
-5.	No IT department involvement  
+1.	**No extra license costs**  
+2.	**Data interaction without extra costs**  
+3.	**Low-code app logic**  
+4.	**Multi-device usability**  
+5.	**No IT department involvement**  
     
 ### Introducing the Campaign Forecasts App
 

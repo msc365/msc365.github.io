@@ -10,6 +10,10 @@ comments: false
 
 Recently, I had the pleasure of delivering a new _Power Apps solution_ to another satisfied customer. This blog post will walk you through the key features and benefits of this custom-built application. By focusing on cost-efficiency, seamless data interaction, user-friendly low-code logic, responsive design, and independence from IT department involvement, I created a solution that not only meets but exceeds customer expectations.
 
+<a href="https://msc365.eu/assets/img/posts-rmn-cfa-scr-0.png" target="_blank"><img alt="mobile ux" src="https://msc365.eu/assets/img/posts-rmn-cfa-scr-0.png" width="1024"/></a>
+
+<small>Mobile UX</small>
+
 ### Meeting customer requirements
 
 The primary requirements for this project were clear:

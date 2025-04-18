@@ -42,9 +42,7 @@ The result was the _Campaign Forecasts App v1.0.0_, designed specifically to mee
     - Simple drag-and-drop interfaces
     - Easy-to-understand logic 
     - Governance and coding guidelines
-
 <br>
-
 4.	**Responsive design**  
     Understanding that modern professionals need to access tools on the go, we ensured the app is fully responsive and works seamlessly across different display sizes, including mobile phones.
 

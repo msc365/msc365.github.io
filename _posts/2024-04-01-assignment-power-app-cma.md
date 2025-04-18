@@ -4,7 +4,7 @@ title: Improve and redesign Business App solution
 author: Martin Swinkels
 categories: [Power-Platform, DevOps, Portfolio]
 tags: powerapps powerautomate component library low-code alm
-# image: https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png
+image: https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png
 comments: false
 ---
 

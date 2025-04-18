@@ -4,7 +4,7 @@ title: Developing IaC for ISV Landing Zones
 author: Martin Swinkels
 categories: [Azure, DevOps, Portfolio]
 tags: azure azure-devops iac bicep powershell yaml
-# image: https://msc365.eu/assets/img/posts-az-landing-zone-architecture-diagram-hub-spoke.svg
+image: https://msc365.eu/assets/img/posts-az-landing-zone-architecture-diagram-hub-spoke.svg
 comments: false
 ---
 

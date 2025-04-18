@@ -14,44 +14,44 @@ Recently, I had the pleasure of delivering a new _Power Apps solution_ to anothe
 
 The primary requirements for this project were clear:
 
-1.	**No extra license costs** <br>
+1.	**No extra license costs**  
     The app needed to be fully functional without incurring additional license costs for users already on a Microsoft E5 license.
 
-2.	**Data interaction without extra costs** <br>
+2.	**Data interaction without extra costs**  
     It was essential that the app could interact with data storage without relying on premium connectors, which would require an additional license.
 
-3.	**Low-code app logic** <br>
+3.	**Low-code app logic**  
     To ensure ease of maintenance and further development by business users, low-code business rules and app logic must be implemented.
 
-4.	**Multi-device usability** <br>
+4.	**Multi-device usability**  
     The app had to be usable across various display sizes including mobile phones.
 
-5.	**No IT department involvement** <br>
+5.	**No IT department involvement**  
     The solution had to be designed so that business users could manage and maintain it without needing IT department support. 
     
-### Introducing the Campaign Forecasts App. 
+### Introducing the Campaign Forecasts App
 
 The result was the _Campaign Forecasts App v1.0.0_, designed specifically to meet these requirements while providing an intuitive user experience.
 
 #### Key features
 
-1.	**Cost-efficiency** <br>
+1.	**Cost-efficiency**  
     By leveraging existing Microsoft E5 licenses, we ensured that there were no additional costs involved in using this app.
 
-2.	**Seamless data interaction** <br>
+2.	**Seamless data interaction**  
     We utilized standard connectors available within Microsoft Power Platform to interact with SharePoint data storage efficiently without needing premium connectors.
 
-3.	**User-friendly low-code logic** <br>
+3.	**User-friendly low-code logic**  
     One of our main goals was to empower business users to take over maintenance and further development effortlessly.
 
     - Simple drag-and-drop interfaces
     - Easy-to-understand logic 
     - Governance and coding guidelines
 
-4.	**Responsive design** <br>
+4.	**Responsive design**  
     Understanding that modern professionals need to access tools on the go, we ensured the app is fully responsive and works seamlessly across different display sizes, including mobile phones.
 
-5.	**Independence from IT Department** <br>
+5.	**Independence from IT Department**  
     The app was designed with simplicity in mind, allowing business users to manage and maintain it without needing IT department involvement. This was achieved through:
 
     - Comprehensive user guides and documentation

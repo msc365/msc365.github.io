@@ -14,24 +14,15 @@ Recently, I had the pleasure of delivering a new _Power Apps solution_ to anothe
 
 <small>Mobile UX</small>
 
-<!-- ### Meeting customer requirements
+### Meeting customer requirements
 
 The primary requirements for this project were clear:
 
-1.	**No extra license costs**  
-    The app needed to be fully functional without incurring additional license costs for users already on a Microsoft E5 license.
-
-2.	**Data interaction without extra costs**  
-    It was essential that the app could interact with data storage without relying on premium connectors, which would require an additional license.
-
-3.	**Low-code app logic**  
-    To ensure ease of maintenance and further development by business users, low-code business rules and app logic must be implemented.
-
-4.	**Multi-device usability**  
-    The app had to be usable across various display sizes including mobile phones.
-
-5.	**No IT department involvement**  
-    The solution had to be designed so that business users could manage and maintain it without needing IT department support.  -->
+1.	No extra license costs  
+2.	Data interaction without extra costs  
+3.	Low-code app logic  
+4.	Multi-device usability  
+5.	No IT department involvement  
     
 ### Introducing the Campaign Forecasts App
 

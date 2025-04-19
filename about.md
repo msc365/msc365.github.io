@@ -61,8 +61,6 @@ I’m not just a DevOps Engineer; I am a reliable partner dedicated to your busi
     <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of your cloud environment.</p>
 </div>
 
-<br>
-
 <div class="important">
     <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>
 </div>

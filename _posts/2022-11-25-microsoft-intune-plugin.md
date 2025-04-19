@@ -11,19 +11,6 @@ published: true
 
 For this project I worked together in a team to redesign the way EAM was build and operating. My primary role was to create new ideas on how to develop a more robust, resilient and self-serviced solution. The main purpose for the Endpoint Application Management (EAM) plugin is to fill the gap between deploying applications from Microsoft Intune and keeping them up to date.
 
-### Features
-
-To provide Microsoft Intune as a service you need to manually:
-
-- Create application packages
-- Manage package versions for pilot and production
-- Publish packages from pilot to production​
-- Check for new application versions and recreate packages
-​- Manage software inventory groups​
-- Manage already installed software on end points for pilot and production
-
-The EAM 1.0 plugin, automated all of these processes.
-
 ### Meet customer requirements
 
 The new plugin for endpoint application management should become more robust, resilient and self-serviced. The following areas were defined for improvements:
@@ -42,6 +29,19 @@ The new plugin for endpoint application management should become more robust, re
 
 - **Ops adoption**​  
   All customer and application configurations were stored in 1 XML-file, which was hard to adopt by operations, mistakes were easily made or were not noticed.
+
+### Features
+
+To provide Microsoft Intune as a service you need to manually:
+
+- Create application packages
+- Manage package versions for pilot and production
+- Publish packages from pilot to production​
+- Check for new application versions and recreate packages
+​- Manage software inventory groups​
+- Manage already installed software on end points for pilot and production
+
+The EAM 1.0 plugin, automated all of these processes.
 
 ### Delivery
 

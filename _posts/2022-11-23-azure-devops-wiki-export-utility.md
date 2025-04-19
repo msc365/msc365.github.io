@@ -6,12 +6,10 @@ categories: [DevOps, Portfolio]
 tags: azure azure-devops yaml dotnet sharepoint
 image: https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png
 comments: false
-published: false
+published: true
 ---
 
-This wiki export utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online, and makes it available through Microsoft Teams.
-
-For a customer project I enhanced a community developed tool, to publish an Azure DevOps Wiki outside Azure DevOps for team members such as Stakeholders, who do not have access to code repositories.
+For a customer project I enhanced a community developed tool, to publish an Azure DevOps Wiki outside Azure DevOps for team members such as Stakeholders, who do not have access to code repositories. This utility converts an Azure DevOps Wiki to a PDF file, publishes it on SharePoint Online with a CI/CD pipeline, and makes it available through Microsoft Teams.
 
 <div class="important">
     <p><strong>Important</strong>: Stakeholder access is available to support free access to a limited set of features by an unlimited set of stakeholders. In general, Stakeholder access users gain limited access to Azure Boards, Azure Pipelines, and collaboration tools. They have no access to code repositories.</p>

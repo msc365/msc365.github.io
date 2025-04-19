@@ -58,7 +58,7 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 I’m not just a DevOps Engineer; I am a reliable partner dedicated to your business success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
 
 <div class="tip">
-    <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of Azure and Power Platform. Reach out for a consultation and let’s transform your cloud experience to the digital age.</p>
+    <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of your cloud environment.</p>
 </div>
 
 <!--

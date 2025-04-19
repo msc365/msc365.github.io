@@ -31,7 +31,7 @@ I am excited to embark on this journey and look forward to delivering exceptiona
 
 ### Redesign improved UX
 
-<a href="https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png" target="_blanc"><img alt="redesign ux" src="https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png" target="_self"><img alt="redesign ux" src="https://msc365.eu/assets/img/posts-powerplatform-conceptual-redesign-campmgmt-ux.png" width="1024"/></a>
 
 <small>Figure 1: Conceptual redesign for an improved user experience</small>
 

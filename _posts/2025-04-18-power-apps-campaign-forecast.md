@@ -26,7 +26,7 @@ The primary requirements for this project were clear:
     
 ### Introducing the Campaign Forecasts App
 
-The result was the _Campaign Forecasts App v1.0.0_, designed specifically to meet these requirements while providing an intuitive user experience.
+The result was the _Campaign Forecasts App v1.0.0_, a _Power App_ designed specifically to meet these requirements while providing an intuitive user experience.
 
 #### Key features
 

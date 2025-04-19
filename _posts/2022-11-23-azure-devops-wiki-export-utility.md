@@ -20,13 +20,13 @@ For a customer project I enhanced a community developed tool, to publish an Azur
 
 <br>
 
-<a href="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png" target="_blanc"><img alt="Utility preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png" target="_self"><img alt="Utility preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-preview.png" width="1024"/></a>
 
 <small>PDF preview</small>
 
 The tool can be used on a Windows x64 machine as executable or as downloadable artifact in an Azure DevOps pipeline, which allows you to implement a CI/CD process to publish your documentation.
 
-<a href="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png" target="_blanc"><img alt="Utility pipeline preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png" target="_self"><img alt="Utility pipeline preview" src="https://msc365.eu/assets/img/posts-wiki-export-utility-pipeline.png" width="1024"/></a>
 
 <small>Pipeline preview</small>
 

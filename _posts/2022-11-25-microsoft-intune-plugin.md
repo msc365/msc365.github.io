@@ -52,7 +52,7 @@ The team deliverd the following improvements:
 - PowerShell Modules​  
   I developed a new PowerShell Module template with embedded Pester tests and coding guidelines. All scrips were reviewed, optimized and migrated into reusable and distributable PowerShell modules​, ready to publish as Azure Artifacts.
 
-  <a href="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" target="_blanc"><img alt="Build status badges" src="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" width="1024"/></a>
+  <a href="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" target="_self"><img alt="Build status badges" src="https://msc365.eu/assets/img/posts-intune-plugin-build-status-badges.png" width="1024"/></a>
 
   <small>Build status badges on Azure DevOps</small>
 
@@ -61,7 +61,7 @@ The team deliverd the following improvements:
 - Azure Automation​  
   We configured Azure Runbooks and Azure DevOps repositories to use the latest PowerShell modules​, to run the automated download and package process.
 
-  <a href="https://msc365.eu/assets/img/posts-intune-plugin-ado-release-pipeline.png" target="_blanc"><img alt="Release pipeline" src="https://msc365.eu/assets/img/posts-intune-plugin-ado-release-pipeline.png" width="1024"/></a>
+  <a href="https://msc365.eu/assets/img/posts-intune-plugin-ado-release-pipeline.png" target="_self"><img alt="Release pipeline" src="https://msc365.eu/assets/img/posts-intune-plugin-ado-release-pipeline.png" width="1024"/></a>
 
   <small>Release pipeline on Azure DevOps</small>
 
@@ -70,7 +70,7 @@ The team deliverd the following improvements:
 - Microsoft Power Platform​  
   I developed an model-driven 'Operator' app, a customer accessible approval workflow with Power Automate, and deployed it as a solution to different staged environments (best practice Application Lifecycle Management).
 
-  <a href="https://msc365.eu/assets/img/posts-intune-plugin-model-driven-app.png" target="_blanc"><img alt="Model-driven app" src="https://msc365.eu/assets/img/posts-intune-plugin-model-driven-app.png" width="1024"/></a>
+  <a href="https://msc365.eu/assets/img/posts-intune-plugin-model-driven-app.png" target="_self"><img alt="Model-driven app" src="https://msc365.eu/assets/img/posts-intune-plugin-model-driven-app.png" width="1024"/></a>
 
   <small>Model-driven app on Microsoft Power Platform</small>
 

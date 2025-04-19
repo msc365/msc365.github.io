@@ -19,7 +19,7 @@ For a customer project I opened up Microsoft's Teams potential to provide users 
 
 <br>
 
-<a href="https://msc365.eu/assets/img/posts-teams-app-wizard.png" target="_blanc"><img alt="wizard dialog" src="https://msc365.eu/assets/img/posts-teams-app-wizard.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-teams-app-wizard.png" target="_self"><img alt="wizard dialog" src="https://msc365.eu/assets/img/posts-teams-app-wizard.png" width="1024"/></a>
 
 <small>Wizard guided dialog</small>
 
@@ -92,18 +92,18 @@ Cons:
 
 ### Preview images
 
-<a href="https://msc365.eu/assets/img/posts-teams-app-my.png" target="_blanc"><img alt="request overview" src="https://msc365.eu/assets/img/posts-teams-app-my.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-teams-app-my.png" target="_self"><img alt="request overview" src="https://msc365.eu/assets/img/posts-teams-app-my.png" width="1024"/></a>
 
 <small>User request overview</small>
 
-<a href="https://msc365.eu/assets/img/posts-teams-app-approvals.png" target="_blanc"><img alt="admin approval dialog" src="https://msc365.eu/assets/img/posts-teams-app-approvals.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-teams-app-approvals.png" target="_self"><img alt="admin approval dialog" src="https://msc365.eu/assets/img/posts-teams-app-approvals.png" width="1024"/></a>
 
 <small>Admin approval dialog</small>
 
-<a href="https://msc365.eu/assets/img/posts-teams-app-message.png" target="_blanc"><img alt="responsive cards" src="https://msc365.eu/assets/img/posts-teams-app-message.png" width="1024"/></a>
+<a href="https://msc365.eu/assets/img/posts-teams-app-message.png" target="_self"><img alt="responsive cards" src="https://msc365.eu/assets/img/posts-teams-app-message.png" width="1024"/></a>
 
 <small>Responsive cards</small>
 
-<a href="https://msc365.eu/assets/img/posts-teams-app-script.png" target="_blanc"><img alt="PnP automation" src="https://msc365.eu/assets/img/posts-teams-app-script.png"/></a>
+<a href="https://msc365.eu/assets/img/posts-teams-app-script.png" target="_self"><img alt="PnP automation" src="https://msc365.eu/assets/img/posts-teams-app-script.png"/></a>
 
 <small>PowerShell deployment script</small>

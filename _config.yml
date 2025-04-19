@@ -15,7 +15,7 @@ logo: https://msc365.eu/assets/img/msc365-profile-128.png
 show_excerpts: true # set to false to hide excerpts on the homepage
 show_drafts: false
 
-paginate: 5
+paginate: 10
 paginate_path: "/:num/"
 
 # Minima date format

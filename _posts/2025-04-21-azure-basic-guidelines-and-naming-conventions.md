@@ -11,7 +11,7 @@ comments: false
 Starting a new Azure Infrastructure as Code (IaC) project can be a challenging task. Establishing clear and concise guidelines for team members is crucial to write consistent, maintainable, and efficient code. This blog post outlines some basic guidelines that can help streamline the process and set a solid foundation for your Azure IaC projects.
 
 <div class="tip">
-    <p><strong>Tip</strong>: Feel free to copy/paste the following guidelines into a <strong>CONTRIBUTING</strong> file in your project root directory.</p>
+    <p><strong>Tip</strong>: Feel free to copy/paste the following guidelines into a <strong>CONTRIBUTING</strong> file and save it into the root directory of your project.</p>
 </div>
 
 By following these guidelines, team members can contribute effectively to Azure IaC and Azure DevOps projects, ensuring a consistent and high-quality codebase. Happy 💪 coding!

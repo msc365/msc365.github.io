@@ -8,23 +8,24 @@ image: https://msc365.eu/assets/img/posts-az-devops-basic-guidelines-and-naming-
 comments: false
 ---
 
-Starting a new Azure Infrastructure as Code (IaC), can be a challenging task. Establishing clear and concise guidelines for team members is crucial to write consistent, maintainable, and efficient code. This blog post outlines some basic guidelines that can help streamline the process and set a solid foundation for your Azure IaC projects.
+Starting a new Azure Infrastructure as Code (IaC) project can be a challenging task. Establishing clear and concise guidelines for team members is crucial to write consistent, maintainable, and efficient code. This blog post outlines some basic guidelines that can help streamline the process and set a solid foundation for your Azure IaC projects.
 
 <div class="tip">
-    <p><strong>Tip</strong>: Feel free to copy/paste the following guidelines into a <strong>CONTRIBUTING</strong> file and to save it in your project's root directory.</p>
+    <p><strong>Tip</strong>: Feel free to copy/paste the following guidelines into a <strong>CONTRIBUTING</strong> file in your project root directory.</p>
 </div>
 
 By following these guidelines, team members can contribute effectively to Azure IaC and Azure DevOps projects, ensuring a consistent and high-quality codebase. Happy 💪 coding!
 
 <!-- omit from toc -->
-# Contributing Azure IaC w/Bicep
+## Contributing Azure IaC w/Bicep
 
 - [Coding guidelines](#coding-guidelines)
 - [Naming convention](#naming-convention)
 - [Markdown styling](#markdown-styling)
 - [Terminology](#terminology)
+- [Resources](#resources)
 
-## Coding guidelines
+### Coding guidelines
 
 To make life easier, a `.vscode/settings.json` file is configured to enforce _some_ of the syntax and style guidelines automatically. These will apply when `Saving` a file for example `ps1`, `bicep`, `json`, `yaml` or `md` files. For this to work you need to install the recommended `extensions` in vscode.
 
@@ -38,7 +39,7 @@ To make life easier, a `.vscode/settings.json` file is configured to enforce _so
 - Take notice of the [PowerShell development guidelines](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/strongly-encouraged-development-guidelines) when you write modules or cmdlets.
 - Take notice of the [PowerShell-Docs](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/powershell-style-guide) style guide when you write documentation content.
 
-## Naming convention
+### Naming convention
 
 The information in resource names ideally includes whatever you need to identify specific instances of resources. For example, a public IP address (PIP) for a production SharePoint workload in the West Europe region might be:
 
@@ -68,12 +69,7 @@ Diagram 1: Components of an Azure resource name
 1. `Instance` (optional)  
    The instance count for a specific resource, to differentiate it from other resources that have the same naming convention and naming components. Examples, `001`
 
-<p>
-
-- Take notice of [Define your naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming) documentation.
-- Take notice of [Abbreviation recommendations for Azure resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) documentation.
-
-## Markdown styling
+### Markdown styling
 
 Use alerts to provide distinctive styling for significant content.
 
@@ -92,7 +88,7 @@ Use alerts to provide distinctive styling for significant content.
 > ⛔ **Caution**  
 > Negative potential consequences of an action.
 
-## Terminology
+### Terminology
 
 - `lowercase` - all lowercase, no word separation.
 - `UPPERCASE` - all capitals, no word separation.
@@ -100,3 +96,10 @@ Use alerts to provide distinctive styling for significant content.
 - `camelCase` - capitalize the first letter of each word _except_ the first.
 - `kebab-case` - all lowercase, with dash (`-`) word separation.
 - `snake_case` - all lowercase, with underscore (`_`) word separation.
+
+### Resources
+
+Please take notice of the following documentation:
+
+- [Define your naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming).
+- [Abbreviation recommendations for Azure resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations).

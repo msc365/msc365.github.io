@@ -1,7 +1,5 @@
 <ul class="social-media-list">
 {%- for entry in site.minima.social_links -%}
-  {% if entry.user_title == blank? %}
     {%- include social-item.html item = entry -%}
-    {% endif %}
 {%- endfor -%}
 </ul>

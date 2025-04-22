@@ -65,7 +65,7 @@ Delivering the Campaign Forecasts App was a rewarding experience. By focusing on
 This project is a testament to the power of Microsoft Power Apps in transforming business processes and empowering users.
 
 <div class="tip">
-    <p><strong>Tip</strong>: Stay tuned for more updates on innovative solutions.</p>
+    <p><strong>Tip</strong>: Discover how I can elevate your business productivity. Reach out today! Stay tuned for the latest updates on low-code power platform solutions.</p>
 </div>
 
 ### Top Skills

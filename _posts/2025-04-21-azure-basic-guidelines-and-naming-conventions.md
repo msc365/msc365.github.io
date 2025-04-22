@@ -21,13 +21,14 @@ By following these guidelines, team members can contribute effectively to Azure 
 
 - [Coding guidelines](#coding-guidelines)
 - [Naming convention](#naming-convention)
+- [Visual Studio Code](#visual-studio-code)
 - [Markdown styling](#markdown-styling)
 - [Terminology](#terminology)
 - [Resources](#resources)
 
 ### Coding guidelines
 
-To make life easier, a `.vscode/settings.json` file is configured to enforce _some_ of the syntax and style guidelines automatically. These will apply when `Saving` a file for example `ps1`, `bicep`, `json`, `yaml` or `md` files. For this to work you need to install the recommended `extensions` in vscode.
+To make life easier, a [`.vscode/settings.json`](#settings) file is configured to enforce _some_ of the syntax and style guidelines automatically. These will apply when `Saving` a file for example `ps1`, `bicep`, `json`, `yaml` or `md` files. For this to work you need to install the recommended [`extensions`](#extensions) in vscode.
 
 - Use `PascalCase` for _all_ public identifiers like module names, function names, properties, parameters, global variables and constants.
 - Use `camelCase` for _all_ variables within functions (or modules) to distinguish private variables from parameters.
@@ -68,6 +69,80 @@ Diagram 1: Components of an Azure resource name
 
 1. `Instance` (optional)  
    The instance count for a specific resource, to differentiate it from other resources that have the same naming convention and naming components. Examples, `001`
+
+### Visual Studio Code
+
+<!-- omit from toc -->
+#### Extensions
+
+Create a `.vscode/extensions.json` file, copy and paste the following JSON, and then adjust it according to your requirements.
+
+```json
+{
+    "recommendations": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "yzhang.markdown-all-in-one",
+        "pspester.pester-test",
+        "ms-vscode.powershell",
+        "bewhite.psrule-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "redhat.vscode-yaml"
+    ]
+}
+```
+
+<!-- omit from toc -->
+#### Settings
+
+Create a `.vscode/settings.json` file, copy and paste the following JSON, and then adjust it according to your requirements.
+
+```json
+{
+    "[bicep]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false
+    },
+    "[markdown]": {
+        "files.encoding": "utf8"
+    },
+    "[powershell]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "files.encoding": "utf8bom",
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": false,
+    "markdown.extension.orderedList.marker": "one",
+    "markdown.extension.tableFormatter.enabled": false,
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.codeFormatting.useConstantStrings": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.whitespaceBetweenParameters": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "yaml.format.singleQuote": true
+}
+```
+
 
 ### Markdown styling
 

@@ -73,26 +73,6 @@ Diagram 1: Components of an Azure resource name
 ### Visual Studio Code
 
 <!-- omit from toc -->
-#### Extensions
-
-Create a `.vscode/extensions.json` file, copy and paste the following JSON, and then adjust it according to your requirements.
-
-```json
-{
-    "recommendations": [
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "yzhang.markdown-all-in-one",
-        "pspester.pester-test",
-        "ms-vscode.powershell",
-        "bewhite.psrule-vscode",
-        "streetsidesoftware.code-spell-checker",
-        "redhat.vscode-yaml"
-    ]
-}
-```
-
-<!-- omit from toc -->
 #### Settings
 
 Create a `.vscode/settings.json` file, copy and paste the following JSON, and then adjust it according to your requirements.
@@ -143,6 +123,25 @@ Create a `.vscode/settings.json` file, copy and paste the following JSON, and th
 }
 ```
 
+<!-- omit from toc -->
+#### Extensions
+
+Create a `.vscode/extensions.json` file, copy and paste the following JSON, and then adjust it according to your requirements.
+
+```json
+{
+    "recommendations": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "yzhang.markdown-all-in-one",
+        "pspester.pester-test",
+        "ms-vscode.powershell",
+        "bewhite.psrule-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "redhat.vscode-yaml"
+    ]
+}
+```
 
 ### Markdown styling
 

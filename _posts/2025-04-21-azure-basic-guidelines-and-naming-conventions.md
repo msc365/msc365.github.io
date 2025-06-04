@@ -42,7 +42,7 @@ To make life easier, a [`.vscode/settings.json`](#settings) file is configured t
 
 ### Naming convention
 
-The information in resource names ideally includes whatever you need to identify specific instances of resources. For example, a public IP address (PIP) for a production SharePoint workload in the West Europe region might be:
+The information in resource names ideally includes whatever you need to identify specific instances of resources. For example, a _subscription_ (sub) for a production governance workload in the West Europe region might be:
 
 ```text
 sub-gov-guardians-prd-weu-001
@@ -55,19 +55,19 @@ Diagram 1: Components of an Azure resource name
 1. `Resource type`  
    An abbreviation that represents the type of Azure resource or asset. Examples, `sub`, `rg`, `sg`, `id`
 
-1. `Prefix`  
+2. `Prefix`  
    A random prefix to ensure globally unique names. Examples,  `e2egov`, `jh3gb4`
 
-1. `Workload` / `Application` / `Service`  
+3. `Workload` / `Application` / `Service`  
    Name of the application, workload, or service that the resource is a part of. Examples, `avengers`, `guardians`, `galaxy`
 
-1. `Environment`  
+4. `Environment`  
    The environment to support RBAC. Examples, `prd`, `dev`, `shared`
 
-1. `Azure region` (optional)  
+5. `Azure region` (optional)  
    The Azure region where the resource is deployed. Examples, `weu`, `eus`, `wus`
 
-1. `Instance` (optional)  
+6. `Instance` (optional)  
    The instance count for a specific resource, to differentiate it from other resources that have the same naming convention and naming components. Examples, `001`
 
 ### Visual Studio Code

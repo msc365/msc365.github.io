@@ -6,21 +6,27 @@ permalink: /about/
 
 <!-- <img alt="Profile picture" style="border-radius: 3px; border-color: gray; border-style: solid; border-width: 2px" src="https://msc365.eu/assets/img/msc365-profile.jpg" width="180px"> -->
 
-Hi there 👋, I’m Martin.  
+Hi there 👋, I’m Martin — a Microsoft Azure DevOps Engineer with over 25 years of experience delivering scalable, secure, and automated solutions across the Microsoft ecosystem.
 
-I am a Microsoft specialist with over 25 years of experience in crafting customized solutions on Microsoft platforms. My expertise lies in designing, building, and improving solutions on SharePoint and Microsoft 365. Since 2020, I have expanded my skill set to include developing solutions on Azure, Azure DevOps, and Microsoft Power Platform. I focus on process automation and enhancing productivity while supporting business, development, and platform teams.
+I specialize in designing and implementing cloud-native architectures using Azure, Azure DevOps, and Infrastructure as Code (IaC) with tools like Bicep, PowerShell, and YAML pipelines. My work focuses on enabling agile delivery, CI/CD automation, and governed platform operations for SaaS and enterprise environments, aka Azure platform and solution landing zones.
 
-I have a deep passion for writing code in .NET and PowerShell, and I take great joy in creating low-code business apps using the Power Platform. I like helping others who want to learn and grow. Whether it’s mentoring or sharing insights on best practices, I believe in the power of knowledge sharing and continuous learning.
+Since 2020, I’ve expanded my expertise from Microsoft 365 and SharePoint into Power Platform and Azure, helping organizations modernize their platforms, streamline deployments, and adopt DevOps best practices. I’ve delivered self-service automation frameworks, ALM-compliant Power Platform solutions, and DevOps onboarding programs that empower teams and accelerate delivery.
 
-I was born in the Netherlands, spent nearly a decade living in Switzerland, and relocated to Portugal in 2023 where I started as a remote freelancer.
+I’m passionate about clean code, automation, and mentoring others. Whether it’s building reusable modules, coaching teams on DevOps workflows, or integrating Azure services with business apps, I bring a collaborative, results-driven mindset to every project.
 
-In my free time, I love traveling and discovering new destinations with our camper, which also serves as a home office when needed. Coffee is my go-to for staying sharp, and I maintain my fitness by hitting the gym regularly. My wife and I also enjoy hiking along the stunning beaches of the Algarve. Additionally, we share a passion for motorcycling and mountain-biking.
+Originally from the Netherlands, I’ve worked remotely across Switzerland and Portugal since 2015. I’m currently supporting clients across Europe as a freelance engineer and trusted advisor.
+
+<div class="tip">
+    <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of your cloud environment.</p>
+</div>
+
+### Why work with me?
+
+I combine deep technical knowledge with a pragmatic, business-focused approach. I’m not just a DevOps engineer — I’m a partner in your cloud journey, committed to delivering value through automation, governance, and continuous improvement.
 
 ### What I do
 
-Whether you need an extra hand to meet tight deadlines or are looking to hire a dedicated professional for a scoped project or for the long term, I am here to support your goals. My expertise ensures seamless integration, continuous improvement, and reliable performance, making your business more agile and competitive.
-
-I am an Azure DevOps Engineer with a passion for helping businesses leverage the full potential of Azure’s cloud capabilities. With a proven track record of successful implementations and a commitment to staying at the cutting edge of technology, I am here to elevate your cloud experience.
+Whether you need an extra hand to meet tight deadlines or are looking to hire a dedicated professional for a scoped project or for the long term, I am here to support your goals.
 
 - **Azure DevOps**  
   Building self-service project creation with best practices, policies, guidelines, governance and all resources in place, implementing CI/CD pipelines, managing repositories, branch and release strategies, and facilitating seamless collaboration using Azure DevOps Boards.
@@ -53,14 +59,6 @@ I am an Azure DevOps Engineer with a passion for helping businesses leverage the
 - **Microsoft Power Platform**  
   Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity as part of operational engagement.
 
-### Why work with me?
-
-I’m not just a DevOps Engineer; I am a reliable partner dedicated to your business success. I bring a results-oriented approach, a deep understanding of the Azure ecosystem, and a commitment to delivering value through technology.
-
-<div class="tip">
-    <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of your cloud environment.</p>
-</div>
-
 <div class="important">
     <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>
 </div>
@@ -89,4 +87,5 @@ For more instructions head over to the [Jekyll Now repository](https://github.co
 
 ### Socials
 
-- <a href="https://www.linkedin.com/in/mccmswinkels" target="_blanc">LinkedIn profile</a>
+- <a href="https://www.linkedin.com/in/mccmswinkels" target="_blanc">LinkedIn</a>
+- <a href="https://bsky.app/profile/msc365.eu" target="_blanc">Bluesky</a>

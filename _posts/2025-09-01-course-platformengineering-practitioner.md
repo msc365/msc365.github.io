@@ -18,9 +18,9 @@ September 2, I started to join a 5-week live course to sharpen my skills in plat
 
 ## This course covers
 
-<a href="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" target="_self"><img alt="platform engineering badge" src="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" width="150"/></a>
+<!-- <a href="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" target="_self"><img alt="platform engineering badge" src="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" width="150"/></a>
 
-<small>Figure 2: Practitioner Badge sample</small>
+<small>Figure 2: Practitioner Badge sample</small> -->
 
 - Intro to platform engineering
 - How to build an Internal Developer Platform

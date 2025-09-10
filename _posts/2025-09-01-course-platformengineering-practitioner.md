@@ -4,7 +4,6 @@ title: Platform Engineering - Certified Practitioner
 author: Martin Swinkels
 categories: [Courses, Certifications]
 tags: azure platform-engineering
-image: https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png
 comments: true
 published: true
 ---
@@ -14,7 +13,7 @@ Starting September 2, I will be joining a 5-week live course to sharpen my skill
 
 This isn't a passive video course. It's hands-on, with live sessions, homework, and real-world tasks. The goal is to learn how to design and build platforms that developers actually want to use.
 
-<a href="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" target="_self"><img alt="platform engineering badge" src="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" width="304"/></a>
+<a href="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" target="_self"><img alt="platform engineering badge" src="https://msc365.eu/assets/img/post-platform-engineering-practitioner-badge.png" width="150"/></a>
 
 <small>Platform Engineering Practitioner Badge</small>
 

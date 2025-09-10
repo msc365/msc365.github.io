@@ -10,7 +10,7 @@ published: true
 ---
 
 <!-- markdownlint-disable -->
-Starting September 2, I will be joining a 5-week live course to sharpen my skills in platform engineering. It's run by <a href="https://university.platformengineering.org/platform-engineering-certified-practitioner" target="_blanc">Platform Engineering University</a> and focuses on building Internal Developer Platforms (IDPs) using proven frameworks and tools.
+Starting September 2, I will be joining a 5-week live course to sharpen my skills in platform engineering. It's provided by <a href="https://university.platformengineering.org/platform-engineering-certified-practitioner" target="_blanc">Platform Engineering University</a> and focuses on building Internal Developer Platforms (IDPs) using proven frameworks and tools.
 
 This isn't a passive video course. It's hands-on, with live sessions, homework, and real-world tasks. The goal is to learn how to design and build platforms that developers actually want to use.
 

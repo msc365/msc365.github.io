@@ -6,6 +6,7 @@ categories: [Azure, DevOps, Guidelines]
 tags: azure bicep powershell
 image: https://msc365.eu/assets/img/posts-az-devops-basic-guidelines-and-naming-conventions.png
 comments: false
+published: false
 ---
 
 Starting a new Azure Infrastructure as Code (IaC) project can be a challenging task. Establishing clear and concise guidelines for team members is crucial to write consistent, maintainable, and efficient code. This blog post outlines some basic guidelines that can help streamline the process and set a solid foundation for your Azure IaC projects.

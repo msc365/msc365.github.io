@@ -6,7 +6,7 @@ categories: [Power-Platform, Portfolio]
 tags: powerapps component library low-code alm
 image: https://msc365.eu/assets/img/posts-powerapps-theme-light.png
 comments: true
-published: true
+published: false
 ---
 
 Take a look at my starter kit for rapid canvas app development, with a customizable theme design, fly-out menu, pop-up dialog, panel, coachmark and much more. With this solution, you can quickly start developing your business value without worrying about the basics like; theme designs and custom components. Which you probably need in pretty much every tablet canvas app. And the best part, you can use it without an additional Power Apps license.

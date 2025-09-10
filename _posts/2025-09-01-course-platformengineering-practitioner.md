@@ -4,6 +4,7 @@ title: Platform Engineering - Certified Practitioner
 author: Martin Swinkels
 categories: [Courses, Certifications]
 tags: azure platform-engineering
+image: https://msc365.eu/assets/img/post-platform-reference-architecture.png
 comments: true
 published: true
 ---

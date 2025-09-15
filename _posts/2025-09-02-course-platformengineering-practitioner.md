@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Platform Engineering - Certified Practitioner
+title: Platform Engineering Course
 author: Martin Swinkels
 categories: [Courses, Certifications]
 tags: azure platform-engineering

@@ -51,7 +51,7 @@ param adminPassword string
 // OUTPUTS //
 // ------- //
 
-@description('The generated admin password.')
+#disable-next-line outputs-should-not-contain-secrets
 output adminPassword string = adminPassword
 
 ```
@@ -65,8 +65,12 @@ Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePass
 </div>
 
 <div class="important">
-    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' already exists.</p>
+    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' already exists. If not, just create a new resource group by using the following PowerShell command:</p>
 </div>
+
+> ```powershell
+> New-AzResourceGroup -Name 'rg-learn-vmwinsecpwd-tst' -Region 'westeurope'
+> ```
 
 <div class="tip">
     <p><strong>Tip</strong>: For production deployments, consider storing the generated password in Azure Key Vault for enhanced security and centralized secret management. Implementing Key Vault integration is beyond the scope of this example.</p>
@@ -81,17 +85,14 @@ $params = @{
     Name          = 'dep-vmwinsecpwd-tst-123456'
     ResourceGroup = 'rg-learn-vmwinsecpwd-tst'
     TemplateFile  = 'main.bicep'
-    # Use the plain text immediately and avoid storing it
-    adminPassword = (ConvertFrom-SecureString -SecureString $secureString -AsPlainText)
+    adminPassword = $secureString
 }
 
 # Deploy the Bicep file with Azure PowerShell
 $deployment = New-AzResourceGroupDeployment @params -Verbose
 
-# Override the adminPassword after using it
-$params['adminPassword'] = '****'
-
 # Optional. Check your deployment output
+$deployment.outputs.adminPassword
 ```
 
 ### 4. Execute the PowerShell Deployment Script

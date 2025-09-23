@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generate Secure Passwords for Bicep deployments
+title: Generate secure passwords for Bicep deployments
 author: Martin Swinkels
 categories: [Azure, DevOps, Snippets]
 tags: azure iac powershell
@@ -17,7 +17,7 @@ While Bicep files themselves do not directly execute PowerShell, you can leverag
 
 ### 1. Import the PowerShell module
 
-Ensure that you download the `idp.utilities` module and imported in your PowerShell session:
+Ensure that you download the `idp.utilities` module and it is imported in your PowerShell session:
 
 ```powershell
 # Import the latest version from a specified path

@@ -23,7 +23,7 @@ The primary requirements for this project were clear:
 - **Low-code app logic**  
 - **Multi-device usability**  
 - **No IT department involvement**  
-    
+
 ### Introducing the Campaign Forecasts App
 
 The result was the _Campaign Forecasts App v1.0.0_, a _Power App_ designed specifically to meet these requirements while providing an intuitive user experience.

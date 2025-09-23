@@ -7,7 +7,7 @@ tags: azure iac powershell
 comments: false
 ---
 
-When deploying Azure resources that require secure passwords (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `idp.utilities`.
+When deploying Azure resources that require instant secure password generation (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `idp.utilities`.
 
 <div class="important">
     <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blank">idp-utilities</a> module on GitHub</p>
@@ -65,7 +65,7 @@ Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePass
 </div>
 
 <div class="important">
-    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' exists.</p>
+    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' already exists.</p>
 </div>
 
 <div class="tip">
@@ -88,8 +88,8 @@ $params = @{
 # Deploy the Bicep file with Azure PowerShell
 $deployment = New-AzResourceGroupDeployment @params -Verbose
 
-# Clear the plain text
-$params = $null
+# Override the adminPassword after using it
+$params['adminPassword'] = '****'
 
 # Optional. Check your deployment output
 ```

@@ -77,18 +77,19 @@ Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePass
 $secureString = New-PasswordAsSecureString
 
 # Define deployment parameters
-$deploymentName = -join ('dep-vmwin-{0}' -f (Get-Date -Format 'yyyyMMdd-HHmmss'))[0..63]
-
 $params = @{
-    Name          = $deploymentName
+    Name          = 'dep-vmwinsecpwd-tst-123456'
     ResourceGroup = 'rg-learn-vmwinsecpwd-tst'
     TemplateFile  = 'main.bicep'
-    WhatIf        = $true
+    # Use the plain text immediately and avoid storing it
     adminPassword = (ConvertFrom-SecureString -SecureString $secureString -AsPlainText)
 }
 
 # Deploy the Bicep file with Azure PowerShell
 $deployment = New-AzResourceGroupDeployment @params -Verbose
+
+# Clear the plain text
+$params = $null
 
 # Optional. Check your deployment output
 ```

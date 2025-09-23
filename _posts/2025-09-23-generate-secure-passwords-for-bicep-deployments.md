@@ -20,20 +20,10 @@ While Bicep files themselves do not directly execute PowerShell, you can leverag
 Ensure that you download the `idp.utilities` module and imported in your PowerShell session:
 
 ```powershell
-# Install the latest version from a specified path
+# Import the latest version from a specified path
 $name = 'idp.utilities'
 $params = @{
     Name            = ('.\modules\{0}' -f $name)
-    Force           = $true
-}
-Import-Module @params -ErrorAction Stop
-
-# Install a specific version from a specified path
-$name = 'idp.utilities'
-$version = '1.0.0'
-$params = @{
-    Name            = ('.\modules\{0}' -f $name)
-    RequiredVersion = $version
     Force           = $true
 }
 Import-Module @params -ErrorAction Stop
@@ -106,12 +96,15 @@ Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePass
     <p><strong>Note</strong>: Use Connect-AzAccount to login to Azure before running this script.</p>
 </div>
 
+<div class="important">
+    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' exists.</p>
+</div>
+
 <div class="tip">
     <p><strong>Tip</strong>: For production deployments, consider storing the generated password in Azure Key Vault for enhanced security and centralized secret management. Implementing Key Vault integration is beyond the scope of this example.</p>
 </div>
 
 ```powershell
-
 # Generate a default password as secure string
 $secureString = New-PasswordAsSecureString
 
@@ -120,7 +113,7 @@ $deploymentName = -join ('dep-vmwin-{0}' -f (Get-Date -Format 'yyyyMMdd-hhmmss')
 
 $params = @{
     Name          = $deploymentName
-    ResourceGroup = 'rg-learn-vmwin'
+    ResourceGroup = 'rg-learn-vmwinsecpwd-tst'
     TemplateFile  = 'main.bicep'
     WhatIf        = $true
     adminPassword = (ConvertFrom-SecureString -SecureString $secureString -AsPlainText)

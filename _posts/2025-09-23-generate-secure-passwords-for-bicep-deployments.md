@@ -10,7 +10,7 @@ comments: false
 When deploying Azure resources that require secure passwords (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `idp.utilities`.
 
 <div class="important">
-    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blanc">idp-utilities module</a> on GitHub</p>
+    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blanc">idp-utilities</a> module on GitHub</p>
 </div>
 
 While Bicep files themselves do not directly execute PowerShell, you can leverage this PowerShell module in your deployment process to generate secure passwords and pass them as parameters to your Bicep templates. Here's how you can achieve this:

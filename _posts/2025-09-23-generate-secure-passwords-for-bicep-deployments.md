@@ -17,7 +17,7 @@ While Bicep files themselves do not directly execute PowerShell, you can leverag
 
 ### 1. Import the PowerShell module
 
-Ensure that you download the `idp.utilities` module and it is imported in your PowerShell session:
+Ensure that you download the `idp.utilities` module and it is imported into your PowerShell session:
 
 ```powershell
 # Import the latest version from a specified path
@@ -51,26 +51,18 @@ param adminPassword string
 // OUTPUTS //
 // ------- //
 
-#disable-next-line outputs-should-not-contain-secrets
+#disable-next-line outputs-should-not-contain-secrets // Only for test purpose
 output adminPassword string = adminPassword
 
 ```
 
 ### 3. Generate a Secure Password and Deploy the Bicep File
 
-Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePassword.ps1` that uses the `idp.utilities` module to generate a secure password and then deploys the Bicep template.
+Create a PowerShell deployment script named `Deploy-WithSecurePassword.ps1` that uses the `idp.utilities` module to generate a secure password and then deploys the Bicep template.
 
 <div class="important">
     <p><strong>Note</strong>: Use Connect-AzAccount to login to Azure before running this script.</p>
 </div>
-
-<div class="important">
-    <p><strong>Note</strong>: The following script assumes that a resource group named 'rg-learn-vmwinsecpwd-tst' already exists. If not, just create a new resource group by using the following PowerShell command:</p>
-</div>
-
-> ```powershell
-> New-AzResourceGroup -Name 'rg-learn-vmwinsecpwd-tst' -Region 'westeurope'
-> ```
 
 <div class="tip">
     <p><strong>Tip</strong>: For production deployments, consider storing the generated password in Azure Key Vault for enhanced security and centralized secret management. Implementing Key Vault integration is beyond the scope of this example.</p>
@@ -83,13 +75,13 @@ $secureString = New-PasswordAsSecureString
 # Define deployment parameters
 $params = @{
     Name          = 'dep-vmwinsecpwd-tst-123456'
-    ResourceGroup = 'rg-learn-vmwinsecpwd-tst'
+    Location      = 'westeurope'
     TemplateFile  = 'main.bicep'
     adminPassword = $secureString
 }
 
 # Deploy the Bicep file with Azure PowerShell
-$deployment = New-AzResourceGroupDeployment @params -Verbose
+$deployment = New-AzDeployment @params -Verbose
 
 # Optional. Check your deployment output
 $deployment.outputs.adminPassword
@@ -100,7 +92,9 @@ $deployment.outputs.adminPassword
 Run the PowerShell script to deploy your Bicep file while leveraging the secure password generation from the `idp.utilities` module.
 
 ```powershell
-.\Deploy-VirtualMachineWithSecurePassword.ps1
+.\Deploy-WithSecurePassword.ps1
 ```
+
+### Conclusion
 
 This approach combines the declarative power of Bicep with the secure password generation capabilities of the `idp.utilities` PowerShell module, ensuring your Azure deployments follow security best practices with integrated secret management from the start.

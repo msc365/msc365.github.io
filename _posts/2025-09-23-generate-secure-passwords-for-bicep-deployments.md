@@ -43,7 +43,7 @@ This example deploys a Virtual Machine based on the [AVM - Virtual Machine modul
 // PARAMETERS //
 // ---------- //
 
-@description('Required. When specifying a Windows Virtual Machine, this value should be passed.')
+@description('Required. This value should be passed.')
 @secure()
 param adminPassword string
 

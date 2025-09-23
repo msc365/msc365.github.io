@@ -14,7 +14,7 @@ One of my favorite things is automating processes so you will comply to governan
 The easiest way to do this, is to invoke `Azure CLI` and `Azure DevOps Extension` commands with PowerShell, in this particular case; the [az devops invoke](https://learn.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest#az-devops-invoke) command. You could also fallback on using the `Azure DevOps API`, but `Azure CLI` is easier to use, and is my preferred tool to use in other solutions as well. The `az devops invoke` will invoke request for any DevOps area and resource, so I use it when there isn't a command available yet.
 
 <div class="note">
-    <p><strong>Note</strong>: Did you know that 'Azure CLI' and 'Azure DevOps Extension' are available on <a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software" target="_blanc">Microsoft-hosted agents</a>, thus easy and ready to use in Azure pipelines.</p>
+    <p><strong>Note</strong>: Did you know that 'Azure CLI' and 'Azure DevOps Extension' are available on <a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software" target="_blank">Microsoft-hosted agents</a>, thus easy and ready to use in Azure pipelines.</p>
 </div>
 
 ### Features

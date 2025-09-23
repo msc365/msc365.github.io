@@ -170,6 +170,6 @@ Here's a breakdown of the files within the `root` directory:
 <!-- omit from toc -->
 ### Useful links and info
 
-- <a href="https://azure.github.io/PSRule.Rules.Azure" target="_blanc">PSRule for Azure</a>
-- <a href="https://azure.github.io/Azure-Verified-Modules/" target="_blanc">Azure Verified Modules</a>
-- <a href="https://github.com/Azure/ALZ-Bicep" target="_blanc">Bicep Azure Landing Zones</a>
+- <a href="https://azure.github.io/PSRule.Rules.Azure" target="_blank">PSRule for Azure</a>
+- <a href="https://azure.github.io/Azure-Verified-Modules/" target="_blank">Azure Verified Modules</a>
+- <a href="https://github.com/Azure/ALZ-Bicep" target="_blank">Bicep Azure Landing Zones</a>

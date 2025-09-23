@@ -12,7 +12,7 @@ For a customer project I've implemented an Azure DevOps way of working, containi
 
 <div class="note">
   <p><strong>Note</strong>: Azure DevOps is an open platform, it connects almost with everything!</p>
-  <p><i>Microsoft learn: <a href="https://azure.microsoft.com/en-us/products/devops/#overview" target="_blanc">Azure DevOps</a></i></p>
+  <p><i>Microsoft learn: <a href="https://azure.microsoft.com/en-us/products/devops/#overview" target="_blank">Azure DevOps</a></i></p>
 </div>
 
 ### Why do you need a DevOps transformation?

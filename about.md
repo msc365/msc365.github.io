@@ -87,5 +87,5 @@ For more instructions head over to the [Jekyll Now repository](https://github.co
 
 ### Socials
 
-- <a href="https://www.linkedin.com/in/mccmswinkels" target="_blanc">LinkedIn</a>
-- <a href="https://bsky.app/profile/msc365.eu" target="_blanc">Bluesky</a>
+- <a href="https://www.linkedin.com/in/mccmswinkels" target="_blank">LinkedIn</a>
+- <a href="https://bsky.app/profile/msc365.eu" target="_blank">Bluesky</a>

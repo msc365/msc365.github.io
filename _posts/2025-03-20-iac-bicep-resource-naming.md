@@ -151,6 +151,6 @@ By incorporating user-defined functions into your custom Bicep modules, you can 
 
 ### Resources
 
-- <a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations" target="_blanc">Azure Abbreviations</a>
-- <a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters" target="_blanc">Parameter in Bicep</a>
-- <a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-import" target="_blanc">Imports in Bicep</a>
+- <a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations" target="_blank">Azure Abbreviations</a>
+- <a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters" target="_blank">Parameter in Bicep</a>
+- <a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-import" target="_blank">Imports in Bicep</a>

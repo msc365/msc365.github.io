@@ -16,7 +16,7 @@ Take a look at my starter kit for rapid canvas app development, with a customiza
 </div>
 
 <div class="tip">
-    <p><strong>Tip</strong>: You're free to use <a href="https://github.com/msc365/powerapps-starterkit" target="_blanc">this starter kit</a> for your own projects. If you have any questions, please contact me and I will be happy to assist you.</p>
+    <p><strong>Tip</strong>: You're free to use <a href="https://github.com/msc365/powerapps-starterkit" target="_blank">this starter kit</a> for your own projects. If you have any questions, please contact me and I will be happy to assist you.</p>
 </div>
 
 ### Features

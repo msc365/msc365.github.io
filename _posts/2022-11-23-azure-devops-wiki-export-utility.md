@@ -13,7 +13,7 @@ For a customer project I enhanced a community developed tool, to publish an Azur
 
 <div class="important">
     <p><strong>Important</strong>: Stakeholder access is available to support free access to a limited set of features by an unlimited set of stakeholders. In general, Stakeholder access users gain limited access to Azure Boards, Azure Pipelines, and collaboration tools. They have no access to code repositories.</p>
-    <p>More information: <a href="https://docs.microsoft.com/en-us/azure/devops/organizations/security/stakeholder-access?view=azure-devops" target="_blanc">Azure DevOps</a></p>
+    <p>More information: <a href="https://docs.microsoft.com/en-us/azure/devops/organizations/security/stakeholder-access?view=azure-devops" target="_blank">Azure DevOps</a></p>
 </div>
 
 <br>

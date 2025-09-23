@@ -10,7 +10,7 @@ comments: false
 When deploying Azure resources that require secure passwords (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `idp.utilities`.
 
 <div class="important">
-    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blanc">idp-utilities</a> module on GitHub</p>
+    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blank">idp-utilities</a> module on GitHub</p>
 </div>
 
 While Bicep files themselves do not directly execute PowerShell, you can leverage this PowerShell module in your deployment process to generate secure passwords and pass them as parameters to your Bicep templates. Here's how you can achieve this:
@@ -36,7 +36,7 @@ Get-Module -Name 'idp.utilities'
 
 Create (or update) a Bicep file to accept a _secure password parameter_.
 
-This example deploys a Virtual Machine based on the [AVM - Virtual Machine module](https://github.com/Azure/bicep-registry-modules/tree/main/avm/res/compute/virtual-machine#example-5-using-only-defaults-for-windows) with the minimum set of required parameters.
+This example demonstrates secure parameter handling in Bicep. For simplicity this template outputs the `adminPassword`, which should never be done in production environments.
 
 ```bicep
 // ---------- //
@@ -47,45 +47,13 @@ This example deploys a Virtual Machine based on the [AVM - Virtual Machine modul
 @secure()
 param adminPassword string
 
-// --------- //
-// RESOURCES //
-// --------- //
+// ------- //
+// OUTPUTS //
+// ------- //
 
-module virtualMachine 'br/public:avm/res/compute/virtual-machine:0.20.0' = {
-  name: 'virtualMachineDeployment'
-  params: {
-    adminUsername: 'localAdminUser'
-    adminPassword: adminPassword
-    availabilityZone: -1
-    imageReference: {
-      offer: 'WindowsServer'
-      publisher: 'MicrosoftWindowsServer'
-      sku: '2022-datacenter-azure-edition'
-      version: 'latest'
-    }
-    name: 'cvmwinmin'
-    nicConfigurations: [
-      {
-        ipConfigurations: [
-          {
-            name: 'ipconfig01'
-            subnetResourceId: '<subnetResourceId>'
-          }
-        ]
-        nicSuffix: '-nic-01'
-      }
-    ]
-    osDisk: {
-      caching: 'ReadWrite'
-      diskSizeGB: 128
-      managedDisk: {
-        storageAccountType: 'Premium_LRS'
-      }
-    }
-    osType: 'Windows'
-    vmSize: 'Standard_D2s_v3'
-  }
-}
+@description('The generated admin password.')
+output adminPassword string = adminPassword
+
 ```
 
 ### 3. Generate a Secure Password and Deploy the Bicep File
@@ -109,7 +77,7 @@ Create a PowerShell deployment script named `Deploy-VirtualMachineWithSecurePass
 $secureString = New-PasswordAsSecureString
 
 # Define deployment parameters
-$deploymentName = -join ('dep-vmwin-{0}' -f (Get-Date -Format 'yyyyMMdd-hhmmss'))[0..63]
+$deploymentName = -join ('dep-vmwin-{0}' -f (Get-Date -Format 'yyyyMMdd-HHmmss'))[0..63]
 
 $params = @{
     Name          = $deploymentName

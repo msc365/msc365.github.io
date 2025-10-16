@@ -7,21 +7,21 @@ tags: azure iac powershell
 comments: false
 ---
 
-When deploying Azure resources that require instant secure password generation (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `idp.utilities`.
+When deploying Azure resources that require instant secure password generation (such as _Virtual Machines_, _SQL Databases_, or _Key Vault Secrets_), it's crucial to generate strong, random passwords programmatically. A custom PowerShell module could provide a function with secure password generation capabilities. In this post I will break down the usage of a custom PowerShell module named `MSc365.Idp.Toolbox`.
 
 <div class="important">
-    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-utilities" target="_blank">idp-utilities</a> module on GitHub</p>
+    <p><strong>Note</strong>: Download the <a href="https://github.com/msc365/az-idp-toolbox" target="_blank">MSc365.Idp.Toolbox</a> module on GitHub</p>
 </div>
 
 While Bicep files themselves do not directly execute PowerShell, you can leverage this PowerShell module in your deployment process to generate secure passwords and pass them as parameters to your Bicep templates. Here's how you can achieve this:
 
 ### 1. Import the PowerShell module
 
-Ensure that you download the `idp.utilities` module and it is imported into your PowerShell session:
+Ensure that you download the `MSc365.Idp.Toolbox` module and it is imported into your PowerShell session:
 
 ```powershell
 # Import the latest version from a specified path
-$name = 'idp.utilities'
+$name = 'MSc365.Idp.Toolbox'
 $params = @{
     Name            = ('.\modules\{0}' -f $name)
     Force           = $true
@@ -29,7 +29,7 @@ $params = @{
 Import-Module @params -ErrorAction Stop
 
 # Verify the module is loaded
-Get-Module -Name 'idp.utilities'
+Get-Module -Name 'MSc365.Idp.Toolbox'
 ```
 
 ### 2. Prepare a Bicep file with a Secure parameter
@@ -58,7 +58,7 @@ output adminPassword string = adminPassword
 
 ### 3. Generate a Secure Password and Deploy the Bicep File
 
-Create a PowerShell deployment script named `Deploy-WithSecurePassword.ps1` that uses the `idp.utilities` module to generate a secure password and then deploys the Bicep template.
+Create a PowerShell deployment script named `Deploy-WithSecurePassword.ps1` that uses the `MSc365.Idp.Toolbox` module to generate a secure password and then deploys the Bicep template.
 
 <div class="important">
     <p><strong>Note</strong>: Use Connect-AzAccount to login to Azure before running this script.</p>
@@ -89,7 +89,7 @@ $deployment.outputs.adminPassword
 
 ### 4. Execute the PowerShell Deployment Script
 
-Run the PowerShell script to deploy your Bicep file while leveraging the secure password generation from the `idp.utilities` module.
+Run the PowerShell script to deploy your Bicep file while leveraging the secure password generation from the `MSc365.Idp.Toolbox` module.
 
 ```powershell
 .\Deploy-WithSecurePassword.ps1
@@ -97,4 +97,4 @@ Run the PowerShell script to deploy your Bicep file while leveraging the secure 
 
 ### Conclusion
 
-This approach combines the declarative power of Bicep with the secure password generation capabilities of the `idp.utilities` PowerShell module, ensuring your Azure deployments follow security best practices with integrated secret management from the start.
+This approach combines the declarative power of Bicep with the secure password generation capabilities of the `MSc365.Idp.Toolbox` PowerShell module, ensuring your Azure deployments follow security best practices with integrated secret management from the start.

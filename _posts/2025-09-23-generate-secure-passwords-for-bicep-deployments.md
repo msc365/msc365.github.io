@@ -4,6 +4,7 @@ title: Generate secure passwords for Bicep deployments
 author: Martin Swinkels
 categories: [Azure, DevOps, Snippets]
 tags: azure iac powershell
+image: https://msc365.eu/assets/img/post-generate-secure-passwords-for-bicep-deployments.png
 comments: false
 ---
 

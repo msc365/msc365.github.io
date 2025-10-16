@@ -4,7 +4,7 @@ title: Platform Engineering Course
 author: Martin Swinkels
 categories: [Courses, Certifications]
 tags: azure platform-engineering
-image: https://msc365.eu/assets/img/post-platform-reference-architecture.png
+image: https://msc365.eu/assets/img/post-course-platformengineering-practitioner.png
 comments: true
 published: true
 ---

@@ -23,7 +23,7 @@ Ensure that you download the `MSc365.Idp.Toolbox` module and it is imported into
 # Import the latest version from a specified path
 $name = 'MSc365.Idp.Toolbox'
 $params = @{
-    Name            = ('.\modules\{0}' -f $name)
+    Name            = ('.\src\{0}' -f $name)
     Force           = $true
 }
 Import-Module @params -ErrorAction Stop

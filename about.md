@@ -8,13 +8,13 @@ permalink: /about/
 
 Hi there 👋, I’m Martin — a Microsoft Azure DevOps Engineer with over 25 years of experience delivering scalable, secure, and automated solutions across the Microsoft ecosystem.
 
-I specialize in designing and implementing cloud-native architectures using Azure, Azure DevOps, and Infrastructure as Code (IaC) with tools like Bicep, PowerShell, and YAML pipelines. My work focuses on enabling agile delivery, CI/CD automation, and governed platform operations for SaaS and enterprise environments, aka Azure platform and solution landing zones.
-
 Since 2020, I’ve expanded my expertise from Microsoft 365 and SharePoint into Power Platform and Azure, helping organizations modernize their platforms, streamline deployments, and adopt DevOps best practices. I’ve delivered self-service automation frameworks, ALM-compliant Power Platform solutions, and DevOps onboarding programs that empower teams and accelerate delivery.
 
-I’m passionate about clean code, automation, and mentoring others. Whether it’s building reusable modules, coaching teams on DevOps workflows, or integrating Azure services with business apps, I bring a collaborative, results-driven mindset to every project.
+Today I specialize in designing and implementing cloud-native architectures using Azure, Azure DevOps, GitHub and Infrastructure as Code (IaC) with tools like Bicep, PowerShell, and YAML pipelines. My work focuses on enabling agile delivery, CI/CD automation, and end-to-end RBAC governance platform operations for SaaS and enterprise environments, aka Azure platform landing zones and solution/workload landing zones.
 
-Originally from the Netherlands, I’ve worked remotely across Switzerland and Portugal since 2015. I’m currently supporting clients across Europe as a freelance engineer and trusted advisor.
+I’m passionate about clean code, automation, and helping others. Whether it’s building reusable templates, coaching teams on DevOps workflows, or integrating Azure services with business applications, I bring a collaborative, results-driven mindset to every project.
+
+I've worked remotely across The Netherlands, Switzerland and Portugal since 2015. Currently I'm supporting clients across Europe as a freelance DevOps/Platform Engineer and trusted advisor.
 
 <div class="tip">
     <p><strong>Tip</strong>: Let’s connect and explore how I can help your organization harness the full power of your cloud environment.</p>
@@ -57,7 +57,7 @@ Whether you need an extra hand to meet tight deadlines or are looking to hire a 
   Providing comprehensive training for your teams and ongoing support to ensure your success with Development, IaC and DevOps practices.
 
 - **Microsoft Power Platform**  
-  Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity as part of operational engagement.
+  Developing solutions using Power Apps, Power Automate, and Custom Connectors to enhance productivity as part of operational engagement and boost developer experience (DevEx).
 
 <div class="important">
     <p><strong>Note</strong>: Since February 2023 I am a remote (hybrid) freelancer, based in Portugal, offering my services throughout Europe, mainly, but not limited to The Netherlands, Belgium and Portugal.</p>

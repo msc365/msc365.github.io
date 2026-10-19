@@ -1,0 +1,95 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = (await getCollection('posts', (p) => !p.data.draft))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 5);
+const ym = (d: Date) => d.toISOString().slice(0, 7);
+---
+<Base>
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Martin Swinkels &middot; DevOps engineer &middot; Algarve, Portugal</div>
+      <h1>Infrastructure as code, <em>kept simple</em> and repeatable.</h1>
+      <p class="lede">I build internal developer platforms and golden paths on Azure, with Bicep, PowerShell, GitHub and Azure DevOps. This is where I write down what I am working on.</p>
+      <div class="cta">
+        <a class="btn primary" href="/work-with-me/">Work with me</a>
+        <a class="btn ghost" href="#lately">What I'm working on</a>
+      </div>
+    </div>
+    <div>
+<pre class="code" aria-label="Sample Bicep snippet"><span class="d">// platform/landing-zone.bicep</span>
+<span class="k">targetScope</span> = <span class="s">'managementGroup'</span>
+
+<span class="k">module</span> policy <span class="s">'./policy.bicep'</span> = &#123;
+  name: <span class="s">'policy-baseline'</span>
+  params: &#123;
+    environment: <span class="s">'prod'</span>
+    diagnostics: <span class="k">true</span>
+  &#125;
+&#125;</pre>
+      <div class="code-cap">az deployment mg what-if &rarr; no changes</div>
+    </div>
+  </div>
+
+  <section id="lately" class="now">
+    <div class="sec-head">
+      <h2>Lately</h2>
+      <ul>
+        <li><span class="tag">ongoing</span><div><h3>Internal developer platforms</h3><p>Golden paths, templates and guardrails for teams that deploy to Azure.</p></div></li>
+        <li><span class="tag">ongoing</span><div><h3>Azure landing zones and EPAC</h3><p>Landing zones and governance on Azure, with policy managed as code through EPAC (Enterprise Policy as Code).</p></div></li>
+        <li><span class="tag">learning</span><div><h3>Claude in the engineering loop</h3><p>I use Claude for reviews, docs and code. Agents take the tasks that need investigating. A golden path becomes code, so I do not spend tokens on a solved problem. People make the decisions.</p></div></li>
+        <li><span class="tag">occasionally</span><div><h3>Microsoft 365 as code</h3><p>Defining the term store, sites, groups and navigation in JSON and applying them with PnP PowerShell. Experience I can still put to use.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <div class="sec-head">
+      <h2>Work</h2>
+      <div class="work-grid">
+        <article><h3>Azure platform</h3><p>Landing zones, governance, RBAC, naming, policy and diagnostics, deployed with Bicep and pipelines.</p><div class="chips"><span>Bicep</span><span>Azure DevOps</span><span>Policy</span><span>Governance</span></div></article>
+        <article><h3>Automation</h3><p>PowerShell modules and REST tooling that check, report and repair.</p><div class="chips"><span>PowerShell</span><span>REST</span><span>Pester</span></div></article>
+        <article><h3>Internal developer platforms</h3><p>Golden paths, templates and guardrails that let teams deploy to Azure without asking.</p><div class="chips"><span>Golden paths</span><span>GitHub</span><span>Platform engineering</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="kite">
+    <div class="sec-head">
+      <h2>Side project</h2>
+      <div class="kite">
+        <div>
+          <div class="eyebrow">MSCKite</div>
+          <h3>Azure Platform Kite</h3>
+          <p>A PowerShell toolkit for a repeatable, governed way to build and deploy on Azure. Describe environments, groups and access in config files. It provisions the Azure resources, Entra groups, pipeline identities and GitHub environments, and pipelines sign in with OIDC instead of stored secrets.</p>
+          <div class="chips"><span>PowerShell</span><span>Entra ID</span><span>GitHub Actions</span><span>OIDC</span></div>
+          <p style="margin:16px 0 0"><a class="more" href="https://github.com/msckite/az-platform-kite" target="_blank" rel="noopener noreferrer">github.com/msckite/az-platform-kite &rarr;</a></p>
+        </div>
+        <img class="mark" src="/msckite-logo.png" width="800" height="540" alt="MSCKite logo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <div class="sec-head">
+      <h2>Notes</h2>
+      <ul class="posts">
+        {posts.map((p) => (
+          <li><a href={`/notes/${p.id}/`}><time datetime={p.data.date.toISOString()}>{ym(p.data.date)}</time><span class="t">{p.data.title}</span><span class="c">{p.data.tags[0]}</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="sec-head">
+      <h2>Contact</h2>
+      <div>
+        <p>Need a hand with Azure, DevOps or Microsoft 365?</p>
+        <div class="links"><a href="https://www.linkedin.com/in/mccmswinkels/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://bsky.app/profile/msc365.eu" target="_blank" rel="noopener noreferrer">Bluesky</a><a href="https://github.com/msw1nkels" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+      </div>
+    </div>
+  </section>
+</Base>

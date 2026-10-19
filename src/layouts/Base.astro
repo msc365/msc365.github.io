@@ -1,0 +1,51 @@
+---
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource/ibm-plex-sans/400.css';
+import '@fontsource/ibm-plex-sans/500.css';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/500.css';
+import '../styles/global.css';
+
+interface Props { title?: string; description?: string }
+const { title, description = 'Martin Swinkels writes about Azure, DevOps, PowerShell, Bicep and Microsoft 365.' } = Astro.props;
+const fullTitle = title ? `${title} | MSC` : 'MSC';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="alternate" type="application/rss+xml" title="MSC" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <script is:inline>
+      try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/"><span class="name">MSC</span><span class="domain">msc365.eu</span></a>
+        <nav aria-label="Main">
+          <a href="/#lately">Lately</a><a href="/#work">Work</a><a class="hire" href="/work-with-me/">Work with me</a><a href="/notes/">Notes</a><a href="/about/">About</a>
+          <button class="toggle" id="theme" type="button" aria-label="Toggle light or dark theme">theme</button>
+        </nav>
+      </header>
+      <main><slot /></main>
+      <footer><span>&copy; {new Date().getFullYear()} Martin Swinkels</span><span class="links"><a href="https://www.linkedin.com/in/mccmswinkels/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://bsky.app/profile/msc365.eu" target="_blank" rel="noopener noreferrer">Bluesky</a><a href="https://github.com/msw1nkels" target="_blank" rel="noopener noreferrer">GitHub</a><a href="/rss.xml">RSS</a></span></footer>
+    </div>
+    <script is:inline>
+      document.querySelectorAll('main a[href^="http"]').forEach(function (a) {
+        if (a.origin !== location.origin) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+      });
+      document.getElementById('theme').addEventListener('click', function () {
+        var r = document.documentElement;
+        var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        r.dataset.theme = dark ? 'light' : 'dark';
+        try { localStorage.setItem('theme', r.dataset.theme); } catch (e) {}
+      });
+    </script>
+  </body>
+</html>

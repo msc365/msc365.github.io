@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const posts = (await getCollection('posts', (p) => !p.data.draft))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+<Base title="Notes" description="Notes on Azure, DevOps, PowerShell, Bicep and Microsoft 365.">
+  <section style="border-top:0">
+    <div class="sec-head">
+      <h2>Notes</h2>
+      <ul class="posts">
+        {posts.map((p) => (
+          <li><a href={`/notes/${p.id}/`}><time datetime={p.data.date.toISOString()}>{p.data.date.toISOString().slice(0, 7)}</time><span class="t">{p.data.title}</span><span class="c">{p.data.tags[0]}</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>

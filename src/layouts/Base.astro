@@ -20,9 +20,7 @@ const fullTitle = title ? `${title} | MSC` : 'MSC';
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <link rel="alternate" type="application/rss+xml" title="MSC" href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <script is:inline>
-      try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-    </script>
+    <script is:inline src="/theme-init.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -36,16 +34,6 @@ const fullTitle = title ? `${title} | MSC` : 'MSC';
       <main><slot /></main>
       <footer><span>&copy; {new Date().getFullYear()} Martin Swinkels</span><span class="links"><a href="https://www.linkedin.com/in/mccmswinkels/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://bsky.app/profile/msc365.eu" target="_blank" rel="noopener noreferrer">Bluesky</a><a href="https://github.com/msw1nkels" target="_blank" rel="noopener noreferrer">GitHub</a><a href="/rss.xml">RSS</a></span></footer>
     </div>
-    <script is:inline>
-      document.querySelectorAll('main a[href^="http"]').forEach(function (a) {
-        if (a.origin !== location.origin) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
-      });
-      document.getElementById('theme').addEventListener('click', function () {
-        var r = document.documentElement;
-        var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-        r.dataset.theme = dark ? 'light' : 'dark';
-        try { localStorage.setItem('theme', r.dataset.theme); } catch (e) {}
-      });
-    </script>
+    <script is:inline src="/site.js" defer></script>
   </body>
 </html>

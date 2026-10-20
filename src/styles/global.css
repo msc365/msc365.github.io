@@ -100,3 +100,4 @@ nav a.hire { color: var(--accent); font-weight: 500; }
 .hero.single { grid-template-columns: 1fr; padding-bottom: 48px; }
 footer .links { display: flex; gap: 20px; flex-wrap: wrap; }
 .lede + .chips { margin: -8px 0 28px; }
+.code-cap + .code { margin-top: 20px; }

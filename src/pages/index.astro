@@ -31,6 +31,14 @@ const ym = (d: Date) => d.toISOString().slice(0, 7);
   &#125;
 &#125;</pre>
       <div class="code-cap">az deployment mg what-if &rarr; no changes</div>
+<pre class="code" aria-label="Sample Terraform snippet"><span class="d"># platform/landing-zone.tf</span>
+
+<span class="k">module</span> <span class="s">"policy"</span> &#123;
+  source      = <span class="s">"./policy"</span>
+  environment = <span class="s">"prod"</span>
+  diagnostics = <span class="k">true</span>
+&#125;</pre>
+      <div class="code-cap">terraform plan &rarr; no changes</div>
     </div>
   </div>
 

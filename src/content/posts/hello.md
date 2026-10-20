@@ -1,5 +1,5 @@
 ---
-title: About the name MSC
+title: About the Name MSC
 description: Where the name MSC and the domain msc365.eu come from.
 date: 2026-10-19
 tags: [meta]
